@@ -1,0 +1,1322 @@
+[
+  {
+    "run": "control-r1-n0",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 641,
+    "software_counters_including_initialization": {
+      "task-clock": 5330.47,
+      "minor-faults": 65687.0,
+      "major-faults": 0.0,
+      "context-switches": 673.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 25,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r1-n1",
+    "valid_placement_snapshots": 11,
+    "total_snapshots": 13,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 13
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 794,
+    "software_counters_including_initialization": {
+      "task-clock": 6972.08,
+      "minor-faults": 65663.0,
+      "major-faults": 0.0,
+      "context-switches": 835.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 0,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r1-n2",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 704,
+    "software_counters_including_initialization": {
+      "task-clock": 5539.47,
+      "minor-faults": 65686.0,
+      "major-faults": 0.0,
+      "context-switches": 705.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 24,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r1-n3",
+    "valid_placement_snapshots": 18,
+    "total_snapshots": 20,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 20
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1169,
+    "software_counters_including_initialization": {
+      "task-clock": 10242.91,
+      "minor-faults": 65663.0,
+      "major-faults": 0.0,
+      "context-switches": 1179.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 0,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r2-n0",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 647,
+    "software_counters_including_initialization": {
+      "task-clock": 5173.17,
+      "minor-faults": 65687.0,
+      "major-faults": 0.0,
+      "context-switches": 657.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 24,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r2-n1",
+    "valid_placement_snapshots": 11,
+    "total_snapshots": 13,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 13
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 794,
+    "software_counters_including_initialization": {
+      "task-clock": 7054.94,
+      "minor-faults": 65663.0,
+      "major-faults": 0.0,
+      "context-switches": 848.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 2,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r2-n2",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 638,
+    "software_counters_including_initialization": {
+      "task-clock": 5522.14,
+      "minor-faults": 65687.0,
+      "major-faults": 0.0,
+      "context-switches": 691.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 28,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r2-n3",
+    "valid_placement_snapshots": 18,
+    "total_snapshots": 20,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 20
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1168,
+    "software_counters_including_initialization": {
+      "task-clock": 10298.54,
+      "minor-faults": 65662.0,
+      "major-faults": 0.0,
+      "context-switches": 1179.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 10,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r3-n0",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 639,
+    "software_counters_including_initialization": {
+      "task-clock": 5346.06,
+      "minor-faults": 65686.0,
+      "major-faults": 0.0,
+      "context-switches": 672.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 64,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r3-n1",
+    "valid_placement_snapshots": 11,
+    "total_snapshots": 13,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 13
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 798,
+    "software_counters_including_initialization": {
+      "task-clock": 6978.51,
+      "minor-faults": 65663.0,
+      "major-faults": 0.0,
+      "context-switches": 842.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 3,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r3-n2",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 645,
+    "software_counters_including_initialization": {
+      "task-clock": 5498.18,
+      "minor-faults": 65688.0,
+      "major-faults": 0.0,
+      "context-switches": 689.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 99,
+      "numa_pages_migrated": 99,
+      "numa_hint_faults": 123,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "control-r3-n3",
+    "valid_placement_snapshots": 18,
+    "total_snapshots": 20,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 20
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1185,
+    "software_counters_including_initialization": {
+      "task-clock": 10316.24,
+      "minor-faults": 65686.0,
+      "major-faults": 0.0,
+      "context-switches": 1206.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 2,
+      "pgmigrate_success": 483,
+      "numa_pages_migrated": 483,
+      "numa_hint_faults": 594,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n0-idle",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 642,
+    "software_counters_including_initialization": {
+      "task-clock": 5374.82,
+      "minor-faults": 65733.0,
+      "major-faults": 0.0,
+      "context-switches": 673.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 22,
+      "numa_pages_migrated": 22,
+      "numa_hint_faults": 22,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n0-read4",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 679,
+    "software_counters_including_initialization": {
+      "task-clock": 5516.67,
+      "minor-faults": 65733.0,
+      "major-faults": 0.0,
+      "context-switches": 690.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 22,
+      "numa_pages_migrated": 22,
+      "numa_hint_faults": 111,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n1-idle",
+    "valid_placement_snapshots": 12,
+    "total_snapshots": 14,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 14
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 841,
+    "software_counters_including_initialization": {
+      "task-clock": 7371.85,
+      "minor-faults": 65726.0,
+      "major-faults": 0.0,
+      "context-switches": 871.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 21,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n1-read4",
+    "valid_placement_snapshots": 14,
+    "total_snapshots": 16,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 16
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 960,
+    "software_counters_including_initialization": {
+      "task-clock": 8373.72,
+      "minor-faults": 65730.0,
+      "major-faults": 0.0,
+      "context-switches": 990.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 21,
+      "numa_pages_migrated": 21,
+      "numa_hint_faults": 118,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n2-idle",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 685,
+    "software_counters_including_initialization": {
+      "task-clock": 5857.28,
+      "minor-faults": 65726.0,
+      "major-faults": 0.0,
+      "context-switches": 726.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 23,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n2-other_dram_read4",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 680,
+    "software_counters_including_initialization": {
+      "task-clock": 5876.67,
+      "minor-faults": 65727.0,
+      "major-faults": 0.0,
+      "context-switches": 724.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 1,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 84,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n2-read4",
+    "valid_placement_snapshots": 21,
+    "total_snapshots": 23,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 23
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1324,
+    "software_counters_including_initialization": {
+      "task-clock": 12035.68,
+      "minor-faults": 65730.0,
+      "major-faults": 0.0,
+      "context-switches": 1377.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 21,
+      "numa_pages_migrated": 21,
+      "numa_hint_faults": 92,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n2-write4",
+    "valid_placement_snapshots": 19,
+    "total_snapshots": 21,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 21
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1229,
+    "software_counters_including_initialization": {
+      "task-clock": 10902.37,
+      "minor-faults": 65734.0,
+      "major-faults": 0.0,
+      "context-switches": 1252.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 22,
+      "numa_pages_migrated": 22,
+      "numa_hint_faults": 92,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n3-idle",
+    "valid_placement_snapshots": 18,
+    "total_snapshots": 20,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 20
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1164,
+    "software_counters_including_initialization": {
+      "task-clock": 10363.76,
+      "minor-faults": 65761.0,
+      "major-faults": 0.0,
+      "context-switches": 1197.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 58,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r1-n3-read4",
+    "valid_placement_snapshots": 15,
+    "total_snapshots": 17,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 17
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1000,
+    "software_counters_including_initialization": {
+      "task-clock": 8849.74,
+      "minor-faults": 65732.0,
+      "major-faults": 0.0,
+      "context-switches": 1022.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 24,
+      "numa_pages_migrated": 24,
+      "numa_hint_faults": 126,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n0-idle",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 640,
+    "software_counters_including_initialization": {
+      "task-clock": 5342.1,
+      "minor-faults": 65761.0,
+      "major-faults": 0.0,
+      "context-switches": 673.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 57,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n0-read4",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 685,
+    "software_counters_including_initialization": {
+      "task-clock": 5514.24,
+      "minor-faults": 65733.0,
+      "major-faults": 0.0,
+      "context-switches": 685.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 23,
+      "numa_pages_migrated": 23,
+      "numa_hint_faults": 86,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n1-idle",
+    "valid_placement_snapshots": 12,
+    "total_snapshots": 14,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 14
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 845,
+    "software_counters_including_initialization": {
+      "task-clock": 7278.1,
+      "minor-faults": 65745.0,
+      "major-faults": 0.0,
+      "context-switches": 866.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 55,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n1-read4",
+    "valid_placement_snapshots": 14,
+    "total_snapshots": 16,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 16
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 961,
+    "software_counters_including_initialization": {
+      "task-clock": 8419.51,
+      "minor-faults": 65760.0,
+      "major-faults": 0.0,
+      "context-switches": 1003.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 151,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n2-idle",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 689,
+    "software_counters_including_initialization": {
+      "task-clock": 5681.77,
+      "minor-faults": 65692.0,
+      "major-faults": 0.0,
+      "context-switches": 711.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 3,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n2-other_dram_read4",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 700,
+    "software_counters_including_initialization": {
+      "task-clock": 5851.65,
+      "minor-faults": 65733.0,
+      "major-faults": 0.0,
+      "context-switches": 733.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 27,
+      "numa_pages_migrated": 27,
+      "numa_hint_faults": 90,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n2-read4",
+    "valid_placement_snapshots": 22,
+    "total_snapshots": 24,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 24
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1379,
+    "software_counters_including_initialization": {
+      "task-clock": 12536.97,
+      "minor-faults": 65691.0,
+      "major-faults": 0.0,
+      "context-switches": 1420.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 22,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 231,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n2-write4",
+    "valid_placement_snapshots": 19,
+    "total_snapshots": 21,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 21
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1219,
+    "software_counters_including_initialization": {
+      "task-clock": 10899.57,
+      "minor-faults": 65733.0,
+      "major-faults": 0.0,
+      "context-switches": 1239.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 22,
+      "numa_pages_migrated": 22,
+      "numa_hint_faults": 87,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n3-idle",
+    "valid_placement_snapshots": 18,
+    "total_snapshots": 20,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 20
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1151,
+    "software_counters_including_initialization": {
+      "task-clock": 10384.65,
+      "minor-faults": 65727.0,
+      "major-faults": 0.0,
+      "context-switches": 1172.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 22,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r2-n3-read4",
+    "valid_placement_snapshots": 15,
+    "total_snapshots": 17,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 17
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1000,
+    "software_counters_including_initialization": {
+      "task-clock": 8872.01,
+      "minor-faults": 65692.0,
+      "major-faults": 0.0,
+      "context-switches": 1034.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 109,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n0-idle",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 646,
+    "software_counters_including_initialization": {
+      "task-clock": 5394.76,
+      "minor-faults": 65745.0,
+      "major-faults": 0.0,
+      "context-switches": 680.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 64,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n0-read4",
+    "valid_placement_snapshots": 8,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 642,
+    "software_counters_including_initialization": {
+      "task-clock": 5509.11,
+      "minor-faults": 65696.0,
+      "major-faults": 0.0,
+      "context-switches": 694.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 669,
+      "numa_pages_migrated": 669,
+      "numa_hint_faults": 754,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n1-idle",
+    "valid_placement_snapshots": 12,
+    "total_snapshots": 14,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 14
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 841,
+    "software_counters_including_initialization": {
+      "task-clock": 7214.91,
+      "minor-faults": 65691.0,
+      "major-faults": 0.0,
+      "context-switches": 861.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 1,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n1-read4",
+    "valid_placement_snapshots": 14,
+    "total_snapshots": 16,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 16
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 957,
+    "software_counters_including_initialization": {
+      "task-clock": 8409.52,
+      "minor-faults": 65692.0,
+      "major-faults": 0.0,
+      "context-switches": 999.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 80,
+      "numa_pages_migrated": 80,
+      "numa_hint_faults": 188,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n2-idle",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 695,
+    "software_counters_including_initialization": {
+      "task-clock": 5735.91,
+      "minor-faults": 65746.0,
+      "major-faults": 0.0,
+      "context-switches": 715.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 55,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n2-other_dram_read4",
+    "valid_placement_snapshots": 9,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 694,
+    "software_counters_including_initialization": {
+      "task-clock": 5849.04,
+      "minor-faults": 65691.0,
+      "major-faults": 0.0,
+      "context-switches": 731.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 10,
+      "numa_pages_migrated": 10,
+      "numa_hint_faults": 77,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n2-read4",
+    "valid_placement_snapshots": 22,
+    "total_snapshots": 24,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 24
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1390,
+    "software_counters_including_initialization": {
+      "task-clock": 12557.29,
+      "minor-faults": 65691.0,
+      "major-faults": 0.0,
+      "context-switches": 1430.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 18,
+      "numa_pages_migrated": 18,
+      "numa_hint_faults": 246,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n2-write4",
+    "valid_placement_snapshots": 19,
+    "total_snapshots": 21,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 21
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1220,
+    "software_counters_including_initialization": {
+      "task-clock": 10897.2,
+      "minor-faults": 65691.0,
+      "major-faults": 0.0,
+      "context-switches": 1252.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 4,
+      "numa_pages_migrated": 4,
+      "numa_hint_faults": 72,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n3-idle",
+    "valid_placement_snapshots": 17,
+    "total_snapshots": 19,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 19
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1114,
+    "software_counters_including_initialization": {
+      "task-clock": 10069.7,
+      "minor-faults": 65745.0,
+      "major-faults": 0.0,
+      "context-switches": 1168.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 85,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "matrix-r3-n3-read4",
+    "valid_placement_snapshots": 15,
+    "total_snapshots": 17,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 17
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 1014,
+    "software_counters_including_initialization": {
+      "task-clock": 8824.03,
+      "minor-faults": 65691.0,
+      "major-faults": 0.0,
+      "context-switches": 1046.0,
+      "cpu-migrations": 127.0
+    },
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 57,
+      "numa_pages_migrated": 57,
+      "numa_hint_faults": 538,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r1-idle-0",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 11,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 11
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 508,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 1,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r1-idle-1",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 488,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 0,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r1-read4-0",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 529,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 2,
+      "numa_pages_migrated": 2,
+      "numa_hint_faults": 98,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r1-read4-1",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 506,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 16,
+      "numa_pages_migrated": 16,
+      "numa_hint_faults": 89,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r2-idle-0",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 512,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 0,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r2-idle-1",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 494,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 1,
+      "numa_pages_migrated": 1,
+      "numa_hint_faults": 1,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r2-read4-0",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 511,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 2,
+      "numa_pages_migrated": 2,
+      "numa_hint_faults": 75,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r2-read4-1",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 508,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 67,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r3-idle-0",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 510,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 0,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r3-idle-1",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 507,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 0,
+      "numa_pages_migrated": 0,
+      "numa_hint_faults": 0,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r3-read4-0",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 525,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 883,
+      "numa_pages_migrated": 883,
+      "numa_hint_faults": 1083,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  },
+  {
+    "run": "pebs-r3-read4-1",
+    "valid_placement_snapshots": 10,
+    "total_snapshots": 10,
+    "max_anonhuge_kib": 0,
+    "thread_affinities": {
+      "0": 10
+    },
+    "last_major_faults": 0,
+    "last_nonvoluntary_switches": 497,
+    "system_vmstat_delta": {
+      "pgmajfault": 0,
+      "pgmigrate_success": 605,
+      "numa_pages_migrated": 605,
+      "numa_hint_faults": 671,
+      "pgscan_direct": 0,
+      "allocstall_movable": 0
+    }
+  }
+]

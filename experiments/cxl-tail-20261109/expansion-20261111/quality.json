@@ -1,0 +1,269 @@
+[
+  {
+    "run": "r1-n2-cpu0-idle-t0",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 9
+  },
+  {
+    "run": "r1-n2-cpu0-read4-t1",
+    "valid_snapshots": 10,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 10
+  },
+  {
+    "run": "r1-n2-cpu0-read4-t2",
+    "valid_snapshots": 15,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 15
+  },
+  {
+    "run": "r1-n2-cpu0-read4-t4",
+    "valid_snapshots": 22,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 22
+  },
+  {
+    "run": "r1-n2-cpu0-write4-t4",
+    "valid_snapshots": 19,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 19
+  },
+  {
+    "run": "r1-n2-cpu16-idle-t0",
+    "valid_snapshots": 17,
+    "affinities": [
+      "16"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 17
+  },
+  {
+    "run": "r1-n3-cpu0-idle-t0",
+    "valid_snapshots": 18,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 18
+  },
+  {
+    "run": "r1-n3-cpu16-idle-t0",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0",
+      "16"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 2,
+    "snapshots_at_requested_affinity": 7
+  },
+  {
+    "run": "r2-n2-cpu0-idle-t0",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 9
+  },
+  {
+    "run": "r2-n2-cpu0-read4-t1",
+    "valid_snapshots": 10,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 10
+  },
+  {
+    "run": "r2-n2-cpu0-read4-t2",
+    "valid_snapshots": 15,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 15
+  },
+  {
+    "run": "r2-n2-cpu0-read4-t4",
+    "valid_snapshots": 22,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 22
+  },
+  {
+    "run": "r2-n2-cpu0-write4-t4",
+    "valid_snapshots": 19,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 19
+  },
+  {
+    "run": "r2-n2-cpu16-idle-t0",
+    "valid_snapshots": 17,
+    "affinities": [
+      "16"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 17
+  },
+  {
+    "run": "r2-n3-cpu0-idle-t0",
+    "valid_snapshots": 18,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 18
+  },
+  {
+    "run": "r2-n3-cpu16-idle-t0",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0",
+      "16"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 2,
+    "snapshots_at_requested_affinity": 7
+  },
+  {
+    "run": "r3-n2-cpu0-idle-t0",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 9
+  },
+  {
+    "run": "r3-n2-cpu0-read4-t1",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 9
+  },
+  {
+    "run": "r3-n2-cpu0-read4-t2",
+    "valid_snapshots": 15,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 15
+  },
+  {
+    "run": "r3-n2-cpu0-read4-t4",
+    "valid_snapshots": 22,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 22
+  },
+  {
+    "run": "r3-n2-cpu0-write4-t4",
+    "valid_snapshots": 19,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 19
+  },
+  {
+    "run": "r3-n2-cpu16-idle-t0",
+    "valid_snapshots": 17,
+    "affinities": [
+      "16"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 17
+  },
+  {
+    "run": "r3-n3-cpu0-idle-t0",
+    "valid_snapshots": 18,
+    "affinities": [
+      "0"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 0,
+    "snapshots_at_requested_affinity": 18
+  },
+  {
+    "run": "r3-n3-cpu16-idle-t0",
+    "valid_snapshots": 9,
+    "affinities": [
+      "0",
+      "16"
+    ],
+    "max_anonhuge_kib": 0,
+    "max_major_faults": 0,
+    "snapshots_before_requested_affinity": 2,
+    "snapshots_at_requested_affinity": 7
+  }
+]

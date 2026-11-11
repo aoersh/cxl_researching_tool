@@ -1,0 +1,107 @@
+{
+  "run": "matrix-r1-n0-read4",
+  "node": 0,
+  "condition": "read4",
+  "histogram": true,
+  "pebs": null,
+  "start": {
+    "wall": "2026-11-09T21:57:44.343288+08:00",
+    "monotonic_ns": 1210613165333432
+  },
+  "cpu": 0,
+  "load_command": [
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--loaded_latency",
+    "-T",
+    "-e",
+    "-o/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r1-n0-read4/load.cfg",
+    "-d0",
+    "-t12"
+  ],
+  "load_ready": {
+    "wall": "2026-11-09T21:57:47.070250+08:00",
+    "monotonic_ns": 1210615892346913
+  },
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r1-n0-read4/pmu.csv",
+    "--",
+    "sleep",
+    "60"
+  ],
+  "command": [
+    "perf",
+    "stat",
+    "-x",
+    ";",
+    "-e",
+    "task-clock,minor-faults,major-faults,context-switches,cpu-migrations",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r1-n0-read4/software.csv",
+    "--",
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--idle_latency",
+    "-e",
+    "-r",
+    "-c0",
+    "-j0",
+    "-b256m",
+    "-t3",
+    "-f4",
+    "--lat_hist_max_us=100"
+  ],
+  "probe_start": {
+    "wall": "2026-11-09T21:57:47.087669+08:00",
+    "monotonic_ns": 1210615909717008
+  },
+  "probe_end": {
+    "wall": "2026-11-09T21:57:53.159503+08:00",
+    "monotonic_ns": 1210621981589084
+  },
+  "probe_returncode": 0,
+  "observer_returncode": 0,
+  "load_end": {
+    "wall": "2026-11-09T21:57:58.941749+08:00",
+    "monotonic_ns": 1210627763868005
+  },
+  "load_returncode": 0,
+  "result": {
+    "base_mhz": 2299,
+    "mean_ns": 170.9,
+    "samples": 22097152,
+    "overflow_count": 9,
+    "overflow_limit_ns": 100043.49717268378,
+    "p50_low_ns": 146.15050021748587,
+    "p50_high_ns": 152.6750761200522,
+    "p95_low_ns": 327.09873858199217,
+    "p95_high_ns": 333.62331448455853,
+    "p99_low_ns": 445.41104828186167,
+    "p99_high_ns": 451.93562418442804,
+    "p999_low_ns": 647.2379295345803,
+    "p999_high_ns": 653.7625054371466,
+    "p9999_low_ns": 5017.833840800348,
+    "p9999_high_ns": 5024.358416702915,
+    "gt1000_pct_low": 0.03778767508138605,
+    "gt1000_pct_high": 0.03783745525215195,
+    "gt5000_pct_low": 0.011662136369428965,
+    "gt5000_pct_high": 0.01235000782001228,
+    "gt10000_pct_low": 0.0005385309382856216,
+    "gt10000_pct_high": 0.0005385309382856216,
+    "max_bin_low_ns": 100043.49717268378,
+    "max_bin_high_ns": null
+  },
+  "status": "ok",
+  "end": {
+    "wall": "2026-11-09T21:57:58.962615+08:00",
+    "monotonic_ns": 1210627784671260
+  }
+}

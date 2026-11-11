@@ -1,0 +1,3749 @@
+{
+  "source": "/home/hjy/tools/experiments/cxl-tail-20261109",
+  "files": {
+    "FINAL_REPORT_20261111.md": {
+      "bytes": 15579,
+      "sha256": "f359c6138b665f7015a77099a6c6bff0c7c697debbb489ffa045e13e5e3a91ef"
+    },
+    "REPORT.md": {
+      "bytes": 14779,
+      "sha256": "044168ed1cb14a2c98098d6c97408493e6b1bf251b8cfcb21979de7a1d9e2498"
+    },
+    "all-runs.json": {
+      "bytes": 123366,
+      "sha256": "2be2a1ef9ab6b6dc66672f55308be78b76c0b8537e2f9deebf0003b867718a27"
+    },
+    "analyze.py": {
+      "bytes": 10975,
+      "sha256": "126467b65d0dc673a831357004cabf49ec7fefd80046785da3b06d32c6ec53cb"
+    },
+    "analyze_followup.py": {
+      "bytes": 16120,
+      "sha256": "326375c71465bf32b5dcd1b56376e80d5b8763ecad9e829cee6b0723c39bd8b1"
+    },
+    "capture_case.py": {
+      "bytes": 925,
+      "sha256": "e30cc5e4ea5500640d731708399a38a588c4de26c99fbf055ed420a211331639"
+    },
+    "capture_link_state.sh": {
+      "bytes": 1770,
+      "sha256": "c3416583af51b7c04cb07b018386cf4cb430dd185430ed2710c199920ca37136"
+    },
+    "capture_privileged.sh": {
+      "bytes": 3246,
+      "sha256": "a17f178074f18e84de2a7a446a5075916d567bb40e30633600bc54612eef73ef"
+    },
+    "continuation.log": {
+      "bytes": 13120,
+      "sha256": "7967b7c8a9c1da385d26a82b65c0189627116e4c777432c66481a1dd73b57242"
+    },
+    "expansion-20261111/all-runs.json": {
+      "bytes": 68742,
+      "sha256": "69caad594825ab976ec1f5fd86680499df47f0c90210534fbb00e57a8aa2569c"
+    },
+    "expansion-20261111/group-summary.csv": {
+      "bytes": 2486,
+      "sha256": "bb73f596cd3bd95d128bc55867bff3c9f26898a2966aa95a444736c48a9758f1"
+    },
+    "expansion-20261111/group-summary.json": {
+      "bytes": 6295,
+      "sha256": "5171ebf23114524a7b785158cb2723498875f9441211358207fb292773a9fbbc"
+    },
+    "expansion-20261111/metadata-end.json": {
+      "bytes": 18637,
+      "sha256": "d1739a51a283fbcfc8ca9a91dff8fd702b0e57c30b6f8fbb8671bb8fef56405c"
+    },
+    "expansion-20261111/metadata-start.json": {
+      "bytes": 18635,
+      "sha256": "1e46ad8bc7ac7ca07189f3d74c1861e25c513408c41c21804ff9b31e3be34fd4"
+    },
+    "expansion-20261111/quality.json": {
+      "bytes": 6001,
+      "sha256": "73a9aa2139cb8ec57ca23a8399cf4b9de1f86cdddb076593169801ad6bd0ac5b"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "6a6d82612266ceae2ee55fb96e9612c891c685067860ed5336311e3d2aa73540"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/probe-snapshots.json": {
+      "bytes": 93593,
+      "sha256": "33df6a3d890262655b32a37be08e66e8d9cdcaac5b3590e5de6369b60becf72d"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/probe.txt": {
+      "bytes": 245707,
+      "sha256": "43ae69f2839be7f9f83c9150d477fcb8554f8ab919586ae0512b7c2e52042655"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/run.json": {
+      "bytes": 2394,
+      "sha256": "b8bbb3f118c079c98f8ecd05764cd97db73b5d2c73627ddbca2215ec05965acb"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "d1587880a00f6b9a30f62887894ce34fb06e1e10b6a363f472356eed9c5f666e"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "93f35332d1699dfd121e04583d6fec1b99c277364ceeeb9dd6cbe35a47115765"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-idle-t0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "db62a6fbd424f62981c26f983630314f7ccfd11c68897cc1c4d7b8186a58d49a"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/load-placement.json": {
+      "bytes": 12747,
+      "sha256": "8bb8535b531381a705b2de02c203658005e4ce8c1df599a2013e3d76528d669c"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/load.cfg": {
+      "bytes": 20,
+      "sha256": "48713c1fd86159d642337923069bb5aa8446c5e74a82759af097e0c114b88873"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/load.txt": {
+      "bytes": 1039,
+      "sha256": "bccb48324603e31f1769f89b8f1c5a2aadbb137187537208605605f6e80d856b"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/pmu.csv": {
+      "bytes": 1796,
+      "sha256": "44423de9a9cb754a4b2c65f797e10cba36ec0faf6e69ba84a54680ea2ac1b0df"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/probe-snapshots.json": {
+      "bytes": 102336,
+      "sha256": "cf7327be56dcae48e56f109b558e0237a18e4552ad9fdb0f7098b830c501da3e"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/probe.txt": {
+      "bytes": 246232,
+      "sha256": "b279493c9b9581dec815d5a342ad1ef704c208564de3ff8e583fc6467d8d2a1f"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/run.json": {
+      "bytes": 2911,
+      "sha256": "2ac3f0332527404ef5c3a76e466a567aebbc9f86fbe407edd2e184f7d2f30360"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/software.csv": {
+      "bytes": 300,
+      "sha256": "b5a90e05eab72992bf0aa9025e60e9392dfa4754bd44c313b74145f12f4bd84a"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "d3a7bd42742c81cee5241c42f02e33375722000a5f256fbd75cab36f3cfea632"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t1/vmstat-before.txt": {
+      "bytes": 3654,
+      "sha256": "a2ea108d60af9834cc6821e5b360348294d43a8f43ea831c06cd9058f643a80c"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/load-placement.json": {
+      "bytes": 14914,
+      "sha256": "f8716cadbd55220074e727d78f5e73a92d631f5f13fc59177c35af01b2e36b72"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/load.cfg": {
+      "bytes": 22,
+      "sha256": "c91264ddc366c47b370ccc45a0445d4dae9f73ff7278292d3520180c629f2ae0"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/load.txt": {
+      "bytes": 1146,
+      "sha256": "d65f183a552258f3b8e32da4e28e6d7d76a0ebaa8b27ae2ffe78b875b1d2ff2a"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/pmu.csv": {
+      "bytes": 2544,
+      "sha256": "b6756f0ddbd179a982fdf5f2a91972b888dcb685fe4efc431b4072d93af734bd"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/probe-snapshots.json": {
+      "bytes": 145056,
+      "sha256": "07eedbb08b3dc17781d0c88d3e010b802fa2ae8b5d4910bb39e21226b3f65837"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/probe.txt": {
+      "bytes": 246576,
+      "sha256": "e361285ebc1230d6149cbec1b819dc88088be9685070543a315b5b4229bf334a"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/run.json": {
+      "bytes": 2918,
+      "sha256": "de61c36ff4dafcf5c620724afe29deeceb8c468e3fb19c01038d388c70ccf45c"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/software.csv": {
+      "bytes": 300,
+      "sha256": "f157b4a6e607deae24cfb10b1e4271c74055584b8a07e260ee74b672ee71157c"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "3289c507e9dde142d270e99c07c1cad21f4cbbd98d556ebef1c8356dd9828496"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t2/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "9837cd40d91fe46bdbb5a1479320411c135362edb7b99141f9f886c8061353ca"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/load-placement.json": {
+      "bytes": 19167,
+      "sha256": "e4716eac155bf9b159c30a17324bc5c739920ba6070dc857476c6684dab87008"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/load.cfg": {
+      "bytes": 26,
+      "sha256": "0e6c49a0438d81ddce04fec4b778036e3b85c52d42c9a645f0bdd9b3c2a9fae6"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/load.txt": {
+      "bytes": 1360,
+      "sha256": "525e4f1aeb6eb9ccef601ae06a654acf272c91d548b491b7de3e9de475846fac"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/pmu.csv": {
+      "bytes": 3324,
+      "sha256": "5b49e08c5a55388a8057969901b623beb19175cf6c1307f6ddab3590e28e86aa"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/probe-snapshots.json": {
+      "bytes": 205246,
+      "sha256": "1a6aa4bc4031515c939d05af6c6771e9bcce3087100452200cc28fadb53dd046"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/probe.txt": {
+      "bytes": 246834,
+      "sha256": "87a439bbaf161bce6d40de37fd9901f31b660a673205637845d5d3f5eb6a4d2b"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/run.json": {
+      "bytes": 2941,
+      "sha256": "a49e7e8b6bb8ae72635e53ead807b58de23fb0815bd503adfa2b73ac60c59235"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/software.csv": {
+      "bytes": 306,
+      "sha256": "3134fcdad79715e797973db5d81047f914960b468f9786f52e68b5136146ab16"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "f7216eaa139049944f9c3698b5872a0980bf6997847c63824ba18f5cadf3ad0d"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-read4-t4/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "7f72242feae9494eb676fa9b7aa270a8909f71af32d9078a3755e867134c5d92"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/load-placement.json": {
+      "bytes": 19203,
+      "sha256": "ee9b625a75022c1f5b5ec8fcb660e493794c0da5661ace1912ecd47f191a308a"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/load.cfg": {
+      "bytes": 27,
+      "sha256": "52f250fb3b57913c14d612dfb13689a1049ce910d7099d7eded3a107b790026a"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/load.txt": {
+      "bytes": 1362,
+      "sha256": "70f35c7233aaaa4d56c73703f8b1102325571b183ec9729a809a656a9306b213"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/pmu.csv": {
+      "bytes": 3091,
+      "sha256": "7d1c40d363d3cbefd24d7d517f40c69a93e50c88936f489c71dccefca9f2ae69"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/probe-snapshots.json": {
+      "bytes": 179300,
+      "sha256": "0be33dc965b5bc30193f287b3dd8c5e4a1835842f2103d23123cf0a49eacb811"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/probe.txt": {
+      "bytes": 247392,
+      "sha256": "9239329833c3f01ff9d6123adfadde56882301b7446f4038714fa9fce25c9615"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/run.json": {
+      "bytes": 2938,
+      "sha256": "8d9abc01361cafbc520caf47ea314218be6a941443ad19c05afbef70c6f4a205"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/software.csv": {
+      "bytes": 306,
+      "sha256": "83fb97a47e6180112adeaf3be3e6ce9ce86c9bece45283f9447cf89215e07bee"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "b0e186302f764c996c25c88d1b9ecead680cbcdbb28b083e8c4a877c7b9182e6"
+    },
+    "expansion-20261111/runs/r1-n2-cpu0-write4-t4/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "88a5874d25cdcba5a09564a103f964c9dc763a8c5db5f51d68e226199cf29057"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/pmu.csv": {
+      "bytes": 2789,
+      "sha256": "e030a2f153053884958efef4f90a357b59dc3acf5411986542a0fbfd00dadb90"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/probe-snapshots.json": {
+      "bytes": 162263,
+      "sha256": "580800b6ca44867a21375f48cd7239175f1c3f9b5d5e6c908ee9015a995761bb"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/probe.txt": {
+      "bytes": 246011,
+      "sha256": "00528d42166729a97634cfe4a75b2a921cd90c8c144fd0f4dd42e5faeb20d078"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/run.json": {
+      "bytes": 2389,
+      "sha256": "e702b03405065a5d9cfe831faf09760ef8f43ed867fa64f4efd79b1f05943b0b"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "5b190bc46e607fc25e09ff82a0cae59faa8e5b34cea1ff2aad7d641c304fbbb9"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "75d6dde1dc2dd870515fcef5dcfea54797db516cd8087ef8173c5b630997d9bd"
+    },
+    "expansion-20261111/runs/r1-n2-cpu16-idle-t0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "cf3d851b568876d78ad00a739bb651768827ed2ce90db41cc32baeaf4e969672"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/pmu.csv": {
+      "bytes": 2794,
+      "sha256": "8914dafda3daf18ca90c40dfad431b46b1c1581d55942c81a009716a549a4008"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/probe-snapshots.json": {
+      "bytes": 170142,
+      "sha256": "590220787c0f1b9216f83b93831334291272d03f7370c42837c67bebd8d7a101"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/probe.txt": {
+      "bytes": 245880,
+      "sha256": "6f0b95f3ccba5b2163fdd0e7cc70f5deb8d328690749f69c193c4a0d84dc8769"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/run.json": {
+      "bytes": 2381,
+      "sha256": "15ec9eecd40730c19b26f186fc070163320c4609df73af80138c711bfbec8293"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/software.csv": {
+      "bytes": 306,
+      "sha256": "8ed3f359e5cbf435980e3be3e15a5f67c63eb9a1b98775c3d1e2ef7d33728e89"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "c2d57fcd561cdc3656cca5da12fda378f0ed4f42a9b0f93d7197ce0a748afc30"
+    },
+    "expansion-20261111/runs/r1-n3-cpu0-idle-t0/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "5730dac6897ffb2533538e9ed200994eeb34199f1788a1452461e5da8dcef7cd"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/pmu.csv": {
+      "bytes": 1779,
+      "sha256": "65d3ca61bbb07158e891afcccd55e97b915f8076497d6842213f1928e943bd6e"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/probe-snapshots.json": {
+      "bytes": 93989,
+      "sha256": "24d147f0da05da3c70aa03b34f66da4564160c8db7f1d4f19d7e1522705a6ce7"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/probe.txt": {
+      "bytes": 245732,
+      "sha256": "40707e5557ccebea8a5051667cae7d2ac9471ba400d42f8286222d8b39b6451a"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/run.json": {
+      "bytes": 2402,
+      "sha256": "b670741fb07b8e5c2d6d6446221b50580a09ef5ce8312f389e057146e7ed2ebc"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "86edfa383aecfd371f4ae871b4390c492e965911affe7359afeae99302246dc6"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "a22e97dc3a12ca3edb94a66bd371451a057654b983512445326ce90657bec24e"
+    },
+    "expansion-20261111/runs/r1-n3-cpu16-idle-t0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "b949bea65fe79b3f2c5544be5378cca7869c695f76aeb10a2bb68be979f8f750"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "7d8a925bf44140d22c0636528460deecdbb2af02fa1e55b35a5de1dacf33d5fa"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/probe-snapshots.json": {
+      "bytes": 93858,
+      "sha256": "b3b23b18d059518037b82e3df27de33c38a6ac8b88c183683b59227bcf62dbde"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/probe.txt": {
+      "bytes": 245683,
+      "sha256": "8767b5cea121e05d13108b7f726d2cd2194003aa8555f59a7ae4504f2787ba91"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/run.json": {
+      "bytes": 2396,
+      "sha256": "974bf88a92f47895cdb33162eec06b6fe4f8c4970b565219aabf2834ed9a2c2f"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "12f3f93f50f6a2d466575999e3fc5fa1f24c7a48683251e419674571ed3c543d"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "70a9101eb65722f0a0943779c9d2240a50915e4cc21184c3d44a8edd5e134bc3"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-idle-t0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "aaae9ae98bb6ac78731b5c6fb9ade71216ccb32fe4a5fff9edd92629c96a204f"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/load-placement.json": {
+      "bytes": 12797,
+      "sha256": "b892d252ae97c6652da5ff02a1f587e3cfefeec510467c80b52e58176f5d1504"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/load.cfg": {
+      "bytes": 20,
+      "sha256": "48713c1fd86159d642337923069bb5aa8446c5e74a82759af097e0c114b88873"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/load.txt": {
+      "bytes": 1039,
+      "sha256": "f6fbec0abfc57bd82b4414be15b214473d26c40c9927403274e4f80e01e27706"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/pmu.csv": {
+      "bytes": 1799,
+      "sha256": "863e796e0ac2803e9bfb65d829826990e49a6df67abc52aa67efad08452e6640"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/probe-snapshots.json": {
+      "bytes": 102633,
+      "sha256": "a741c91ef9fde9348013858bb9258837f335cc8a1cac99157b13350aee295cac"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/probe.txt": {
+      "bytes": 246246,
+      "sha256": "77ff7954c1340cb3ead533bef9d80adf1db2035ca760ab41f4bfb853d70a0460"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/run.json": {
+      "bytes": 2924,
+      "sha256": "5940dbb7298de3f0163a5bc4d55b0465df7f65475fc4a0f270503733a33816d7"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/software.csv": {
+      "bytes": 300,
+      "sha256": "23cf65ddb7a566c3ee1a9dd270e517cc69dc07c6d070df64a3cc82a7ee070c39"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "1ab725c44ad13cf90bf9054358335a0f291cc03fd62c2fc997422dfdaf78e943"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t1/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "aecd8fec109c7b93adc548d6be2e90110ea60d880a87cad2e2dfb6821e34434e"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/load-placement.json": {
+      "bytes": 14967,
+      "sha256": "b614edf6db9c528bade489f89aadbdfdc8c445f73b271c6a272be2ee9b72f43f"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/load.cfg": {
+      "bytes": 22,
+      "sha256": "c91264ddc366c47b370ccc45a0445d4dae9f73ff7278292d3520180c629f2ae0"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/load.txt": {
+      "bytes": 1146,
+      "sha256": "d779ef573def5f13401702e93ca391a3a7a1a1f13a3d433a416827039f3e01ac"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/pmu.csv": {
+      "bytes": 2542,
+      "sha256": "f647ebf50173d7da6584761c2c65cd3cfc9567a185e7a2dfe4eb3c542c1a7e2b"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/probe-snapshots.json": {
+      "bytes": 145465,
+      "sha256": "e5f8e8c303a9cd69d0e9f34e6c83af67e44ed2b434552cda27ace6a7bd4ce8d2"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/probe.txt": {
+      "bytes": 246584,
+      "sha256": "12af28034b30f018ed7110b19313231c3d6e6abf98aac8217d095f41c85b23ab"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/run.json": {
+      "bytes": 2920,
+      "sha256": "a68d3a0908d937669dfe23616905bac9dca79b3084dc7d24e258b41e078eb95e"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/software.csv": {
+      "bytes": 300,
+      "sha256": "afb785a8cfd8832a66ec0b10b6cf06ceb0952945fa8356fc9ce85d4b4389599c"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "e83f4cb2ba26bdcf35cf523a97cfd460563cc9cf36279dc140bba10b68cd767b"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t2/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "816e6d5c6f25fc0e1313e7007aa2e334c537f3d25db3f88c21dcc3c570475a04"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/load-placement.json": {
+      "bytes": 19273,
+      "sha256": "062b4f1e154ea2074c92ae20cd4e2736777dc8a2a7f670cafb1ea317bf5dddb6"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/load.cfg": {
+      "bytes": 26,
+      "sha256": "0e6c49a0438d81ddce04fec4b778036e3b85c52d42c9a645f0bdd9b3c2a9fae6"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/load.txt": {
+      "bytes": 1360,
+      "sha256": "548fd33483b501371ba9e51ffe1738a030c3cb361be076ab3a35b5cbb4cd1b17"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/pmu.csv": {
+      "bytes": 3321,
+      "sha256": "2e8c30c5a7560e98162becc7c28544352fbdbd76c09d4930f1d5be398f15c96a"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/probe-snapshots.json": {
+      "bytes": 205299,
+      "sha256": "907ec399c7ef30e421403c03feaa34379f6f231e7295919f1e7dbd242e336d19"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/probe.txt": {
+      "bytes": 246859,
+      "sha256": "c530afde0bd5f88dbc4039046b5a0743691b96a193a95e039eb515c38b757616"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/run.json": {
+      "bytes": 2927,
+      "sha256": "66a99329ec72f7c9858e33562699114d6026be021d22d1e572cf271f958c725a"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/software.csv": {
+      "bytes": 306,
+      "sha256": "30a3f70aae341434bf63a65e4df34631129a6a9eef1467f9655015710a49f99e"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "a3a7f68a3df2b8ed353a17c489632a9bc77aa5a7f922dbb0402e8306dc327a4d"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-read4-t4/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "379d376f326fed38495655b2ff140220dd2a2b3fc9faaf37756f01c64a4c4ca3"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/load-placement.json": {
+      "bytes": 19271,
+      "sha256": "a819067f7b656f23a910781f58f6588da05fe4b943434710bf8aef7fc306dac9"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/load.cfg": {
+      "bytes": 27,
+      "sha256": "52f250fb3b57913c14d612dfb13689a1049ce910d7099d7eded3a107b790026a"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/load.txt": {
+      "bytes": 1362,
+      "sha256": "9bd9a54f8391cdb365979b1a1c4945bf2bafaa18d27c579b9b1255d2e6eff650"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/pmu.csv": {
+      "bytes": 3093,
+      "sha256": "2f82cfdee3aa3e9f3a4d76d61151aa1380734242b15c6e7c0744dd304b0e5356"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/probe-snapshots.json": {
+      "bytes": 179805,
+      "sha256": "fda009eb3d268bd3db57d8596279735b64b0ccf333643eb2eaf2443f425cee94"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/probe.txt": {
+      "bytes": 247397,
+      "sha256": "cd1da44338f1aaf0956b48af25ff9183b80477d4e7c8dddadb09c51b77994edb"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/run.json": {
+      "bytes": 2938,
+      "sha256": "0ae585e1924f351b5dd1f985495e757c663efe78cef3e04ae50d0c5189fa5a49"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/software.csv": {
+      "bytes": 306,
+      "sha256": "6c336a4b9b19929312ed09f1f52422bb24e95e7833e21c62754cce23cb247ce9"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/vmstat-after.txt": {
+      "bytes": 3649,
+      "sha256": "a14875350388f0d18504266b1c45cb61917073ed1bc70c8b0ad0bfd94bcf5639"
+    },
+    "expansion-20261111/runs/r2-n2-cpu0-write4-t4/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "acc2ea4bb199e60c278b8bceb090c5573ca7483b4259dfded7d91ccfc29ae622"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/pmu.csv": {
+      "bytes": 2786,
+      "sha256": "87b7e69bbe7d6d6d9dda6225083f8e4e4d335be8daebbd7fa2a062e14ec41349"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/probe-snapshots.json": {
+      "bytes": 162528,
+      "sha256": "04b4116547d2b161fc30422ff96c896e1a96247387649560fd95a6053f5bb23e"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/probe.txt": {
+      "bytes": 245989,
+      "sha256": "d04dec7c7bc75ab701eabc9f07fedcea60808dfd5dd39b96e8e73bb03b8e02c0"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/run.json": {
+      "bytes": 2398,
+      "sha256": "d603c4e11e008bde86036d2f9dcede45306189197184288180045365ea0a1f2c"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "256759f0258740118392ecf1a717bc363c02fe2fc979b704f855a68d48d0d770"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "833c3f8830d3f20b1d411483097e5a2ce4a47d243c63027a7d56683c0d46d838"
+    },
+    "expansion-20261111/runs/r2-n2-cpu16-idle-t0/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "bd301aa6c8a3c47096cc58643d8591e89fc31b568d772e9cc7865cad0d9b07dc"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/pmu.csv": {
+      "bytes": 2798,
+      "sha256": "037e918a8f84b10ce4852295f8795ba12015b3ff794b1d1249c1522e7fb5ea47"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/probe-snapshots.json": {
+      "bytes": 170622,
+      "sha256": "82a49c4af5621cf1175d6c1ca2dbd8b899d452c3a1c16e23dfe73154e376daf0"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/probe.txt": {
+      "bytes": 245854,
+      "sha256": "e8a4d1801f8e22d25328edf74922ca72385a110f4c156a8c77efe5eb6c79677b"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/run.json": {
+      "bytes": 2379,
+      "sha256": "5fab5e48372cf87c36052c8c5cde0979c8f0043ba48f7038461b164e3fc818dd"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/software.csv": {
+      "bytes": 306,
+      "sha256": "8a050ae6f5e1518c7af744888fbfad5738faeb895f1a55635fa4a9394eb09eda"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "7eaba4f6e78fade560fdc23e9a8060979d0acd1c6dfc9b80394074745f2a6abe"
+    },
+    "expansion-20261111/runs/r2-n3-cpu0-idle-t0/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "3d60a086d6e947ec757cc2a517b4e5337475ff4ec1f303ae566803424d12c670"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/pmu.csv": {
+      "bytes": 1782,
+      "sha256": "e9e75eaa6607ebb286d68ea95c0544c3ab4342efb18d171025269b45957808ca"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/probe-snapshots.json": {
+      "bytes": 93877,
+      "sha256": "182d87973520f348117efcd71b295a6581b0bb134c62a0c8acee28ed498d8120"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/probe.txt": {
+      "bytes": 245715,
+      "sha256": "c1b656f99776a6aa9b49776e8c9e60f4fe3a133fd8d1fecaaea2382f3e1c4971"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/run.json": {
+      "bytes": 2400,
+      "sha256": "f95b2944b971c8ec5213f491a54a6f4cee94d28a30f247dd9b35b04c0073be81"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "c7e28afcb702c4cd65c3b808de2584df4ae29944c04c442ff6051a45bd3c5bad"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "de217e414caef2dcc087e4259bf3112bf82e69041be41b60442823b3fab4c077"
+    },
+    "expansion-20261111/runs/r2-n3-cpu16-idle-t0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "1cdbb2118f0341dac7087088beeb7054c870ca21fe69dc324a3fc107766616da"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/pmu.csv": {
+      "bytes": 1776,
+      "sha256": "95569f23ea40a1d895244dccd5fee26ef322960437f3d3b101cdcb2b8af05e40"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/probe-snapshots.json": {
+      "bytes": 93856,
+      "sha256": "759ec2d73125d714e3ba168b8fb6d19465c032ae248dbb76ea6636e4b8358c6d"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/probe.txt": {
+      "bytes": 245687,
+      "sha256": "00a40a8da0e2d443715a50660c1c55b3ccc09373234c655b3c407382b6936f44"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/run.json": {
+      "bytes": 2395,
+      "sha256": "f3cfe9554b598f1b1360af082637a487dca3aedb8c83f50889ae54a6f70ffa93"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "93a4348d66fa9f3257fddf6dddfaf0f6697e1ca908598648cbabc55c884c5168"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "a0a186301db404a491c66be3c515c8406c2b79d7180d2ef1f9c63f3f9d821fcd"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-idle-t0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "b2b9c6f6875d4d2fa0b50eead7ea655f45d337095cd7420ac9c3591548edf749"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/load-placement.json": {
+      "bytes": 12810,
+      "sha256": "df5a07ae82e4348155e1db8f99e7f0b6924b20d0425701ec8ccfa3f05e607831"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/load.cfg": {
+      "bytes": 20,
+      "sha256": "48713c1fd86159d642337923069bb5aa8446c5e74a82759af097e0c114b88873"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/load.txt": {
+      "bytes": 1039,
+      "sha256": "d1242aac74da67a35f093bc5b178d777406180b6988d36558c7416121419e33f"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/pmu.csv": {
+      "bytes": 1791,
+      "sha256": "c8616e067ad41da572d2c81929ed656c8ac1783568df724e69f7d3d3300eccf3"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/probe-snapshots.json": {
+      "bytes": 94056,
+      "sha256": "0a436343fef010fb416e311f742bdbf2a40ad24be68d3abd552ef778a7c9c34b"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/probe.txt": {
+      "bytes": 246152,
+      "sha256": "7915c00e18413dd89cede672d2dbeb989cac1ca88ab278a5b76c3c070555c7ef"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/run.json": {
+      "bytes": 2913,
+      "sha256": "ec8717d4de1b3966c04095957df5dac04db533f220f160196ae2a68caaddf8dd"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/software.csv": {
+      "bytes": 300,
+      "sha256": "9d716e63e54e8c779ff2d3f4ad00d9e7682ba2293b7a70e79aa96e1aec7e34a0"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "12e76f1dea9e0dc2d062c738b22e345c2aedad4b8f408bb5a2eaed3f8419585e"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t1/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "4531c772469759eb51b9779fb1fdb1b0317f9a8d6decb673d3af3c4eec9144fd"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/load-placement.json": {
+      "bytes": 14966,
+      "sha256": "980ac5418f872189b5e232891e48185f33f8671b2a0a0db611831ddaf8fdd416"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/load.cfg": {
+      "bytes": 22,
+      "sha256": "c91264ddc366c47b370ccc45a0445d4dae9f73ff7278292d3520180c629f2ae0"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/load.txt": {
+      "bytes": 1146,
+      "sha256": "b0bb8593c094b051bca35f9efb780e5818158d18cfcf11264ca10f2565bf8bb4"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/pmu.csv": {
+      "bytes": 2544,
+      "sha256": "bc7e23301e81ec376f8fa77d3354973c8b4139b33d610ae1da9865f2bcbacac6"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/probe-snapshots.json": {
+      "bytes": 145465,
+      "sha256": "d734d99e9bab6bd9ef8d21593da0371b8e18fed2df10e8286c1eb52aa550a29f"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/probe.txt": {
+      "bytes": 246590,
+      "sha256": "ef06a1eaf8eb0be18684655c59309135c68cbd3eae520c253fb0794f36520335"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/run.json": {
+      "bytes": 2917,
+      "sha256": "0acd20af034f7eedd5e28d8446d78517798ece1f4577c27a649b70c0c79a60b2"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/software.csv": {
+      "bytes": 300,
+      "sha256": "65d037e1989c77503affe68d7948dcdc9dff2ed58b3f72f9430dfac8a10e709a"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "13798d6c40174a01c7262d74bb9cb9667aee02ae0be53d28b04e5a7390dfe647"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t2/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "9c5cd1e6a299d83e47838d087d3172fc650c4ed3fc9e588506fd60ecf9e8ed98"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/load-placement.json": {
+      "bytes": 19275,
+      "sha256": "d56e7f7a9677634956fc41b72a8dc3652729563c8cbbc66ae1bef941b1458a87"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/load.cfg": {
+      "bytes": 26,
+      "sha256": "0e6c49a0438d81ddce04fec4b778036e3b85c52d42c9a645f0bdd9b3c2a9fae6"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/load.txt": {
+      "bytes": 1360,
+      "sha256": "078b355f274ae325df1924f1dac619c6ce59b971add4957ee76cba24aa85b217"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/pmu.csv": {
+      "bytes": 3321,
+      "sha256": "6b089428ab38d5a0179b0a07072e31bd1ef4a6fff09b0f07dc0d4719b097e763"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/probe-snapshots.json": {
+      "bytes": 205538,
+      "sha256": "903ddccd9aaf4b0244747e01351ae022a25f977a0056aff511d90e22cd6e96a2"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/probe.txt": {
+      "bytes": 246847,
+      "sha256": "201d7e23de2c1af668768d616cebf473392b51a116789684af123f96a7dcb532"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/run.json": {
+      "bytes": 2930,
+      "sha256": "89a27f3c71fef052af94d7817868077ea5b33acd2c9704f3243dc27e87b9ecc2"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/software.csv": {
+      "bytes": 306,
+      "sha256": "c152c015a3c66c72eada4a9790bd241997e568df54fd950b56af9276399f7892"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/vmstat-after.txt": {
+      "bytes": 3651,
+      "sha256": "5e76af9955cb37ab5011f4c520f91a5a3bd68b5b5aa3a17782e8f4885d64ad72"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-read4-t4/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "3bf860ce9d86dfb608c513b20d062436dc2ba83aaffd8f83b4939cc890fb89f3"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/load-placement.json": {
+      "bytes": 19273,
+      "sha256": "4214f90c6906d6b4c569329514e65078c2236a62f8ff76d2a0ce80092edfa2be"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/load.cfg": {
+      "bytes": 27,
+      "sha256": "52f250fb3b57913c14d612dfb13689a1049ce910d7099d7eded3a107b790026a"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/load.txt": {
+      "bytes": 1362,
+      "sha256": "5ba9a4a6a3432ac7c0759bf2d62c1357f8d57918324b8aec0e5db048773b4187"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/pmu.csv": {
+      "bytes": 3090,
+      "sha256": "088c2cde6b3cd8c92657f99b62049e44c410f65a1c9f978406fc161fe79e614c"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/probe-snapshots.json": {
+      "bytes": 179805,
+      "sha256": "f9a91b569f3747f136da8e2c1cbc22f5c5d5a1a9fde9cbb3249b421a4d5aa0a4"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/probe.txt": {
+      "bytes": 247408,
+      "sha256": "a972f314f3a54dbda510155bfa9c1e0ad1425fb6d6f27b7cc1d570e6c770de2b"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/run.json": {
+      "bytes": 2939,
+      "sha256": "23a193e51c5fba4d1983a343f947426eb25329d9ba2366e6e8a069468ccb125f"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/software.csv": {
+      "bytes": 306,
+      "sha256": "a8fddbf5725dcd4b834d4464541827783043a23d35d0799668244df7750d3801"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/vmstat-after.txt": {
+      "bytes": 3655,
+      "sha256": "5197517b0d36457f0d22b0b058add1a52ea790f4617a0dc2045a279286004416"
+    },
+    "expansion-20261111/runs/r3-n2-cpu0-write4-t4/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "263bfbf96a9ad1cfbaa6ea07e39f080b57d43fb6f98f25e857f7298128a11449"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/pmu.csv": {
+      "bytes": 2784,
+      "sha256": "8ac6b9108d63ce6f8cd89f390531bf606de90990881744114c142c23c4b1befa"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/probe-snapshots.json": {
+      "bytes": 162720,
+      "sha256": "af81b2e8bb488dae70bf3bdb7a66ffa35d9451251976c6616bac59045fe5f13f"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/probe.txt": {
+      "bytes": 246031,
+      "sha256": "b6f6a00066eeccf5f4b414555970482267390cd8667812635aa8c4b6ce1fdd46"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/run.json": {
+      "bytes": 2389,
+      "sha256": "38645d4a87dcbd8cfd31bd069b94fd4001bc3dc709133ef16a4ac43e6a9c2a2c"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "c25e871be173a1fc0a46644e5a06f8dee22ae63ff7ee007d45f9c9fd91317270"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "08a401f5ecf40ba77dae2cb46025ac067edbc946cc67271b8dd4e8455b460bf8"
+    },
+    "expansion-20261111/runs/r3-n2-cpu16-idle-t0/vmstat-before.txt": {
+      "bytes": 3655,
+      "sha256": "7367c25f648865b72feac53a77bbd92f8b69be1011e48defa65b264349d4f252"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/pmu.csv": {
+      "bytes": 2795,
+      "sha256": "2a4d3aa112549f0761015ea2365e8508c0a6a1368128c1635206636161e82d7f"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/probe-snapshots.json": {
+      "bytes": 170826,
+      "sha256": "20211ed57d24e4298e32927e437a65258bb90a2af5ab66d213c7c60dc8b53c2f"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/probe.txt": {
+      "bytes": 245848,
+      "sha256": "c003772fc132a2800ce914359a9b8341c6481d055067c0e3154cd9d6dacc76df"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/run.json": {
+      "bytes": 2383,
+      "sha256": "03c8862f633ec42ccdefb7b6513e3af227061364fa9bacb33e0ca26ef66c2f26"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/software.csv": {
+      "bytes": 306,
+      "sha256": "bc7d66c3cf11e15808a5d5f176b59677d581e0e72e20204462f65e69c799cf41"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "abc6a09e73ff017cb2ba5cfc3d90343a0e235ad7f144bd0f4d923fd1f4d256c8"
+    },
+    "expansion-20261111/runs/r3-n3-cpu0-idle-t0/vmstat-before.txt": {
+      "bytes": 3654,
+      "sha256": "a9840d9733331a3c8f5397c78242a5f06a7c1c4ef19c67878d01363559702e09"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/pmu.csv": {
+      "bytes": 1779,
+      "sha256": "05ff8fe80dd3008f6fc3d64c3f699a725d534ab41a722d7fc8f9338326817a1d"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/probe-snapshots.json": {
+      "bytes": 93876,
+      "sha256": "63e374de597ba4672adb7c6cfd3fd0156617eb8abef6334dc21c70acea601abd"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/probe.txt": {
+      "bytes": 245714,
+      "sha256": "fc4e74e8a2223d2e14e0629a829ceeb409921d2da5f59dfe3e8adb600295120d"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/run.json": {
+      "bytes": 2403,
+      "sha256": "a9b7706cc0aefb481882d262e9cb883b4f96f9969786f1d8557077b38aec351e"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/software.csv": {
+      "bytes": 300,
+      "sha256": "4e2f7bfdec3fbac4038c6ed5e1ad69d168ce72755d0d246b684e6f47be71b801"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/vmstat-after.txt": {
+      "bytes": 3653,
+      "sha256": "1126ab9ac91d5a1ef58f160bd02952e936b07a5b54a52a4d95ae857b5021355c"
+    },
+    "expansion-20261111/runs/r3-n3-cpu16-idle-t0/vmstat-before.txt": {
+      "bytes": 3654,
+      "sha256": "5ff121a9731a137d8dc423a1bbe749a10fd34a502939617694dc0467b91872f4"
+    },
+    "expansion-20261111/schedule.json": {
+      "bytes": 2022,
+      "sha256": "68c7994f1f0a6cdc079252adb14c3df45e242860af916d921e305ebfe7cafe2a"
+    },
+    "expansion-20261111/summary.csv": {
+      "bytes": 10177,
+      "sha256": "8746300b648cea271c1372b93196b4d8c9ab994050e2f5ab8c4b84f507a6ef0f"
+    },
+    "expansion.log": {
+      "bytes": 20003,
+      "sha256": "3b50bb949fa28770f0e9e726544bc00b49bbc89ac1b9e752dcd372b8844834a0"
+    },
+    "followup/analysis.json": {
+      "bytes": 30261,
+      "sha256": "0fa45197b44d1318f33373db3cc5f679d8568d46fedf87d37f15804bd02a11f2"
+    },
+    "followup/analysis.log": {
+      "bytes": 1489,
+      "sha256": "4c02d9178dc273478e1fd4e712cb1ee76bf325660ad98f21bf76bbee40d82f8a"
+    },
+    "followup/idle-frequency-cpu0.csv": {
+      "bytes": 4560,
+      "sha256": "1182dec0c2c98e6af1a83e83e1c71b9b32872dd964921137996675c2e6f36cef"
+    },
+    "followup/idle-offcpu.csv": {
+      "bytes": 17815,
+      "sha256": "88471a2522d3478a6485adef9616f14f6b5353bb7f9566aed3359005a8d7b9c5"
+    },
+    "followup/idle-pcm-window.csv": {
+      "bytes": 4343,
+      "sha256": "97c247f16dbfec1d15946e6694f83a2d8a4ba7216fa312080a26abd8c76201ce"
+    },
+    "followup/idle-softirq.csv": {
+      "bytes": 13912,
+      "sha256": "f42a6664a528092c151b752d60555eb1c078fbef767d91b115c9ac2fa2a9dba6"
+    },
+    "followup/idle-trace-stats.txt": {
+      "bytes": 1084,
+      "sha256": "e1ee650fcc16d5dc7b48e636979522de1803ef7864e6b1bf2b353fc03b98a030"
+    },
+    "followup/raw/cxl-health.txt": {
+      "bytes": 1751,
+      "sha256": "3ea9415d0f86e45ea8c606ce82a060827fc9ca64b5955d977b22235ee31846f5"
+    },
+    "followup/raw/dax.txt": {
+      "bytes": 1015,
+      "sha256": "f7745cadddf84552a72477275e4e4ceb735da2ae3f836be230a78bf872534fa5"
+    },
+    "followup/raw/dmesg-after.txt": {
+      "bytes": 269956,
+      "sha256": "2c6535a4f802206189f234ff5fd3354ed0da82c754d7f3e01e6748cbf537f561"
+    },
+    "followup/raw/dmesg-before.txt": {
+      "bytes": 269956,
+      "sha256": "2c6535a4f802206189f234ff5fd3354ed0da82c754d7f3e01e6748cbf537f561"
+    },
+    "followup/raw/end.txt": {
+      "bytes": 26,
+      "sha256": "19c74f4c6b9cef5d3fb568ada0661585be5599d58f75a36e17016c0e72a11fcb"
+    },
+    "followup/raw/idle/capture.txt": {
+      "bytes": 5104,
+      "sha256": "e32dcff8383b918e262f0139f88c20485019d965b887644d46c7a8b42ae25520"
+    },
+    "followup/raw/idle/frequency.txt": {
+      "bytes": 209039,
+      "sha256": "d7c83195a94b401b3d2a3cd59c5d0a98fbc1b86d5e101d7f23fdaf8af629e19a"
+    },
+    "followup/raw/idle/interrupts-after.txt": {
+      "bytes": 365430,
+      "sha256": "60682dba6d279ea7bc4fd14a756049143f2ccfafc8a36d96e68a54f4daca3c44"
+    },
+    "followup/raw/idle/interrupts-before.txt": {
+      "bytes": 365430,
+      "sha256": "4337abfc4085b445c3f28d419e7e01247224352aa89d890ebd905913e45c78e4"
+    },
+    "followup/raw/idle/metadata.json": {
+      "bytes": 21427,
+      "sha256": "8a47610bb5e33e842d2e7d9c26f0fff82823628a7090843898028586bed5e400"
+    },
+    "followup/raw/idle/pcm.csv": {
+      "bytes": 9803,
+      "sha256": "83fb71f8d0c3bdb87db5d9cbacbc8050cbcbca2ef6dee6ed90d25b840a3323b0"
+    },
+    "followup/raw/idle/runs/node2-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/idle/runs/node2-idle/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "3a5f524ac5d59e9bc1dcc2ecd64ef67038469bb6226bef30cabbac7882f447b6"
+    },
+    "followup/raw/idle/runs/node2-idle/probe-snapshots.json": {
+      "bytes": 94189,
+      "sha256": "33e24b81176b9e0ad86727e2a9c843192d65a0cabe8980eacb5ffcf4eb2e0315"
+    },
+    "followup/raw/idle/runs/node2-idle/probe.txt": {
+      "bytes": 245715,
+      "sha256": "6c4cc3dd9cfe4efcf6613885e97f7949e38990fe686461399ccf67ba637c0e87"
+    },
+    "followup/raw/idle/runs/node2-idle/run.json": {
+      "bytes": 2256,
+      "sha256": "38999449431aeef8e2646077fd38268a012d58ff2d4e6f3eb24a4434e87ee130"
+    },
+    "followup/raw/idle/runs/node2-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "5e208f26ac0659b89a97fc9a21c468bafb5d979d837a2ccbf5e91f10e4db3eb7"
+    },
+    "followup/raw/idle/runs/node2-idle/vmstat-after.txt": {
+      "bytes": 3654,
+      "sha256": "755e7643dad4abd73089a06da5310e4cdb4706cadacd4f2627eb0407a1d5a1e7"
+    },
+    "followup/raw/idle/runs/node2-idle/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "fc2c1951a23e5b07934782297a110319d64063c1efd49f2036b98f51319847bb"
+    },
+    "followup/raw/idle/scheduler-decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/idle/scheduler.data": {
+      "bytes": 21308308,
+      "sha256": "1c263a464bb929a52ed2c5d13cb782475cb637d852f8a8fa256c6ab52dcbcdd3"
+    },
+    "followup/raw/idle/scheduler.txt": {
+      "bytes": 28463308,
+      "sha256": "2fab10f43a5ba2c7bf55c1c2adea80270800fa234b26d7c6e8a2500c30ecf99b"
+    },
+    "followup/raw/idle/softirqs-after.txt": {
+      "bytes": 7905,
+      "sha256": "b36528333511e43f8dffc7a12b9c487f21d92104fca99eb16ebf07b6f9994ccf"
+    },
+    "followup/raw/idle/softirqs-before.txt": {
+      "bytes": 7905,
+      "sha256": "984cb6a3867e18f92a86320254904072e68bfb1d954c78a1799eb4dc36cb3575"
+    },
+    "followup/raw/idle/trace-header.txt": {
+      "bytes": 14179,
+      "sha256": "d9e030603219403813d1f7ece0b443de3066203e3bf1802665e1265fca86f6d8"
+    },
+    "followup/raw/idle/turbostat-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/idle/turbostat-stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/idle/vmstat-after.txt": {
+      "bytes": 3654,
+      "sha256": "208aa7a866c504f33994ad9622e24476092e390f94521ffe6df9909dbb79fe63"
+    },
+    "followup/raw/idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "ac8cac2ba378c4cb308254cab2743e2f2cf9c9c02195944b0d8a196ca1ed8306"
+    },
+    "followup/raw/kernel.txt": {
+      "bytes": 147,
+      "sha256": "d17cce0c5bcd7d913b4b1efa58493ca7590d4059712d6bb79581167a8f05538d"
+    },
+    "followup/raw/numa.txt": {
+      "bytes": 561,
+      "sha256": "edfdd81873d0bd5d9c24149592dba7e1787ae82421440ea1287448710c461b53"
+    },
+    "followup/raw/pci-mem0.txt": {
+      "bytes": 4603,
+      "sha256": "bd6c92c05e52a3056c0841645faa7fe48ffbf6c0ad67ebd3a37f63a7392ed93f"
+    },
+    "followup/raw/pci-mem1.txt": {
+      "bytes": 4616,
+      "sha256": "139a3202a9127c9a31524c6d48027bd04618fbc0ae78683f2451acc38db46a9d"
+    },
+    "followup/raw/read4/capture.txt": {
+      "bytes": 5633,
+      "sha256": "0a389babc4defc14fe68eabbdc4bdf488ec8447892cda56a11d65b07e513b608"
+    },
+    "followup/raw/read4/frequency.txt": {
+      "bytes": 211779,
+      "sha256": "d3fdeb4bb9617682685fb99968a3f9c66303498babafd8a4d31a5ee21f9c0299"
+    },
+    "followup/raw/read4/interrupts-after.txt": {
+      "bytes": 365430,
+      "sha256": "11f16f75150391d4ebb676cb277e0e20a82f2f16837a41138183efca9a235908"
+    },
+    "followup/raw/read4/interrupts-before.txt": {
+      "bytes": 365430,
+      "sha256": "4150eea10519403c5a9544695c3e28d44e3bd16270058e357c6001898d09860b"
+    },
+    "followup/raw/read4/metadata.json": {
+      "bytes": 21427,
+      "sha256": "5629e927d89a08b348a5e2e666debda7ed43417caf95fb875e5064077942195f"
+    },
+    "followup/raw/read4/pcm.csv": {
+      "bytes": 46320,
+      "sha256": "3809fe1e940382df2e3c1aa6cfa14d4958781880c916d7d35a74fab3328da73e"
+    },
+    "followup/raw/read4/runs/node2-read4/load-placement.json": {
+      "bytes": 19471,
+      "sha256": "14e45c8f73824100081ef3d9f2cb2d77bd98b57c7526b67107d472d5ee4d8731"
+    },
+    "followup/raw/read4/runs/node2-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "followup/raw/read4/runs/node2-read4/load.txt": {
+      "bytes": 1286,
+      "sha256": "5c827a47b43e6bca1e54d3ecc0d7db73123af7875bd2c77a12a91b6255717a68"
+    },
+    "followup/raw/read4/runs/node2-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/read4/runs/node2-read4/pmu.csv": {
+      "bytes": 3321,
+      "sha256": "027bf13301c5eddf0eb27672c379ccfef209ad90b49b1622d8a40bd4ead77375"
+    },
+    "followup/raw/read4/runs/node2-read4/probe-snapshots.json": {
+      "bytes": 206257,
+      "sha256": "56caaa96c4cbc91ae4671c928a02cdeef05f5088fd5d1467a77d8f3c52779bab"
+    },
+    "followup/raw/read4/runs/node2-read4/probe.txt": {
+      "bytes": 246885,
+      "sha256": "6f26e7cd01077696bba2631a47c99c4dcc0083e5412c6d485cdf5dc38ba13d36"
+    },
+    "followup/raw/read4/runs/node2-read4/run.json": {
+      "bytes": 2742,
+      "sha256": "851256eb57e7e53fe348e61296bc2c3a20cc1472394a071e4df60f59d35c3d2c"
+    },
+    "followup/raw/read4/runs/node2-read4/software.csv": {
+      "bytes": 306,
+      "sha256": "31063309b52e1c1ace0959196926700928528051e38ef37fc4592fa72603fd66"
+    },
+    "followup/raw/read4/runs/node2-read4/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "f59e34b5ac6efc9ebaede922f1f9209a730de3be00c20252e64b78f7aa2e1561"
+    },
+    "followup/raw/read4/runs/node2-read4/vmstat-before.txt": {
+      "bytes": 3654,
+      "sha256": "f3bf0735273f1573f0b795a948042e73f53b3acb98a9fe36ea0131fdbf7adc79"
+    },
+    "followup/raw/read4/scheduler-decode-stderr.txt": {
+      "bytes": 41,
+      "sha256": "5cc8f83fbedf33ef4eae7d4dba661c6aa3921f0989c9eda75424feeb912fb794"
+    },
+    "followup/raw/read4/scheduler.data": {
+      "bytes": 93775100,
+      "sha256": "c43229fd0e28201ed45f524e2da31659bb307ac8cf5762f9b58bd06b47976913"
+    },
+    "followup/raw/read4/scheduler.txt": {
+      "bytes": 130901038,
+      "sha256": "7b72aee340729236a5d7c90d910cbe9261195084931879dd8c2ff1b36c8d2f18"
+    },
+    "followup/raw/read4/softirqs-after.txt": {
+      "bytes": 7905,
+      "sha256": "3bfa2d299f307493b58d352583369f8fb33fc1fb1a323270420d6014fbdcb622"
+    },
+    "followup/raw/read4/softirqs-before.txt": {
+      "bytes": 7905,
+      "sha256": "c744cccae1c6bad20662f0a1faf7a15b2519f7807a465e56c2b929258f3c9206"
+    },
+    "followup/raw/read4/trace-header.txt": {
+      "bytes": 14183,
+      "sha256": "c396206c38903f8962405042c30e5d3f4cd3a715480f95eac6ee18bc8dbd7688"
+    },
+    "followup/raw/read4/turbostat-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/read4/turbostat-stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/read4/vmstat-after.txt": {
+      "bytes": 3656,
+      "sha256": "c65c7d9da74c25c238fa44b4e9e3fe9efec1ad66fe158fadf55626bec1f71ca5"
+    },
+    "followup/raw/read4/vmstat-before.txt": {
+      "bytes": 3654,
+      "sha256": "69d57b32770dae12fc71a2d4b1a8778eeacf545aa47d4765788edcf6a28a792e"
+    },
+    "followup/raw/start.txt": {
+      "bytes": 26,
+      "sha256": "7161eba088c96c4ac975cd1b3cbcb040897cdc260826c71866845f5bd044d763"
+    },
+    "followup/raw/trace-events.txt": {
+      "bytes": 168,
+      "sha256": "7349e835d845cbf73becef77001beb47fb65e338dd87cd557e86ed99d879c25e"
+    },
+    "followup/raw/write4/capture.txt": {
+      "bytes": 5639,
+      "sha256": "544ed6aaedf6caa363fa1172382a432b9f14e60f2060843382c0989d28c7710f"
+    },
+    "followup/raw/write4/frequency.txt": {
+      "bytes": 211734,
+      "sha256": "cf9287d725c451bf1f418cb4a8bf66d52fcb1675b8b4ea38e5f5c5addd4ffbc9"
+    },
+    "followup/raw/write4/interrupts-after.txt": {
+      "bytes": 365430,
+      "sha256": "75fb02d20e8048467ad445e0b6ae62e3a43c9c1d855286004b7af18f97a64968"
+    },
+    "followup/raw/write4/interrupts-before.txt": {
+      "bytes": 365430,
+      "sha256": "8273df84f91782ba2f43c631629f445a6681b1052ecdd7c75d80178171a8c462"
+    },
+    "followup/raw/write4/metadata.json": {
+      "bytes": 21428,
+      "sha256": "3529d57e0bc7bc54c9cd45dfeca79a242632b00485fa38c7d30b04f06244b202"
+    },
+    "followup/raw/write4/pcm.csv": {
+      "bytes": 46320,
+      "sha256": "21adec82a10dcad93760e7aa5bc3bce5197891e2e6509c2a9d5d532059c75931"
+    },
+    "followup/raw/write4/runs/node2-write4/load-placement.json": {
+      "bytes": 19436,
+      "sha256": "71d6dcba98b174d266d11b830a4007dfc7bcf1e8ff03e3b10ac985ef14e984ee"
+    },
+    "followup/raw/write4/runs/node2-write4/load.cfg": {
+      "bytes": 23,
+      "sha256": "ea8581c7ae5e8a5b2e18710a3db45b463b3ca06b187245ccb4ba748248bda846"
+    },
+    "followup/raw/write4/runs/node2-write4/load.txt": {
+      "bytes": 1290,
+      "sha256": "1ac9f341b8dfa0de66dadb69095ddd8abd471b968313682284b9f35888f84522"
+    },
+    "followup/raw/write4/runs/node2-write4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/write4/runs/node2-write4/pmu.csv": {
+      "bytes": 3088,
+      "sha256": "e679c1442d92fe1ae3decde0d87747f81d6e8c73bc9504e3256faf92633cfe29"
+    },
+    "followup/raw/write4/runs/node2-write4/probe-snapshots.json": {
+      "bytes": 180426,
+      "sha256": "f4b5a7b7943adba336ae64799d9a8979a163dfe71fb32fc08ce3e4a0ba36156e"
+    },
+    "followup/raw/write4/runs/node2-write4/probe.txt": {
+      "bytes": 247377,
+      "sha256": "803fb3c4a3ea9f13dd0eeb4dae1a9d46a3baf1c2b7c0c6c99ffcc02fb0f5edf9"
+    },
+    "followup/raw/write4/runs/node2-write4/run.json": {
+      "bytes": 2747,
+      "sha256": "745310533f39e2ae505128995fdfca21abca8fb649fb4a600c01bd7f85cf4577"
+    },
+    "followup/raw/write4/runs/node2-write4/software.csv": {
+      "bytes": 306,
+      "sha256": "8d4947c862e2ba0bea3705b334015150dbf324879f0e33b9a815859083af772c"
+    },
+    "followup/raw/write4/runs/node2-write4/vmstat-after.txt": {
+      "bytes": 3655,
+      "sha256": "2a294ab36c6a5abf44498a7f13add23659294711db44cd014a30228a38402a23"
+    },
+    "followup/raw/write4/runs/node2-write4/vmstat-before.txt": {
+      "bytes": 3656,
+      "sha256": "a97310f23a8865a0bd7e65a4ea3b5bb2f53abd165673709de7ddeda6ee5727b9"
+    },
+    "followup/raw/write4/scheduler-decode-stderr.txt": {
+      "bytes": 41,
+      "sha256": "9b45c7f2098a8bf0fff9b9564fef751ebde5b728aa032547e46f86eb5dfd59d6"
+    },
+    "followup/raw/write4/scheduler.data": {
+      "bytes": 96497532,
+      "sha256": "92298c35882ee7b54db25c786c0063895e56fe23af346f06957bfab9302bcbd7"
+    },
+    "followup/raw/write4/scheduler.txt": {
+      "bytes": 134673050,
+      "sha256": "5c35cb678df809141d52c3d35c9f1cd903a26ceb3008aaadb963cb2ae34cf1a2"
+    },
+    "followup/raw/write4/softirqs-after.txt": {
+      "bytes": 7905,
+      "sha256": "31d84205813b78c3ee83a1ce7caa9296ee2eab43a95e422af8cb1106438439d3"
+    },
+    "followup/raw/write4/softirqs-before.txt": {
+      "bytes": 7905,
+      "sha256": "28426f3e333a08c0969fb0ef6b4899c45f15b58221bddcb1bb8da91d5578d001"
+    },
+    "followup/raw/write4/trace-header.txt": {
+      "bytes": 14187,
+      "sha256": "362ff2489d901c40b022990411f02111332bd25ba6fe070d49e10b98463953a2"
+    },
+    "followup/raw/write4/turbostat-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/write4/turbostat-stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "followup/raw/write4/vmstat-after.txt": {
+      "bytes": 3657,
+      "sha256": "b31ce599c937a4a63113498af10db6c32b1f83b3786a4f03cb49f97e94bf5492"
+    },
+    "followup/raw/write4/vmstat-before.txt": {
+      "bytes": 3656,
+      "sha256": "4efa5eda4c149242a4bcaeb6bfcf5f82968232b4e42feeb3a8fb480620d2bcaf"
+    },
+    "followup/raw-manifest.json": {
+      "bytes": 12365,
+      "sha256": "4615e4b23aa4f039df43d458bef7b18a30e441d8a75468574fc524a011ea529c"
+    },
+    "followup/read4-frequency-cpu0.csv": {
+      "bytes": 4624,
+      "sha256": "6950d7eb93418b34c6db20812ef896de1f4ddbeb85dc0c3f2b2288415173dca6"
+    },
+    "followup/read4-offcpu.csv": {
+      "bytes": 47072,
+      "sha256": "2b50ce1a91a388a783baa7e2b53a7cd2d034750a0e21e0e8b6735cb452aa722c"
+    },
+    "followup/read4-pcm-window.csv": {
+      "bytes": 9598,
+      "sha256": "3c503dfb585e2b5b67b47a37c5aea59364852e3857800b84312a1b4abb2e7386"
+    },
+    "followup/read4-softirq.csv": {
+      "bytes": 32836,
+      "sha256": "ef014215bcf54954ab4f20bb47526cd4ed31205af052515ae9f088823cae7281"
+    },
+    "followup/read4-trace-stats.txt": {
+      "bytes": 1152,
+      "sha256": "06e35ffe5b6ca10bffedba760a0bf12e79c06dad8cf52bb5570d61b80cad6a41"
+    },
+    "followup/write4-frequency-cpu0.csv": {
+      "bytes": 4635,
+      "sha256": "6577f7b03cd1b5ddbccebd882a18836ce081ea3d23b1cc5413a26e9ca51ed822"
+    },
+    "followup/write4-offcpu.csv": {
+      "bytes": 40693,
+      "sha256": "561912c4a2c197b0395c36558d6c12d0e5c3a5a7f7b6a52b0bfd18e3ee1fd758"
+    },
+    "followup/write4-pcm-window.csv": {
+      "bytes": 8813,
+      "sha256": "dcaace7d5fa75349aaacff90365a293c49a6beed6ba2039ca77e859f8c82c95f"
+    },
+    "followup/write4-softirq.csv": {
+      "bytes": 31828,
+      "sha256": "a6be05e48bbcf23815d78a3898c3c0be8a3e5ab157f4349b8073a19af44d334e"
+    },
+    "followup/write4-trace-stats.txt": {
+      "bytes": 1152,
+      "sha256": "bf060eddf7ff0ae3512a034dabdac2eedb3a465ab19f74f3fb44df386ba92d19"
+    },
+    "group-summary.csv": {
+      "bytes": 4164,
+      "sha256": "d3330644bf189d1ff7ee0b4b86f3fbcdc65459eb0091aa7b53436f29e45d328d"
+    },
+    "group-summary.json": {
+      "bytes": 10188,
+      "sha256": "ab0ad12a9c87a60f9d6df441b2046d953c3abb70c82d8f171a02ab89064ff69c"
+    },
+    "matrix.log": {
+      "bytes": 14693,
+      "sha256": "79f82d2e35f14ee191b1f7dd4fcc5c13cbfd22019699ceb4d42b1b13f94b0252"
+    },
+    "metadata-end-control.json": {
+      "bytes": 18802,
+      "sha256": "bf50030257c1d02b6d7c905adbab5d6fa0ced75294436b95d9790ac872176219"
+    },
+    "metadata-end-matrix.json": {
+      "bytes": 18802,
+      "sha256": "fff7ed4b1b1e022eaf4ddd2339501919d054e0631158d3a5b24e8d94b4ff501d"
+    },
+    "metadata-end-pebs.json": {
+      "bytes": 18821,
+      "sha256": "760980d05dccee7ca8b4990ad07ef0b668fbbe4b2971bcd8c6dd48e907a02d92"
+    },
+    "metadata-start.json": {
+      "bytes": 18800,
+      "sha256": "4aefd904e4148aebfab30b95d365711c80ee408502c268782a00d23c78343e04"
+    },
+    "pebs-chase-samples.csv": {
+      "bytes": 704653,
+      "sha256": "b18b581f0ff341ba0d19a1ee8e7c7f96172059ffc2bda709b8564b7e21e14cca"
+    },
+    "pebs-overhead.csv": {
+      "bytes": 445,
+      "sha256": "3a6adb07a951de4484896874392a115470ace96c3342f4d294ebdbc4bc482020"
+    },
+    "pebs-summary.json": {
+      "bytes": 2204,
+      "sha256": "28eacc3a96fde944c6d5384652743f60f1cbf58a935aaa9c25dcf7ef017548fa"
+    },
+    "pebs.log": {
+      "bytes": 1475,
+      "sha256": "2f0d4b5d8e94fd8338b013c03596b8c3e1b3bf3c1f4cab50830975a0df8234a6"
+    },
+    "pebs_probe": {
+      "bytes": 24592,
+      "sha256": "c2f841b23f19bfe940c34fee7832f474f9113e2207deebfd1144c28f6903c440"
+    },
+    "pebs_probe.c": {
+      "bytes": 2814,
+      "sha256": "51f256457c82e3e0fd4a0a52d5af617bc6e808d9eb88635bdfdff0a07c23a765"
+    },
+    "pilot/failed-readiness-pages/load.cfg": {
+      "bytes": 22,
+      "sha256": "ba766185c74133dd2ef2ffaf9ededa6b2d7868ee2d82531b96f22d6ca9c3446b"
+    },
+    "pilot/failed-readiness-pages/load.txt": {
+      "bytes": 1318,
+      "sha256": "5ee4286287f098528f88a447c866af6069fbc35737528d2c296febb21b1c9414"
+    },
+    "pilot/failed-readiness-pages/run.json": {
+      "bytes": 668,
+      "sha256": "133240bd3db5a095bebb41d1917fe72615607393be96d46d3f1bbbfcccaa6120"
+    },
+    "pilot/failed-readiness-pages/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "06007b237b7ac284649777aaae83da9632237d5b5c2e6bea80e1687db662d519"
+    },
+    "pilot/failed-readiness-pages/vmstat-before.txt": {
+      "bytes": 3649,
+      "sha256": "2fb0d5426a965278a496f07de32577c9ae691c3942415b5f5974752a84478ae9"
+    },
+    "pilot/followup-smoke/metadata.json": {
+      "bytes": 18819,
+      "sha256": "40ea2dc739dc927f939ee7a7cac8bf140e155a629af50cc0021b3c633cd424ac"
+    },
+    "pilot/followup-smoke/runs/node2-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pilot/followup-smoke/runs/node2-idle/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "7f61dc03edb37d8e080f2684e8e419472d77de9ef39b285a10fc4d3e8ed7250b"
+    },
+    "pilot/followup-smoke/runs/node2-idle/probe-snapshots.json": {
+      "bytes": 93602,
+      "sha256": "eabb9a2fc96c284af567dffe943c3b7bcb807efc3e71a5d45d1550a5ccf4fdc4"
+    },
+    "pilot/followup-smoke/runs/node2-idle/probe.txt": {
+      "bytes": 245690,
+      "sha256": "1075964adecb8c8413f4a6624b72dcb851817c727908f472ba9a680d70f03dcb"
+    },
+    "pilot/followup-smoke/runs/node2-idle/run.json": {
+      "bytes": 2336,
+      "sha256": "23fb9ea5d83bb85d5cd78c5ef153c06e2ca9d55d07049bcdd6cc1b071a62d206"
+    },
+    "pilot/followup-smoke/runs/node2-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "ca0f8e7aa37c8fad66e67ef09d91e064f01d65a0cb73095481af29cd17200321"
+    },
+    "pilot/followup-smoke/runs/node2-idle/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "8cf1427710588d3d623de27a2ffaaa39685f28ec18b17e96fdddc521739d92cc"
+    },
+    "pilot/followup-smoke/runs/node2-idle/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "3ccaeef7406b811ef838918694d0e935373491befaee5bf7cb2068687fb650f1"
+    },
+    "pilot/followup-smoke-output.json": {
+      "bytes": 2336,
+      "sha256": "23fb9ea5d83bb85d5cd78c5ef153c06e2ca9d55d07049bcdd6cc1b071a62d206"
+    },
+    "pilot/load-controlcpu8.txt": {
+      "bytes": 1305,
+      "sha256": "81944b6b416e8a711accdee3afcea4dcc551df836e98efc4688ab0a39319e503"
+    },
+    "pilot/load-coordinator-check.txt": {
+      "bytes": 1301,
+      "sha256": "a451b84f01a73a365dacfb92c159a263a4a41b4b59cfe939df48a6dfeceb77de"
+    },
+    "pilot/load-coordinator-samples.json": {
+      "bytes": 1018,
+      "sha256": "59fb98de8c86ee9d03fd33033bbd9f467797ef395cc6cd5f87237528bbeab18c"
+    },
+    "pilot/load-node2-pmu.txt": {
+      "bytes": 253,
+      "sha256": "e44d9217ab36052f1f429325508d012907f36124d89e16fb14dabcab38007f96"
+    },
+    "pilot/load-node2.txt": {
+      "bytes": 1301,
+      "sha256": "3d3ec9d3ea392b6f25aeecb63a5f124259eb447acba9278820472add022e1ed6"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/load-placement.json": {
+      "bytes": 19240,
+      "sha256": "5c201e59ddf575cc13d1a53daf19dc39dba3f31811863dd988dd15d1758ff659"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/load.txt": {
+      "bytes": 1320,
+      "sha256": "e2c5bd3efe3371906eadabf5ee2d2845572bae8ce2dcb8a123bfc81f5d421e1f"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/pmu.csv": {
+      "bytes": 3319,
+      "sha256": "080fe02d9d29937f2cc32b3d098e11937fe370a132e9d124d04ca0ce2b2e0e23"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/probe.txt": {
+      "bytes": 246828,
+      "sha256": "9ec138318f3c894bc972e51a7905585f02551c177a1e43e5cb312e500aafd779"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/run.json": {
+      "bytes": 1681,
+      "sha256": "ab29e7ba0d21a64e0eb375576de2de4b96558774acd83b8545c7e2791e83312c"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/software.csv": {
+      "bytes": 306,
+      "sha256": "9403e7264f7eda21da3d80bdf680a3aa3318b2359681d39add55bff7c5714cee"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "e46c568148d755476e59f941ac9ae22085e1c10db10607785824180182a73e8a"
+    },
+    "pilot/matrix-r2-n2-read4-failed-1794293994688335576/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "8f3f8ce343dacd7b7c389a9c2e1e36564fb6f4ed69e9744660148e91ed4fc814"
+    },
+    "pilot/mlc-node0.txt": {
+      "bytes": 245689,
+      "sha256": "20c940713c157c877e8369ed076e62c246575d440264e918f878355f3082227e"
+    },
+    "pilot/pcm-user.csv": {
+      "bytes": 957,
+      "sha256": "cf7fc667832a1fd6a9973bebdae15dd9646a40c3952a931037439a59a67c26f9"
+    },
+    "pilot/pcm-user.txt": {
+      "bytes": 4580,
+      "sha256": "250bbb6ea4c2f7ff3eb147370d28b090efe659756a6587cb82fbd649bf95e13a"
+    },
+    "pilot/pebs-fields.txt": {
+      "bytes": 281571,
+      "sha256": "ecc14cd88fb3ebeee35ee89f201a03de4e01f5afc575ba9f394f34d378509cba"
+    },
+    "pilot/pebs-r1-idle-0-failed-1794294860592578256/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pilot/pebs-r1-idle-0-failed-1794294860592578256/probe-snapshots.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "pilot/pebs-r1-idle-0-failed-1794294860592578256/probe.txt": {
+      "bytes": 1487,
+      "sha256": "b6031190eb0b8b0e663546eab076e526b4cdd131315133039f4d0140efb14445"
+    },
+    "pilot/pebs-r1-idle-0-failed-1794294860592578256/run.json": {
+      "bytes": 1090,
+      "sha256": "958f995676958240447a126742d6c525895a91aebc06f685090f7206b74e91a8"
+    },
+    "pilot/pebs-r1-idle-0-failed-1794294860592578256/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "e0714b5195578b36c63487097f53772588b074824c2df5e8a5e4d0fa8dac946f"
+    },
+    "pilot/pebs-r1-idle-0-failed-1794294860592578256/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "0f6e5513d7dc4e53853101b7029807efe8906cbf6512ffa2158f4430664e9ddb"
+    },
+    "pilot/readers-node2.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "previous-pcm-cxl-check.csv": {
+      "bytes": 29095,
+      "sha256": "b3a2466688785868f1f05008c3f09e8fde3b852d8fe83aafd726e23be6d88dfe"
+    },
+    "previous-pcm-cxl-node3.csv": {
+      "bytes": 8425,
+      "sha256": "83cf2219672a754db9efd7fe434219f5da58d2c5a10c1f59986e5deb20bfb12b"
+    },
+    "quality.json": {
+      "bytes": 33306,
+      "sha256": "a13c23599d12ebd1b86cb1751a81c1742f05d3e25c05425c0e0cda0c15427209"
+    },
+    "results-table.md": {
+      "bytes": 1030,
+      "sha256": "7ce4afc9ed92a81106c231ae60ee6d3110a092d99eb58dd70c5af54541b5f04e"
+    },
+    "run_expansion.py": {
+      "bytes": 1830,
+      "sha256": "4a3888ba7107693969002d1a92ee5455e47ea36f9bce42d83cd50f4a21efd627"
+    },
+    "run_experiment.py": {
+      "bytes": 15934,
+      "sha256": "ca3ac452bdf59ea8a8b48c11dbf942af13be49358bb8b216c9dabd26c9c6b698"
+    },
+    "runs/control-r1-n0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r1-n0/pmu.csv": {
+      "bytes": 1515,
+      "sha256": "ac983283de0175837bf86887dbe2ee4acf76f41dba687babfd2847ee4e2a8c6d"
+    },
+    "runs/control-r1-n0/probe-snapshots.json": {
+      "bytes": 85292,
+      "sha256": "00a8281e184aff21c879ffcb4254997808488a098c0f50cf9f275a11bdf25907"
+    },
+    "runs/control-r1-n0/probe.txt": {
+      "bytes": 347,
+      "sha256": "d4937866c2c6ab35572ac1e4cc8d6353ab31f9f4b06218d02b267d603ca1feb7"
+    },
+    "runs/control-r1-n0/run.json": {
+      "bytes": 1411,
+      "sha256": "13bd003d83ec84e433fff9c97e3fb128932c4466518a6fb6071350d9291a9747"
+    },
+    "runs/control-r1-n0/software.csv": {
+      "bytes": 300,
+      "sha256": "bdcf8391edebfbe17ce9745874f52bce35e392fea3d09191e31194b90b7e02ba"
+    },
+    "runs/control-r1-n0/vmstat-after.txt": {
+      "bytes": 3648,
+      "sha256": "4354a643a9c62cd22aeffc78ac419f423e9e2563c8480779eecb86ac83d54014"
+    },
+    "runs/control-r1-n0/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "f2f04738de529a6120eda23f211d4fa1e0a198aa038b393c989877535a47f000"
+    },
+    "runs/control-r1-n1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r1-n1/pmu.csv": {
+      "bytes": 2003,
+      "sha256": "beb1370ef975abc9a0dcfe036118e9b9065b0ff53ee4ca0324613723f5db80a3"
+    },
+    "runs/control-r1-n1/probe-snapshots.json": {
+      "bytes": 110828,
+      "sha256": "0d90420bb5d06bb3cfeb72c130f68c71bb62654896c745045c29e46f750a65d0"
+    },
+    "runs/control-r1-n1/probe.txt": {
+      "bytes": 348,
+      "sha256": "d742832a99ff5f2b7333c2f7c47b8685c4df1a0bd589cfae85af9a27e278b89c"
+    },
+    "runs/control-r1-n1/run.json": {
+      "bytes": 1412,
+      "sha256": "634d292e8bef014fc231a939a9b20af947302f105e75a6b128e66c7d2c3e96b9"
+    },
+    "runs/control-r1-n1/software.csv": {
+      "bytes": 299,
+      "sha256": "47dd75d9fd62fa5a8e81af299cc72a148262259bb50deff29629ebdee9ed93b0"
+    },
+    "runs/control-r1-n1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "949a85ac35677b2eb9a1c56ef16caeb77b4232fbaa8d8481e75a1f5ea8528ba1"
+    },
+    "runs/control-r1-n1/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "a1f455a3c1dc6ac86ff06a73a8b8756a3956181aa4346662e3d7348d13030ddf"
+    },
+    "runs/control-r1-n2/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r1-n2/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "4529d8587cf0c9f93baf368a11b2a089c73af6ce916e19a8b00c2965ec58e0a1"
+    },
+    "runs/control-r1-n2/probe-snapshots.json": {
+      "bytes": 93859,
+      "sha256": "8f54feee53c36a2e4dbc2160a95d5c3eff5c57517f57acf0c4c115e288386b83"
+    },
+    "runs/control-r1-n2/probe.txt": {
+      "bytes": 348,
+      "sha256": "a22ddb33f4a0f69c28e807f028f3c8923da590091ab5049b15ac5ccac510d2fe"
+    },
+    "runs/control-r1-n2/run.json": {
+      "bytes": 1412,
+      "sha256": "de09ba56bb4b92c4b95ea986164201fbad0b7f1f33c2a5af0bc7d089743b81a7"
+    },
+    "runs/control-r1-n2/software.csv": {
+      "bytes": 300,
+      "sha256": "00ec380fcb6efa10844e17782560ca5845c6fe241b4f41ede22d3825156072dc"
+    },
+    "runs/control-r1-n2/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "0d4e4f351a7765c17fce6ddfe61bc7e74c5da1b7ad2bd47441a9fe10fcf75688"
+    },
+    "runs/control-r1-n2/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "975c1af0081406ea2821ef418582ed24134424ae0aa83c849f41a83a3c5332a5"
+    },
+    "runs/control-r1-n3/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r1-n3/pmu.csv": {
+      "bytes": 2794,
+      "sha256": "3ffdb0ce2f1ac300c17f41aa6fb6c69ea7ddf4faebd69fac949634fa75792064"
+    },
+    "runs/control-r1-n3/probe-snapshots.json": {
+      "bytes": 170626,
+      "sha256": "6510d8c164845672911cd66627e8b1ef0f3b5ebb212d134add433df797b4bc11"
+    },
+    "runs/control-r1-n3/probe.txt": {
+      "bytes": 349,
+      "sha256": "f6e7b9edfee4ff3587a3fbd3f0bff0278c3026e8aadddb6275a1148c5b2097ab"
+    },
+    "runs/control-r1-n3/run.json": {
+      "bytes": 1412,
+      "sha256": "74b4e45b68a4e166ffbd19c8adace6d6b84c059ce27cbdac8ac4e46066d190ac"
+    },
+    "runs/control-r1-n3/software.csv": {
+      "bytes": 306,
+      "sha256": "e35b7e560d227623e9dd7485a672348ea6e49fe7ac2178c826ea958c4bd70b31"
+    },
+    "runs/control-r1-n3/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "93d9426d30815b3d1b13246f8f99ee557cbe39a1f7af8d2ea73dc015161a5af3"
+    },
+    "runs/control-r1-n3/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "f2c851968f4a9d206c1c8e34aedf860f73809ab6bea192a40770fa0edcae6fd2"
+    },
+    "runs/control-r2-n0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r2-n0/pmu.csv": {
+      "bytes": 1523,
+      "sha256": "f883c22711b88f5f74ebb64eca87a7e60190d98948e75ee4cf75939f8c400259"
+    },
+    "runs/control-r2-n0/probe-snapshots.json": {
+      "bytes": 85292,
+      "sha256": "0ea15da7e97cfb1c059e411b741c4001ccf7cfeebd2f02cb382b610948eb679f"
+    },
+    "runs/control-r2-n0/probe.txt": {
+      "bytes": 347,
+      "sha256": "3c76e27bed59ecb27ebb305daad1225bc56c43e16c69fa9d498b2693dac85788"
+    },
+    "runs/control-r2-n0/run.json": {
+      "bytes": 1411,
+      "sha256": "038d72c8c7ca13579f5ea81531ecb97ac9ba27738289ff27770c9764c2959b74"
+    },
+    "runs/control-r2-n0/software.csv": {
+      "bytes": 300,
+      "sha256": "97dd75fbf54d063e5ae5b9043f1c19d7defe406e2f90f170907b444e17280d56"
+    },
+    "runs/control-r2-n0/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "1c81d1ce57fbaa2a7658bda6ff0719738615bfe109e5a5dd2ce3a9ca6430e6ca"
+    },
+    "runs/control-r2-n0/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "1b0e35db2ede02d2609918664d70d87fe24f5dbdc8a76ea876e102e198c8d576"
+    },
+    "runs/control-r2-n1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r2-n1/pmu.csv": {
+      "bytes": 2003,
+      "sha256": "a4531ed9be6810645c772dff96ec4d8a3c92d6984cc33c0f9690211e984c8130"
+    },
+    "runs/control-r2-n1/probe-snapshots.json": {
+      "bytes": 110955,
+      "sha256": "5bb90b79a6d7b8d2ad626915d019a0024dcac07431528ba12241f1b46c83c4d9"
+    },
+    "runs/control-r2-n1/probe.txt": {
+      "bytes": 348,
+      "sha256": "a2dda181abc2d5ad6e4b14b2229da06fc34b08a76aa6f951c49c134a9c20a155"
+    },
+    "runs/control-r2-n1/run.json": {
+      "bytes": 1412,
+      "sha256": "908c33b11aaa91549bcb3b1e296b098b4f9fc847fe85cc6104c490455f32ecef"
+    },
+    "runs/control-r2-n1/software.csv": {
+      "bytes": 299,
+      "sha256": "60244d421fede555f407ee4e008bc4e4f88b890640feac2681bde27bad5eb743"
+    },
+    "runs/control-r2-n1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "99b3241e3fe46a689d310c6838d7ffe9e4517aeaa8ea74fe8c447025c08961f5"
+    },
+    "runs/control-r2-n1/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "02f048d9d2b3bcff3afb3f80ca70c90fafa73d5c02726739cb5200271356435b"
+    },
+    "runs/control-r2-n2/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r2-n2/pmu.csv": {
+      "bytes": 1536,
+      "sha256": "b136003e79395a16506f6787452a025f83c3e1fdd1bf6dd56fe96ad4cf6f0bc3"
+    },
+    "runs/control-r2-n2/probe-snapshots.json": {
+      "bytes": 85308,
+      "sha256": "02dd35015c5acf9f3c66e12187d576116b3be04002df01295eb3d51bcacba612"
+    },
+    "runs/control-r2-n2/probe.txt": {
+      "bytes": 348,
+      "sha256": "d8c06641341acb5b4b4dd465ab8273a4fcf7214b8185d9f341e9b6760d8db153"
+    },
+    "runs/control-r2-n2/run.json": {
+      "bytes": 1412,
+      "sha256": "e4dd881abfed16760f341187b8f6a239ddfdf59493ece0973fa6d24714a24da1"
+    },
+    "runs/control-r2-n2/software.csv": {
+      "bytes": 300,
+      "sha256": "6a8e03a2cd8397709d3a542ba713ca7bdc7206c0d262ef75c5336b9650aecc6c"
+    },
+    "runs/control-r2-n2/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "a82fc056b4b00fe8b5dddabe236a26229e2e0d163910256e7e966b8f191f9cc9"
+    },
+    "runs/control-r2-n2/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "9d4229563ab8e2348c1c98710d7d235afb48c9b9165deef313712bc58a1223ec"
+    },
+    "runs/control-r2-n3/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r2-n3/pmu.csv": {
+      "bytes": 2800,
+      "sha256": "9dd7f4d68e63853f0ee7e621d81f98582864f8482369c62926251a630cbc9c98"
+    },
+    "runs/control-r2-n3/probe-snapshots.json": {
+      "bytes": 170626,
+      "sha256": "d55b0a641cb2309c8bdb939cabccb289bad7a3623ae803c5c2882c91c7837ef9"
+    },
+    "runs/control-r2-n3/probe.txt": {
+      "bytes": 349,
+      "sha256": "abd66d41f376fcb1e24140df8415c6aed37f5fd92836a1e8792c4ba810f13ad9"
+    },
+    "runs/control-r2-n3/run.json": {
+      "bytes": 1412,
+      "sha256": "30cd489b0996e49f1a6f400ca4f4d460104117779e951dc70d39927f2c8d4eb1"
+    },
+    "runs/control-r2-n3/software.csv": {
+      "bytes": 306,
+      "sha256": "99100b7970ba58dee94d72e13436b0792265f097cf5c7a8c315a6c0d7bd022c5"
+    },
+    "runs/control-r2-n3/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "2fbb1aceb18e91bd54a49980a5119f65c3b8bfab37c4a868f95315d001dc45a8"
+    },
+    "runs/control-r2-n3/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "bf995ab960155070515bac31817d490479506b3011590f3dbbe99f93f2639470"
+    },
+    "runs/control-r3-n0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r3-n0/pmu.csv": {
+      "bytes": 1515,
+      "sha256": "72c4022b2c0b45268fa0a4d5144dba102b1860fbea58fc31065913459739f44f"
+    },
+    "runs/control-r3-n0/probe-snapshots.json": {
+      "bytes": 85290,
+      "sha256": "af401afeb5d19ed4c702589675d025fe696cd7e86ead47a31fc0c74eadf7ffe4"
+    },
+    "runs/control-r3-n0/probe.txt": {
+      "bytes": 347,
+      "sha256": "eaef17e4077cf552e7a9b762e1849a95a200841e5f79fba193fc86cbdd7295c0"
+    },
+    "runs/control-r3-n0/run.json": {
+      "bytes": 1411,
+      "sha256": "ba9b912574b43d384a520f5849d03e4accbc38470884b35be8751b8b9e298414"
+    },
+    "runs/control-r3-n0/software.csv": {
+      "bytes": 300,
+      "sha256": "587f34bedb0aafc313d0a5ecf45cc9d8957ca51ac85b18b6c9160f886961ad5e"
+    },
+    "runs/control-r3-n0/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "174976b6e3b46bdce4cf813fcd5b33ae6bbc09e044c3b87ce448b21a3364b2b5"
+    },
+    "runs/control-r3-n0/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "da83047d4b0d8e45a449954e4e1c9fe51a59e5e64e72e7af29e3ae38a73dd6be"
+    },
+    "runs/control-r3-n1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r3-n1/pmu.csv": {
+      "bytes": 2007,
+      "sha256": "86d2d99bf45703e879d8c4510535b41d47898ab1fb5e4f6c902272e8134c508b"
+    },
+    "runs/control-r3-n1/probe-snapshots.json": {
+      "bytes": 110828,
+      "sha256": "122bf4a0d4ea1dd5b704321277a17cf2f452290458c4b04066c4813014b73f99"
+    },
+    "runs/control-r3-n1/probe.txt": {
+      "bytes": 348,
+      "sha256": "0109821204e9562f0ad94dfd1bc76f83892b0a106879ab4613a26ec01ae5a902"
+    },
+    "runs/control-r3-n1/run.json": {
+      "bytes": 1412,
+      "sha256": "f270beeb3b0deb3c2043535a2d81cc2472766ed43ba5734ea2e78b41ef311e02"
+    },
+    "runs/control-r3-n1/software.csv": {
+      "bytes": 299,
+      "sha256": "9dfda50f08ac3ad37396b3c01d63ab8aa2f8eff3a082df2f74cc10fde632ed25"
+    },
+    "runs/control-r3-n1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "b8f7e4ba48555a9ebbc89610d81cdf5a94773ccd84ac553b5c5cb41f24929849"
+    },
+    "runs/control-r3-n1/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "58c0035b33a2a402a4444128dc1c08b034ac2dd9f0b8e8740933276be052ce31"
+    },
+    "runs/control-r3-n2/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r3-n2/pmu.csv": {
+      "bytes": 1536,
+      "sha256": "3a88874470c0730376259220b29441946284a4625e85fe613a27e9f35445a6a7"
+    },
+    "runs/control-r3-n2/probe-snapshots.json": {
+      "bytes": 85208,
+      "sha256": "932e429345da960eb9f2cf5af724310c35d870089caa7f176d83109934559698"
+    },
+    "runs/control-r3-n2/probe.txt": {
+      "bytes": 348,
+      "sha256": "d135c238e51f59829e89c7627ce1dac815260f30bb7863f997f99c42e79801fa"
+    },
+    "runs/control-r3-n2/run.json": {
+      "bytes": 1412,
+      "sha256": "eb8c6bc0d9ffb94c56333ad35548829a5245eee17feafc491b47bf9ebd1d973e"
+    },
+    "runs/control-r3-n2/software.csv": {
+      "bytes": 300,
+      "sha256": "0548660870a3a018a69493bdee9b05668c233f58eb3c38649db215c51664a8bd"
+    },
+    "runs/control-r3-n2/vmstat-after.txt": {
+      "bytes": 3648,
+      "sha256": "09c864a2b6e8d2b7e7442aba5dee9b42bd6f3ee4940ef8d0ec85a787546320dd"
+    },
+    "runs/control-r3-n2/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "173a6f9fb421215b901a8bb429904c6a2aa1a47248f97f224404c4efb9073563"
+    },
+    "runs/control-r3-n3/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/control-r3-n3/pmu.csv": {
+      "bytes": 2794,
+      "sha256": "9b31c3e6ef780535e5199d095c8c8ae15c9e6835af8b6ba672249e0fae31c859"
+    },
+    "runs/control-r3-n3/probe-snapshots.json": {
+      "bytes": 170626,
+      "sha256": "9dd7dacac6d884c86fba344514868f358b601d4a49f57adfad9bb995b25fe27f"
+    },
+    "runs/control-r3-n3/probe.txt": {
+      "bytes": 349,
+      "sha256": "74ce1372e0d77b4522abf388f91c1fea444d587bf4fbcaccb82eae6c2e331b9a"
+    },
+    "runs/control-r3-n3/run.json": {
+      "bytes": 1412,
+      "sha256": "83ee134d981d1696156a4bda0db0b17bff23514fafc514cfee4a610a07d7977a"
+    },
+    "runs/control-r3-n3/software.csv": {
+      "bytes": 306,
+      "sha256": "d364c3450e4cc38af0ab7683bf70a6dc03f090b12e48d25eaa2b10580106701b"
+    },
+    "runs/control-r3-n3/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "4c3acb62bbe2c165e40d2c6152698c8bbf7f621b33c40533d051e1d8c257363e"
+    },
+    "runs/control-r3-n3/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "1ccf5fdd1dbc0804b0ad7686fa5cc636e047acfd8d686aadf9e83e527551e747"
+    },
+    "runs/matrix-r1-n0-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n0-idle/pmu.csv": {
+      "bytes": 1515,
+      "sha256": "4dae2ee0b67c78ed1ffc7506be7df5c6f5073911dadbc742e3a679faf10cf0c5"
+    },
+    "runs/matrix-r1-n0-idle/probe-snapshots.json": {
+      "bytes": 85160,
+      "sha256": "c659fe0917e3855f6b052e70b0db4c4b4fb881ebcf409e91a97d18eb6c3f3b95"
+    },
+    "runs/matrix-r1-n0-idle/probe.txt": {
+      "bytes": 245728,
+      "sha256": "a3a8ece541713db37dde28bbd8648100eb5c9af94e6056b42dbe0dfd3f5d784f"
+    },
+    "runs/matrix-r1-n0-idle/run.json": {
+      "bytes": 2308,
+      "sha256": "c21d4e6f1bdd97f0f15da0d90ae2424de8dd62b8c17f24231a372c7aae34f1d8"
+    },
+    "runs/matrix-r1-n0-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "d70956bd1f6b3a6c68c6d399edee8e939d591ead239c05bfd4f83a2a138fc181"
+    },
+    "runs/matrix-r1-n0-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "a361f6bb52176439322551025090ccf41a7cc152489387f85dffe806838de938"
+    },
+    "runs/matrix-r1-n0-idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "3d450ae8cee20f8cbd3fdeddfccf1aed04c72a3fe59679df40d9b3c1433061aa"
+    },
+    "runs/matrix-r1-n0-read4/load-placement.json": {
+      "bytes": 19205,
+      "sha256": "f9fd9a851a71ff9f5b24250819f3beeb0cb65954c699fd3b603a594d319f6657"
+    },
+    "runs/matrix-r1-n0-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "39b5fe26afa3642dc00998fbb894d629862de07722bd0266feda47ef1e8fad05"
+    },
+    "runs/matrix-r1-n0-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "43f0b1414d0e32f8dfaff3c98b5cc4a370ab3a9ef23c8c2fced87c4562105cb3"
+    },
+    "runs/matrix-r1-n0-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n0-read4/pmu.csv": {
+      "bytes": 1759,
+      "sha256": "f81fedface2db962a42e45956eb09080b3442c65800ef575d029a9ea20b0573a"
+    },
+    "runs/matrix-r1-n0-read4/probe-snapshots.json": {
+      "bytes": 94038,
+      "sha256": "688e2d7d4defe4e6c9f5090b2d5c571a4a982685799d1b248679bb0fb643a4d6"
+    },
+    "runs/matrix-r1-n0-read4/probe.txt": {
+      "bytes": 246059,
+      "sha256": "e3d898a2af36c739b121cc1dc37283b4d29b7cd91029602f84501e0a3cea7518"
+    },
+    "runs/matrix-r1-n0-read4/run.json": {
+      "bytes": 2801,
+      "sha256": "f94324490a094e84a8190413b346fa26b374f634fad7b84ea89475f46f9939a9"
+    },
+    "runs/matrix-r1-n0-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "3dc1d44505537b79d753f69df8bdc32d06ce2219f18de3713d460178173a4202"
+    },
+    "runs/matrix-r1-n0-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "e1b17c3b698274bcae5bc9d928297bdb07cc27f2572e4883850d96d9c2464350"
+    },
+    "runs/matrix-r1-n0-read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "577764c80755f4a00afa6a7c34f595ea702557d8df48831dd282d99e05aa9133"
+    },
+    "runs/matrix-r1-n1-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n1-idle/pmu.csv": {
+      "bytes": 2011,
+      "sha256": "986ade8e4a2e9955132bc53e2b7900646110a7b5b1c2755d2649bff1e308532e"
+    },
+    "runs/matrix-r1-n1-idle/probe-snapshots.json": {
+      "bytes": 119815,
+      "sha256": "d75af59734ebc378f3a104be31fa6444696101492f5d737cd273e51ed6e39fa3"
+    },
+    "runs/matrix-r1-n1-idle/probe.txt": {
+      "bytes": 245708,
+      "sha256": "8e073a5b93afe13d6cd1f932ef3fb79961623b491b62472168006955f39a0d07"
+    },
+    "runs/matrix-r1-n1-idle/run.json": {
+      "bytes": 2304,
+      "sha256": "9c57b0513dc8c085add7d09409491da0ab825924c3ef17ef9e7c14ea365235d4"
+    },
+    "runs/matrix-r1-n1-idle/software.csv": {
+      "bytes": 299,
+      "sha256": "197fed770cee7106415faadeb99d524c9d602c5158c768b646557219e2803054"
+    },
+    "runs/matrix-r1-n1-idle/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "3a9360f484eef0d1d0805c3f4a5ba995d1ae183e29fe9a88239238bba00ccdbb"
+    },
+    "runs/matrix-r1-n1-idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "6d02075c6e866c276a3b03442cdc4904aa7aaff9466b9133a319c6ee231067c4"
+    },
+    "runs/matrix-r1-n1-read4/load-placement.json": {
+      "bytes": 16992,
+      "sha256": "6d1df24e00887c2703c10a455460c47d9a7432df806891f5b2753cbf3a2dc25c"
+    },
+    "runs/matrix-r1-n1-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "ba766185c74133dd2ef2ffaf9ededa6b2d7868ee2d82531b96f22d6ca9c3446b"
+    },
+    "runs/matrix-r1-n1-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "1f816ec8cc2cf36de2751ca8a08ee97969aa356b781eee22f808b0254207b563"
+    },
+    "runs/matrix-r1-n1-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n1-read4/pmu.csv": {
+      "bytes": 2255,
+      "sha256": "b090abe24450e3d63a704c7a189859bdedde0f027cd435c01dee136fd043dc8c"
+    },
+    "runs/matrix-r1-n1-read4/probe-snapshots.json": {
+      "bytes": 136899,
+      "sha256": "7a37b54970f976b827ca63534105c2dd38633f23f0e0f145df1a5dd7afdcfff9"
+    },
+    "runs/matrix-r1-n1-read4/probe.txt": {
+      "bytes": 245921,
+      "sha256": "81d73f7419e6b6b4ec2d3d2f8288151e42c927d83d6f4ac470bbbb01e2830df1"
+    },
+    "runs/matrix-r1-n1-read4/run.json": {
+      "bytes": 2814,
+      "sha256": "cc42f8ad67e23c16c77982935f14af0fc02bbfd1d3cba129f71e6a724e89efe1"
+    },
+    "runs/matrix-r1-n1-read4/software.csv": {
+      "bytes": 299,
+      "sha256": "8179e131bf22bb6df3e8f695589c82d29c64e42c6dffb87f6c070a8c6123c570"
+    },
+    "runs/matrix-r1-n1-read4/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "59628cda287566c35d3e1391b2759b941faf7c2b58f910840345db4e9b72deb4"
+    },
+    "runs/matrix-r1-n1-read4/vmstat-before.txt": {
+      "bytes": 3647,
+      "sha256": "2bf128290c67f74b2d01d374ea98e492bf7f7192eddea1dc8df023d73620d7c5"
+    },
+    "runs/matrix-r1-n2-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n2-idle/pmu.csv": {
+      "bytes": 1781,
+      "sha256": "691796586e126e08abd83753c0e99e36dcc580c98a02f031c627226f6deaf40d"
+    },
+    "runs/matrix-r1-n2-idle/probe-snapshots.json": {
+      "bytes": 94090,
+      "sha256": "19a96b32dc73ec98b4373922713220a2ba05cc401ebf2799f7fd315e6da3e233"
+    },
+    "runs/matrix-r1-n2-idle/probe.txt": {
+      "bytes": 245699,
+      "sha256": "e25d27e94fb318acc69db348713f3efd3d129b49f0c2fa525ce61653155454b9"
+    },
+    "runs/matrix-r1-n2-idle/run.json": {
+      "bytes": 2300,
+      "sha256": "debeac13b791ab8c58a2ceae8f6f6dadfa826ae74e1d8e86de64ca3096dfefbb"
+    },
+    "runs/matrix-r1-n2-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "67913b53f2d3328e06e1ac18f834f0d72707644a4c9ae91cf99e2fd60a501b6d"
+    },
+    "runs/matrix-r1-n2-idle/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "d34c2aa517a8f4ed5706eaae9d10a1999552d6ff8fec18acca493545db9cb6ef"
+    },
+    "runs/matrix-r1-n2-idle/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "e49af311bd5ef0c02cc028bbaf2c47b4170102c83b25511d3990a013cf41c25a"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/load-placement.json": {
+      "bytes": 19205,
+      "sha256": "1a4c8dce8e12e580acff1f3db860da94c0aafce28e3da5f7fdc6fca9177d32a5"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "39b5fe26afa3642dc00998fbb894d629862de07722bd0266feda47ef1e8fad05"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/load.txt": {
+      "bytes": 1342,
+      "sha256": "2d481b814acf455a84b311bbe9dc7f24b13aa0b7183568e1c09b81f13b72ce39"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/pmu.csv": {
+      "bytes": 1776,
+      "sha256": "b49a9ab29947ad55a23952fafa31fca8291bbb398bad213fb1224e87aa92ae4b"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/probe-snapshots.json": {
+      "bytes": 94046,
+      "sha256": "2844cbe408e41540218dc41a57d9dd65bb0c9109a965c632eccb28ae454d7dd6"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/probe.txt": {
+      "bytes": 245827,
+      "sha256": "45f45d4d5261731a530b29940e3253483896cc2f65e83b184b73441b28443078"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/run.json": {
+      "bytes": 2854,
+      "sha256": "82f36cacce4204b2ed55eb98aeae374a9e68be8288e59bd7308944cc578cfdd6"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/software.csv": {
+      "bytes": 300,
+      "sha256": "0e69c5b6e23d20abf31842e433033e5376fb14549a984ebba7c7596b11b08eca"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "29f7b9f04c0ce1824ec50eac50aa10bf9f51ad2eadffbb109e7ae10cf40be058"
+    },
+    "runs/matrix-r1-n2-other_dram_read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "3ef2d403328467ace506a6f83b57eb86a3d933cbb83fcc3cd4e98a96009c7394"
+    },
+    "runs/matrix-r1-n2-read4/load-placement.json": {
+      "bytes": 19224,
+      "sha256": "e93b4087d1fb2f612ae1baf0b92149600a742fffcb6e4a8a8b504e767a1fa44d"
+    },
+    "runs/matrix-r1-n2-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/matrix-r1-n2-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "82ce10f439911926e3f57abd6a9154f5d84ccea4f2fb8007b6d3600f2ce80e70"
+    },
+    "runs/matrix-r1-n2-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n2-read4/pmu.csv": {
+      "bytes": 3319,
+      "sha256": "bf5afa7e8519e5996fdb29a57ecabf330f523ab94e4561ca7046f850e23b44c3"
+    },
+    "runs/matrix-r1-n2-read4/probe-snapshots.json": {
+      "bytes": 197262,
+      "sha256": "0243924dbcb28b68c93968ed2fa3351fe250d08ea746e88689537a7d0c753412"
+    },
+    "runs/matrix-r1-n2-read4/probe.txt": {
+      "bytes": 246821,
+      "sha256": "8f31e57ea818b6730b111a83c97683b1c1fbdc6162170cc4e235af601c6ad5b7"
+    },
+    "runs/matrix-r1-n2-read4/run.json": {
+      "bytes": 2797,
+      "sha256": "e793197511116ec66d732ad27407fe5f4a3342be0dbabfc1cd78a9a387653773"
+    },
+    "runs/matrix-r1-n2-read4/software.csv": {
+      "bytes": 306,
+      "sha256": "d7a5d98749bed1df3ec0a0381b16ff61f8a97f343846321e8d351be6f1022772"
+    },
+    "runs/matrix-r1-n2-read4/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "e8a0e1f1f1e41e61a8b7ce53c778c9f59e0785077237bd10baaa5600b3ce13ca"
+    },
+    "runs/matrix-r1-n2-read4/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "982f010f8ea4932c9ab866ed6a064432b4f98768cfc15033c700706715a28a78"
+    },
+    "runs/matrix-r1-n2-write4/load-placement.json": {
+      "bytes": 19205,
+      "sha256": "b0258abedf089a6e1d98c75e60b56e78b44f6cc30d0945aea1e7789ae1baff2f"
+    },
+    "runs/matrix-r1-n2-write4/load.cfg": {
+      "bytes": 23,
+      "sha256": "ea8581c7ae5e8a5b2e18710a3db45b463b3ca06b187245ccb4ba748248bda846"
+    },
+    "runs/matrix-r1-n2-write4/load.txt": {
+      "bytes": 1322,
+      "sha256": "b8a86872a5c1feff2e30a8fdeaef2535ab8d570189cd5be87586db96f165a363"
+    },
+    "runs/matrix-r1-n2-write4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n2-write4/pmu.csv": {
+      "bytes": 3092,
+      "sha256": "8c0d3b72cb923cfb025e03ed2a2f554497df97a4cf572c2dcc74500a106a104a"
+    },
+    "runs/matrix-r1-n2-write4/probe-snapshots.json": {
+      "bytes": 179568,
+      "sha256": "6eef71f1d580263273871c40ce4dd7da5b2e369f5953ce6aed94beb51ecf25a3"
+    },
+    "runs/matrix-r1-n2-write4/probe.txt": {
+      "bytes": 247368,
+      "sha256": "43a5b2e445317fa087f83dfe24f8f017a7e269a7f95c9021b1edcc7a36d19d56"
+    },
+    "runs/matrix-r1-n2-write4/run.json": {
+      "bytes": 2802,
+      "sha256": "b847616e07dfc1cd97c6a6bd4c324da72d4748976687caf1ad9cbc11da830b7b"
+    },
+    "runs/matrix-r1-n2-write4/software.csv": {
+      "bytes": 306,
+      "sha256": "877410fd9e2cefda30661ad795ee8664fa733ea722f473be356fbca2fd6d12e3"
+    },
+    "runs/matrix-r1-n2-write4/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "922e881a0e40485c26d479e60537f14c8537a46bd207ed0576ed81eb7de527a9"
+    },
+    "runs/matrix-r1-n2-write4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "42ef4f8e64e755f8c9af7b38af2669fd35fbe3b7af91d1fdd13f0dfaf05e3152"
+    },
+    "runs/matrix-r1-n3-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n3-idle/pmu.csv": {
+      "bytes": 2797,
+      "sha256": "583c2b1181c5f13b3c0c77ca950d0b21f76ce2eb89fc895a739c5e0989c7c936"
+    },
+    "runs/matrix-r1-n3-idle/probe-snapshots.json": {
+      "bytes": 170805,
+      "sha256": "f25112bd4ce075bf561641821ae139a1f749f62776d456bc381101cf6f28bb07"
+    },
+    "runs/matrix-r1-n3-idle/probe.txt": {
+      "bytes": 245869,
+      "sha256": "8a0f52eb6064c42454f68868bc122ef6ac932b460adf1e7a94cd1b08a11a7aab"
+    },
+    "runs/matrix-r1-n3-idle/run.json": {
+      "bytes": 2297,
+      "sha256": "24e1d1097903d7a69ee654e916b34e7a115c302774e10747810df161d2c7c6ee"
+    },
+    "runs/matrix-r1-n3-idle/software.csv": {
+      "bytes": 306,
+      "sha256": "05378d1ac38195896b78b732f535efacf25290865616cfdf29a942ce17d8e4e1"
+    },
+    "runs/matrix-r1-n3-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "3f368502678174bf3714105cc026d63eb4db6e8e01f4e71088d4248862b901e7"
+    },
+    "runs/matrix-r1-n3-idle/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "06848e7f13755918066f7acd6bd3a580497370fc9b7dff75c37c60d31919d32f"
+    },
+    "runs/matrix-r1-n3-read4/load-placement.json": {
+      "bytes": 17123,
+      "sha256": "a04dc7062d673a1e801279d7c3a9b7fac21969ee30216776d564666dc27d47e7"
+    },
+    "runs/matrix-r1-n3-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "a6feb293df5b2574efe7cf0837217963e29e67ce85b2a5d05f738fcc4864bf2a"
+    },
+    "runs/matrix-r1-n3-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "dfb6a0aecef897edc68c61543df46e068489330fbeef35f4223ca34d7e532e87"
+    },
+    "runs/matrix-r1-n3-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r1-n3-read4/pmu.csv": {
+      "bytes": 2548,
+      "sha256": "eafe4b1280d594f6e3bcc4f1bc1f04890aafda9f3e9566c031a3f5fba4b2008e"
+    },
+    "runs/matrix-r1-n3-read4/probe-snapshots.json": {
+      "bytes": 145694,
+      "sha256": "90f0c794cc25d9b658bf4cc93e13627140942eed48e1128c37fb4e0d8bd4ca65"
+    },
+    "runs/matrix-r1-n3-read4/probe.txt": {
+      "bytes": 246356,
+      "sha256": "a66a44a2f756ec64d9ae081536a384a78527b09dfdc5f34e0187cd0a3a2d65b8"
+    },
+    "runs/matrix-r1-n3-read4/run.json": {
+      "bytes": 2795,
+      "sha256": "e50b51281dad4bd4ea477c8aac7a3697017d58dd727517cce6128a17bab28062"
+    },
+    "runs/matrix-r1-n3-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "b79820c7c63f1471d9506811d15ce178438416677a4332c84ec0304250de8563"
+    },
+    "runs/matrix-r1-n3-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "3e277929d70f19b3f0fe3c85bdabf10636fd7277f124094840fa26521f47bc35"
+    },
+    "runs/matrix-r1-n3-read4/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "1e96e40a1aed9ff068e1ceb2ad93dcde4ebfe33189b9cc30bd599b5eb0c321fd"
+    },
+    "runs/matrix-r2-n0-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n0-idle/pmu.csv": {
+      "bytes": 1523,
+      "sha256": "8c8c814c64333d7d1888fa0386d6f3fc4427300b10291afc68b4297443405731"
+    },
+    "runs/matrix-r2-n0-idle/probe-snapshots.json": {
+      "bytes": 85401,
+      "sha256": "4e93ab4f4745b6bb6d209e599337bdff5cda75d6ed6fe3e7fe39b1f6ffb60f1c"
+    },
+    "runs/matrix-r2-n0-idle/probe.txt": {
+      "bytes": 245738,
+      "sha256": "d2e4d8f2ee7a59f123792b6712f7abaa727e34d17a0a8051bb43ae30a50fd6a0"
+    },
+    "runs/matrix-r2-n0-idle/run.json": {
+      "bytes": 2309,
+      "sha256": "9f3673c4f6dfa5c8edf37612c64a9041fbb93221cf1691b0dc5b8b7b476e7407"
+    },
+    "runs/matrix-r2-n0-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "88a2114aa33525828f3bdea164f6f4201e819fdf20cd2b88b61ef01ab22db81e"
+    },
+    "runs/matrix-r2-n0-idle/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "16fc2bdb7ba3e9016d98a7deb56e0d3e4921405fc889f0ecd27b1f0d7aa18628"
+    },
+    "runs/matrix-r2-n0-idle/vmstat-before.txt": {
+      "bytes": 3649,
+      "sha256": "e0385a944eb9182e7e9c7e55ece18db02526532d6aecc96edca0e21c6d25b9e3"
+    },
+    "runs/matrix-r2-n0-read4/load-placement.json": {
+      "bytes": 19275,
+      "sha256": "e9fa8bdcc431edaccbc94bba43767d0b42bcd54599cd0b6c6381e6873dd59046"
+    },
+    "runs/matrix-r2-n0-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "39b5fe26afa3642dc00998fbb894d629862de07722bd0266feda47ef1e8fad05"
+    },
+    "runs/matrix-r2-n0-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "ce9dfd9dcc1c1e688146ee3a82c35b3f2ff8e5bb49fdc01f239363d77b547eb5"
+    },
+    "runs/matrix-r2-n0-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n0-read4/pmu.csv": {
+      "bytes": 1763,
+      "sha256": "bb72ad7f4c7ab18b7c66ac5b14994181fdaa1d772771d088fae6a9fdcffd7900"
+    },
+    "runs/matrix-r2-n0-read4/probe-snapshots.json": {
+      "bytes": 94278,
+      "sha256": "4338eabc58dde69cd5ca8ca3f1ecb76ce5be0d2a1f268bb27e18ec2f080e082e"
+    },
+    "runs/matrix-r2-n0-read4/probe.txt": {
+      "bytes": 246063,
+      "sha256": "92b4ce198b79a0998d5b066a3aa20be012f53516aed31a44d35cb317a46dc984"
+    },
+    "runs/matrix-r2-n0-read4/run.json": {
+      "bytes": 2803,
+      "sha256": "f2a40721ddf09e26e41d3bb8dd4b72587d9deb98ee4575da364d80f003d60b3a"
+    },
+    "runs/matrix-r2-n0-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "3e62a48fcbb8f441db5b9f96d2bef153beee0a8f8e5ae8ff1e73043c074a6608"
+    },
+    "runs/matrix-r2-n0-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "4ca8d3344b2c20cb38a936f214eb8eafd12bd32417d08385591351c69e239c8b"
+    },
+    "runs/matrix-r2-n0-read4/vmstat-before.txt": {
+      "bytes": 3648,
+      "sha256": "7920de72afa5e9979d5a1219f98883ad055e089058eed0b6e5ea867aaae6477c"
+    },
+    "runs/matrix-r2-n1-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n1-idle/pmu.csv": {
+      "bytes": 2011,
+      "sha256": "0bfd5a9996fd5d2c1ab402113ce382669affd0d3f99f886fbd20b15d0718205a"
+    },
+    "runs/matrix-r2-n1-idle/probe-snapshots.json": {
+      "bytes": 119369,
+      "sha256": "df001838200c7bc4a3bfdf09539d10aa7eb3c8b0613c03ad509ae1336c1c98cd"
+    },
+    "runs/matrix-r2-n1-idle/probe.txt": {
+      "bytes": 245714,
+      "sha256": "fec2920c9c18832bd401b2b327fb47c28cc8a06f5f46933d049be54722f97a23"
+    },
+    "runs/matrix-r2-n1-idle/run.json": {
+      "bytes": 2303,
+      "sha256": "c21d72027a0e90518faf462052b2d60b5ed5797cbefda9d1f0268903435958d6"
+    },
+    "runs/matrix-r2-n1-idle/software.csv": {
+      "bytes": 299,
+      "sha256": "378949f7ad75fe3ae1b598d8ccbb87c84179f9db3c7a0bfcbbc04eacecaa02bc"
+    },
+    "runs/matrix-r2-n1-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "367bd23be28a85cec49389986a4834ce45ec5854c79a6df8f2bfc8304c623a5d"
+    },
+    "runs/matrix-r2-n1-idle/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "fc550b3fcc3a97a7f170fc96d86345651f700d49d2a84d81c5d8e4caed9bd33b"
+    },
+    "runs/matrix-r2-n1-read4/load-placement.json": {
+      "bytes": 17160,
+      "sha256": "45d42460639b83c3c3559c4e206832db1e96b2480e71df1be583ff7063e4339b"
+    },
+    "runs/matrix-r2-n1-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "ba766185c74133dd2ef2ffaf9ededa6b2d7868ee2d82531b96f22d6ca9c3446b"
+    },
+    "runs/matrix-r2-n1-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "e0c9658edfe895c76d7cb6b8b75f88153149e3bd90e605ad2ba13d04a97ee9dd"
+    },
+    "runs/matrix-r2-n1-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n1-read4/pmu.csv": {
+      "bytes": 2259,
+      "sha256": "e664c3c15d21d4129fbe62290baaf643dbcf3eee73cace94fa0b85d7b9ab1e97"
+    },
+    "runs/matrix-r2-n1-read4/probe-snapshots.json": {
+      "bytes": 137282,
+      "sha256": "01d61c19a28af0bd42d15e765beca6a3d266f4c280308612f8d92eabc38f1176"
+    },
+    "runs/matrix-r2-n1-read4/probe.txt": {
+      "bytes": 245989,
+      "sha256": "7b3bae67e747d9c55f655178fad549e8341db39e24715c7dbac77a42d0d0d79d"
+    },
+    "runs/matrix-r2-n1-read4/run.json": {
+      "bytes": 2805,
+      "sha256": "7074b5dbb3fcd1ca3f2dbd634d22f56b15610a9eb6be8b627a9bb347abe38377"
+    },
+    "runs/matrix-r2-n1-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "a89cb47d72c8a1d93a91d30658b1c3c69b2e6ce8658d3cb2976a05e7e89d370f"
+    },
+    "runs/matrix-r2-n1-read4/vmstat-after.txt": {
+      "bytes": 3648,
+      "sha256": "71101bc5a7dffedc49fb21f85af0fcb24fd5c632668c45c0b533a6cb445e5256"
+    },
+    "runs/matrix-r2-n1-read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "0d1e176b8d6526b4eb416dd25b166a6aca635479246841a66882a46ac4def754"
+    },
+    "runs/matrix-r2-n2-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n2-idle/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "071b2116a5ae20512b79b1fa7540843a4c7fb0033f4722b0924fd900cdb39f08"
+    },
+    "runs/matrix-r2-n2-idle/probe-snapshots.json": {
+      "bytes": 93595,
+      "sha256": "28a463a59bd2531ef86bc0df8d120f69372cd04ace169eb188bf9ba3088fe1df"
+    },
+    "runs/matrix-r2-n2-idle/probe.txt": {
+      "bytes": 245714,
+      "sha256": "d2e4dc64a07ac462d223bb6263bd1c60934236cdb823299a9a56fa56469be839"
+    },
+    "runs/matrix-r2-n2-idle/run.json": {
+      "bytes": 2301,
+      "sha256": "e8318168fa10fcf40fbacc17029e4b1ad6f3b2140ed3c0b2d5fbdc3f0f19227d"
+    },
+    "runs/matrix-r2-n2-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "21bc8b2f75909d4b779d01d396a6886f0147ef0610f64083f5400dde256b9e00"
+    },
+    "runs/matrix-r2-n2-idle/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "9b4975fb68f02fa64c07c4ae023d81cd20af9c0eb871b095c56178995f4d48f7"
+    },
+    "runs/matrix-r2-n2-idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "3ac5c021313a67ab29d29d8d165083f80835d058bb22fecf46e9e998741f8f22"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/load-placement.json": {
+      "bytes": 19275,
+      "sha256": "0e164e69e68cf4ebfff52239d192307eb96afbc6428e8a68440179b4c75e4c23"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "39b5fe26afa3642dc00998fbb894d629862de07722bd0266feda47ef1e8fad05"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/load.txt": {
+      "bytes": 1342,
+      "sha256": "2a78c45fb5c01ce580484853467b98cb91b0ab2a4a56c1f6579a30105400a304"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "4b4d73095fbb77257faa0e76c52dd49333c08f75fa0235d7b3ae5c71aa00bb20"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/probe-snapshots.json": {
+      "bytes": 94310,
+      "sha256": "d18c3c332712363150f2a4e6e1292be85cdb7888870e3146d4d4d790834967d1"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/probe.txt": {
+      "bytes": 245821,
+      "sha256": "53ce75a953783ad788b40acb47d92327de7fe37b78b8dceedbe9211ea673cd42"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/run.json": {
+      "bytes": 2855,
+      "sha256": "32b19704bc925f2df8eafdfab2346675e85abf545c2ead7bc2da722822080211"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/software.csv": {
+      "bytes": 300,
+      "sha256": "a4c4f928c3ecf01cebdbf4f3c010fe912bab66df3aa6f410b24d1e1f7533d21d"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "faf999d194d82321c24ceddf197e047a1ffb3dffa0ccf8f785c3388e9e47e16b"
+    },
+    "runs/matrix-r2-n2-other_dram_read4/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "31288bd1bbd8634d0719ae2952c2b6e946019e0a69f9375d3760a2196074dbf9"
+    },
+    "runs/matrix-r2-n2-read4/load-placement.json": {
+      "bytes": 19119,
+      "sha256": "019382fe69c4d09b4500fd53255d8d8a8d23e8e0eb5a7e11292e9dba2d402a6c"
+    },
+    "runs/matrix-r2-n2-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/matrix-r2-n2-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "a49fb2193346fb8a98a702a96df0911ccb6d0408918717b4a2347a395998f64d"
+    },
+    "runs/matrix-r2-n2-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n2-read4/pmu.csv": {
+      "bytes": 3321,
+      "sha256": "2802e85d116e427b40b30bfc855142dbbcc3cb9afc7ee4dfed629816843a74d1"
+    },
+    "runs/matrix-r2-n2-read4/probe-snapshots.json": {
+      "bytes": 204916,
+      "sha256": "3910aa9cfa87baafbc5f590035b0107378eb814f2057833f24ef1121bd0e36b1"
+    },
+    "runs/matrix-r2-n2-read4/probe.txt": {
+      "bytes": 246896,
+      "sha256": "1e0889c3f29ca343a546e4ebd1851c4c3e50694c889416425afca4143e4a8f16"
+    },
+    "runs/matrix-r2-n2-read4/run.json": {
+      "bytes": 2783,
+      "sha256": "e5dbe74844f81497d1f32998762aa0cc531ea76fd6e8a987c6ec84db0db3b185"
+    },
+    "runs/matrix-r2-n2-read4/software.csv": {
+      "bytes": 306,
+      "sha256": "c9c63add8ed5a8152cabe9d0d6467acd1fe7b962800e66d1e00bbb86e21339dc"
+    },
+    "runs/matrix-r2-n2-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "e10c2a0db0dffcb759e6121e18dc958f7c676d2b0e92ff0dcce01378f4370123"
+    },
+    "runs/matrix-r2-n2-read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "71a9687e2956be29ecccde1f15da2edfd350c52ea01339abc9feb40880de17aa"
+    },
+    "runs/matrix-r2-n2-write4/load-placement.json": {
+      "bytes": 19275,
+      "sha256": "d30d2184ae725f04f34d45e26fef747a1ba8d7a2ce446045ee1a2f03fed69f47"
+    },
+    "runs/matrix-r2-n2-write4/load.cfg": {
+      "bytes": 23,
+      "sha256": "ea8581c7ae5e8a5b2e18710a3db45b463b3ca06b187245ccb4ba748248bda846"
+    },
+    "runs/matrix-r2-n2-write4/load.txt": {
+      "bytes": 1322,
+      "sha256": "43929e8bbbd53483e0ce702c94a1352eb5cca550581ad3e86349cf8f590d4189"
+    },
+    "runs/matrix-r2-n2-write4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n2-write4/pmu.csv": {
+      "bytes": 3088,
+      "sha256": "f4f614dab1932559537859ba53354063f926d07e26b86f540f12f0ca6a661b6e"
+    },
+    "runs/matrix-r2-n2-write4/probe-snapshots.json": {
+      "bytes": 180286,
+      "sha256": "b53744764c5fea0add4a5415df556d410b52385fd7445269b8288a83bac65885"
+    },
+    "runs/matrix-r2-n2-write4/probe.txt": {
+      "bytes": 247368,
+      "sha256": "415f65978e97173f50210a4a4bf7eec0f951a4e614e0fda238816e1cf9d061b4"
+    },
+    "runs/matrix-r2-n2-write4/run.json": {
+      "bytes": 2805,
+      "sha256": "35480cb9356cde0e064621b981067062c1e1c979b5463253a8072c172f5d6626"
+    },
+    "runs/matrix-r2-n2-write4/software.csv": {
+      "bytes": 306,
+      "sha256": "0461858e200a1a3465062873a701a76f32fff5f981ab975264f4e4ccafb69b4d"
+    },
+    "runs/matrix-r2-n2-write4/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "c90b8cd3c4fafd6058b4e50555a98a00d4b2ce0ecc4b66e44474690fa5f36535"
+    },
+    "runs/matrix-r2-n2-write4/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "cf49230e04f1d5de726ded4056faf58c0d8cefc7729541c91c3ac85842bcada7"
+    },
+    "runs/matrix-r2-n3-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n3-idle/pmu.csv": {
+      "bytes": 2797,
+      "sha256": "4739d9bd046f3fd423a5f0ade2e0bef5441757e8833dc356a91f594d63636350"
+    },
+    "runs/matrix-r2-n3-idle/probe-snapshots.json": {
+      "bytes": 171081,
+      "sha256": "c44d65c9445167271187f0c42e5c6453e39747f8572459933085012232572967"
+    },
+    "runs/matrix-r2-n3-idle/probe.txt": {
+      "bytes": 245850,
+      "sha256": "172d2c2c4989236e6510fb82850298aa548991bc200917cce26d31fd4e17641a"
+    },
+    "runs/matrix-r2-n3-idle/run.json": {
+      "bytes": 2299,
+      "sha256": "d0ec8c2926d8cf5726024036c7e51693ea63472b3520d764b18eafb0abf96119"
+    },
+    "runs/matrix-r2-n3-idle/software.csv": {
+      "bytes": 306,
+      "sha256": "dee7f8c4d41246ff642239e1d14c19c440a7ddbf9fe44720c58dc3e5fe20dc23"
+    },
+    "runs/matrix-r2-n3-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "94681726a06cb828aca36fb13dad1bfb540dd8c78239ba3ced2a616e4b0ede3b"
+    },
+    "runs/matrix-r2-n3-idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "486fa85d3276c583cccc14101980cadc7d95c99c4cc6a523053c21428ac8c11d"
+    },
+    "runs/matrix-r2-n3-read4/load-placement.json": {
+      "bytes": 17033,
+      "sha256": "83341ae343ec02b1cc8ac8035632429181464cb13bb22fe413b4c90e0ca0ae3d"
+    },
+    "runs/matrix-r2-n3-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "a6feb293df5b2574efe7cf0837217963e29e67ce85b2a5d05f738fcc4864bf2a"
+    },
+    "runs/matrix-r2-n3-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "6740edc8d0d0e8da281e0c2b5cc2eeaa6e67f681b0964ca96054f301ae5b8a41"
+    },
+    "runs/matrix-r2-n3-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r2-n3-read4/pmu.csv": {
+      "bytes": 2545,
+      "sha256": "298eb5ac9feb5ead55c8e05791702d060d00a2bb27ff68474a3513c3136f487e"
+    },
+    "runs/matrix-r2-n3-read4/probe-snapshots.json": {
+      "bytes": 145084,
+      "sha256": "7df261313ddd1b5a0baf36f3f201a66dfaa49b9c1fd8804a73d2257c5745c433"
+    },
+    "runs/matrix-r2-n3-read4/probe.txt": {
+      "bytes": 246413,
+      "sha256": "950f1095d74d52f6e37345417089ffc34f3f0ab71f6ed16f6d840ca1156df109"
+    },
+    "runs/matrix-r2-n3-read4/run.json": {
+      "bytes": 2800,
+      "sha256": "a54f9afd396825071e89aa6a254408f02da0d42865a6bf27fa49b5a5ec21ce43"
+    },
+    "runs/matrix-r2-n3-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "6ceba019eb05e74c55d42a81c2e1c60be08831fd734a00d1a85ded79680d740d"
+    },
+    "runs/matrix-r2-n3-read4/vmstat-after.txt": {
+      "bytes": 3648,
+      "sha256": "ec213e1577258023d14dcd2e7eb26d2c669d278f3317f5cd40eb8b0b8af5fb19"
+    },
+    "runs/matrix-r2-n3-read4/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "7786cabbf38209c69d6a2962d36d370fb7a38ea99167553093a036843d7b8bb4"
+    },
+    "runs/matrix-r3-n0-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n0-idle/pmu.csv": {
+      "bytes": 1515,
+      "sha256": "2f1f9d500665808d829aa5a3a93891f02cf83b0c4595805fe26e6f821017545d"
+    },
+    "runs/matrix-r3-n0-idle/probe-snapshots.json": {
+      "bytes": 85052,
+      "sha256": "5db9d9432d45cf3d44056c6459a581cc1899f8817e30dd29c971909ef0ddb965"
+    },
+    "runs/matrix-r3-n0-idle/probe.txt": {
+      "bytes": 245748,
+      "sha256": "96ad876057ada638c3c4930c6a44ba0b76bddc50e0b1208c8cadcbbb30b8c590"
+    },
+    "runs/matrix-r3-n0-idle/run.json": {
+      "bytes": 2305,
+      "sha256": "2fb3280f34bc0c3100f69027140dd90baccc73437fb1da31bacf82e83de4f1c0"
+    },
+    "runs/matrix-r3-n0-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "87e3d1ad485d703248005c2c9b229e01da535187b0fd719a9fccabdfc11d2a14"
+    },
+    "runs/matrix-r3-n0-idle/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "31d133392106cb86886a199301198a857795a0a9e09afeea980deb9543730770"
+    },
+    "runs/matrix-r3-n0-idle/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "0c81d2fb0c69a28b1f9c0dad40a0c76e8ad6c1c2b7cd1b872c7bf3e4523dac47"
+    },
+    "runs/matrix-r3-n0-read4/load-placement.json": {
+      "bytes": 19204,
+      "sha256": "190d233ed2de197ab8f3e48f4cbd9c0f4fb76e5bae0bd6e5e9aad5a9963767fa"
+    },
+    "runs/matrix-r3-n0-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "39b5fe26afa3642dc00998fbb894d629862de07722bd0266feda47ef1e8fad05"
+    },
+    "runs/matrix-r3-n0-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "4f2ef2f654a0f04f2b20afa515936122d93a1524158eb260fe1d4ed9d15859f8"
+    },
+    "runs/matrix-r3-n0-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n0-read4/pmu.csv": {
+      "bytes": 1515,
+      "sha256": "67a0f47a691948a295c649940ce5ef06222046f75e61bcfb646ad4ff79afa05a"
+    },
+    "runs/matrix-r3-n0-read4/probe-snapshots.json": {
+      "bytes": 85372,
+      "sha256": "9ae7ade8f9349ce9b5184a3c999b97a32804fac12ae2e6219bbd344f12fe2bd4"
+    },
+    "runs/matrix-r3-n0-read4/probe.txt": {
+      "bytes": 246053,
+      "sha256": "4af60b9113483a9b9118f0046814d2344b1a2b504df85c7fc9f9502c593f3091"
+    },
+    "runs/matrix-r3-n0-read4/run.json": {
+      "bytes": 2791,
+      "sha256": "2c5125a06660e648f92bb6ccf87508c5b664faa5866d73a857c679cbbfc25a33"
+    },
+    "runs/matrix-r3-n0-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "d023c0dc1c6eed369dc065a7c85e02467c622f876d13396740a6189717a8ad17"
+    },
+    "runs/matrix-r3-n0-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "d28276462e7501e43287c52dbb97061a2ba5dcdca4e18c74589889bc97592ebf"
+    },
+    "runs/matrix-r3-n0-read4/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "156acfac2c8a22da75cd39e47b774acdb28dee2211f8098015349169d42382b4"
+    },
+    "runs/matrix-r3-n1-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n1-idle/pmu.csv": {
+      "bytes": 2015,
+      "sha256": "22809494bbc9ce3e703493dbea8c40fd2679ac1aff663f3fcac438e55aef0555"
+    },
+    "runs/matrix-r3-n1-idle/probe-snapshots.json": {
+      "bytes": 119170,
+      "sha256": "f7ced96be4a1372cb9ea1628ef92a196a3a7e6d2e6bde66bc13f1205e57ab9d8"
+    },
+    "runs/matrix-r3-n1-idle/probe.txt": {
+      "bytes": 245722,
+      "sha256": "3ab63896cbd450ee3a4fc4d67bb91f775ec159bcbb79e73b45eb552190ccf190"
+    },
+    "runs/matrix-r3-n1-idle/run.json": {
+      "bytes": 2301,
+      "sha256": "2d25c3fc5e084e4047917921f9d477d0c5ac3079ad792f5a28c2461c8061a9db"
+    },
+    "runs/matrix-r3-n1-idle/software.csv": {
+      "bytes": 299,
+      "sha256": "7620c84b67685ac312152284030d9767863b472e5fdf9a0f6a33dfb71805252b"
+    },
+    "runs/matrix-r3-n1-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "277de15bc0923942bc610b21ab850734d84da0da9df0d9fa4dee40d31d54d493"
+    },
+    "runs/matrix-r3-n1-idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "09d8bc0bbf577fa7aff36143d9cddbea6d67b446230c397d5f727c21c41a4a31"
+    },
+    "runs/matrix-r3-n1-read4/load-placement.json": {
+      "bytes": 17129,
+      "sha256": "8dcce21c9fc3297a4621a3edcbcf04cda7eedbfa1dc2616ab6bf358d8760841e"
+    },
+    "runs/matrix-r3-n1-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "ba766185c74133dd2ef2ffaf9ededa6b2d7868ee2d82531b96f22d6ca9c3446b"
+    },
+    "runs/matrix-r3-n1-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "cda9e843101600654c11dc95144d703dbea2baa3196ca830f95696ec0f3da5c5"
+    },
+    "runs/matrix-r3-n1-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n1-read4/pmu.csv": {
+      "bytes": 2259,
+      "sha256": "f8fb106d39110d837df7193d797234703634ef9be18ccdcedb42210bf0a81cff"
+    },
+    "runs/matrix-r3-n1-read4/probe-snapshots.json": {
+      "bytes": 136927,
+      "sha256": "2757224a6dbb9df293656269f96ac80eb92874ffd9e963bac408ca86830b5a0c"
+    },
+    "runs/matrix-r3-n1-read4/probe.txt": {
+      "bytes": 246013,
+      "sha256": "389bf8ae56c3295d8736177d924799859ba1ea9c749da5aec06b5cfba274d271"
+    },
+    "runs/matrix-r3-n1-read4/run.json": {
+      "bytes": 2815,
+      "sha256": "75f68f9ee183e6bd8905fb832f29ad20e0c3e658ac541973e1f062b2a83fd1e3"
+    },
+    "runs/matrix-r3-n1-read4/software.csv": {
+      "bytes": 299,
+      "sha256": "0d28d82e64f9ee690227b969f45d8532fc8dfa9758ef8860dd62aeca58a2400a"
+    },
+    "runs/matrix-r3-n1-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "4b25849b6d1db6b38ff0bc9d8b5d6318792d00763471550d5beac4da0d714874"
+    },
+    "runs/matrix-r3-n1-read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "7ee44c7ee1157e2444bb1452a4fd24d8b9ca3e0bc08e9638970e3a8482a73d32"
+    },
+    "runs/matrix-r3-n2-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n2-idle/pmu.csv": {
+      "bytes": 1778,
+      "sha256": "3a92c5b09e27c853c209b349769c12808022b5463042119dfd0008f54219c6ca"
+    },
+    "runs/matrix-r3-n2-idle/probe-snapshots.json": {
+      "bytes": 93594,
+      "sha256": "7cf65fd2ce55260190636a0cc056c06b25254b5b6e2ac37256de064b970a19c9"
+    },
+    "runs/matrix-r3-n2-idle/probe.txt": {
+      "bytes": 245715,
+      "sha256": "0f9f362bb2513c018484c4451a890136199606626b794fd5d4d745524e5241ae"
+    },
+    "runs/matrix-r3-n2-idle/run.json": {
+      "bytes": 2289,
+      "sha256": "c990870c7df8e8fda9f58924d21666078ca142c9b7f71a1ed0cec808c601b14c"
+    },
+    "runs/matrix-r3-n2-idle/software.csv": {
+      "bytes": 300,
+      "sha256": "a1e680ea83a13cb053d641c0b5cc169bb0072912832e50e8b949cde7dede5d27"
+    },
+    "runs/matrix-r3-n2-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "9ba66bd57fb95359ddbde4ab6be0ec7e04acc567cabb589ad44a6ab91d86427c"
+    },
+    "runs/matrix-r3-n2-idle/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "e3e171aa134c3b686dd9eba519cc67c4a2fe448a534a4367332e78fd63bb5d32"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/load-placement.json": {
+      "bytes": 19239,
+      "sha256": "b74eab3919f241af25b4fa6f89a791df17faf459886ade046e1fe16f00b4bd37"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "39b5fe26afa3642dc00998fbb894d629862de07722bd0266feda47ef1e8fad05"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/load.txt": {
+      "bytes": 1342,
+      "sha256": "271dd884f0021e47f8ca4e014edb56b66523c22e2f8e84c235eb29595ff897df"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/pmu.csv": {
+      "bytes": 1776,
+      "sha256": "0d1e87747a6bdbd4180bfe1f4974f16861756363d267c5f556b7f3d3b105dc22"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/probe-snapshots.json": {
+      "bytes": 93976,
+      "sha256": "70932614bd8063925274a31937a1f3cd592d24dca5d77d6f171d6fb0d68da54f"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/probe.txt": {
+      "bytes": 245801,
+      "sha256": "a61b27691913aca240eac299b2c824d9d657970c92e656d8cd547310256edee3"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/run.json": {
+      "bytes": 2856,
+      "sha256": "f92cb2784609495367d161292a776088aa0cf7c5da3c61afd7aa5348188cc724"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/software.csv": {
+      "bytes": 300,
+      "sha256": "e04e08e93f2fc9c3690dcda3923097c5780187ae136a4baafa7461f2898f6741"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "2303cfb8ed3946c64463d88ac7af8f8a22a47bcb30f527a2786c59fe791af4d0"
+    },
+    "runs/matrix-r3-n2-other_dram_read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "a8766c5c69ef5900ef20deb681efc28569972e69d0d583a9820586d6a0838f3a"
+    },
+    "runs/matrix-r3-n2-read4/load-placement.json": {
+      "bytes": 19274,
+      "sha256": "22c5a1aa126de06aff2dd71f50835442a64403fe3e0f2e7c01c450bf2b13bc58"
+    },
+    "runs/matrix-r3-n2-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/matrix-r3-n2-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "6dcf85fbe3ec64b57b98e15f09a86a745c4962be339c97d68d025aec2b8de927"
+    },
+    "runs/matrix-r3-n2-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n2-read4/pmu.csv": {
+      "bytes": 3321,
+      "sha256": "36f332b9d31def2ae17992297f61fd41b621dac3381c82b5014f662689a8a7ff"
+    },
+    "runs/matrix-r3-n2-read4/probe-snapshots.json": {
+      "bytes": 205538,
+      "sha256": "72bcabf5f50ad2da2bc942fde7a7daec08907b3f32af6fbdf3037a564b06d590"
+    },
+    "runs/matrix-r3-n2-read4/probe.txt": {
+      "bytes": 246883,
+      "sha256": "e6c73de56528a45af1bcf3bf2488daaf43bc053e9eb1c563bd35b14db7135e17"
+    },
+    "runs/matrix-r3-n2-read4/run.json": {
+      "bytes": 2795,
+      "sha256": "91e05dca00ed37c7c3b5bfa75c0f8caed220cd32ec3352fe19624fe745c0127b"
+    },
+    "runs/matrix-r3-n2-read4/software.csv": {
+      "bytes": 306,
+      "sha256": "f4bf117935cbf9e8b23e83800791e3dcfe02e11ff5bc5f57ddcc164ebbe7eb2f"
+    },
+    "runs/matrix-r3-n2-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "e2cc75aa0ad5c1797fbceaa9abbdf035edeb1fcc423081499abe284586fb318a"
+    },
+    "runs/matrix-r3-n2-read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "0e7ebd30b6729cecefbc471292d24b971de12c0fd1d86559eb080c0f34b5bbd3"
+    },
+    "runs/matrix-r3-n2-write4/load-placement.json": {
+      "bytes": 19272,
+      "sha256": "902407c46baedd9de83cb64ac9c46d049ab396d37a33b2e18a5065b7784d589f"
+    },
+    "runs/matrix-r3-n2-write4/load.cfg": {
+      "bytes": 23,
+      "sha256": "ea8581c7ae5e8a5b2e18710a3db45b463b3ca06b187245ccb4ba748248bda846"
+    },
+    "runs/matrix-r3-n2-write4/load.txt": {
+      "bytes": 1322,
+      "sha256": "5a0c6fa27b8d59f5682e20b5ec0c540dc9061686c3ecc027252aa00ac0d1bf82"
+    },
+    "runs/matrix-r3-n2-write4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n2-write4/pmu.csv": {
+      "bytes": 3090,
+      "sha256": "b718da643e546411c2d6af5a500618820ec56212063e558377f4c48798d76c4f"
+    },
+    "runs/matrix-r3-n2-write4/probe-snapshots.json": {
+      "bytes": 179822,
+      "sha256": "fc928ba6bf982ce5feafc53770d9d653873e28cdf0ef97f18911725ca33e1aa8"
+    },
+    "runs/matrix-r3-n2-write4/probe.txt": {
+      "bytes": 247418,
+      "sha256": "602d8390161e61c31b5b0fa8889e5231cc945350ad419b096d45cfe79b0046df"
+    },
+    "runs/matrix-r3-n2-write4/run.json": {
+      "bytes": 2802,
+      "sha256": "7baf91962292bbff46e44fef2bde7e61d9d83c27435b14644d8f72a7ee5b5170"
+    },
+    "runs/matrix-r3-n2-write4/software.csv": {
+      "bytes": 306,
+      "sha256": "2a9c111f6d1940e29b42618458c52ee8434dc2b5582b9199e037e2d9626af091"
+    },
+    "runs/matrix-r3-n2-write4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "0c9970f3f24f68aee15f88891df956454c19a65c65bf638a3245e86e5c6c2a31"
+    },
+    "runs/matrix-r3-n2-write4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "60e92718cb2802e7521a891b5712d403c2220c7330519710309189a1598e57a6"
+    },
+    "runs/matrix-r3-n3-idle/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n3-idle/pmu.csv": {
+      "bytes": 2789,
+      "sha256": "13c51b9433861f28b1d10cfb694b1cfdc73beff4e87b8ec5c857589ff1ee0cc5"
+    },
+    "runs/matrix-r3-n3-idle/probe-snapshots.json": {
+      "bytes": 161830,
+      "sha256": "e35fbe284a670ee00cd78197602bbe2b8ad76cec8d9967d92b5a402b9a75dbe8"
+    },
+    "runs/matrix-r3-n3-idle/probe.txt": {
+      "bytes": 245875,
+      "sha256": "950e698ac1a84f6c752a7c470f60e799f258b6d83e67015505acdc00a9cafe5c"
+    },
+    "runs/matrix-r3-n3-idle/run.json": {
+      "bytes": 2300,
+      "sha256": "95f674df36b0e6af249c2737829b30e76ee4a5846cbb09d986db1ef6e4551bcc"
+    },
+    "runs/matrix-r3-n3-idle/software.csv": {
+      "bytes": 306,
+      "sha256": "1a998f19652a00ed8356cf4d4fffd80e2159a7753b573b95d211b7ed980d3dc4"
+    },
+    "runs/matrix-r3-n3-idle/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "3fa544c7f0cb3b0b4275a1a42572104c05d31f31c9cdd5d3887d8b0eb452e4cd"
+    },
+    "runs/matrix-r3-n3-idle/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "3655ed76bea2e738f3b92aa4f541b50ae44fe3ca51b93eb24da26c2768b73136"
+    },
+    "runs/matrix-r3-n3-read4/load-placement.json": {
+      "bytes": 17130,
+      "sha256": "b0f06a0dec8dc3ea99db7abd0d1ba667da4f95259dce8b878b67cf5bc7a06343"
+    },
+    "runs/matrix-r3-n3-read4/load.cfg": {
+      "bytes": 22,
+      "sha256": "a6feb293df5b2574efe7cf0837217963e29e67ce85b2a5d05f738fcc4864bf2a"
+    },
+    "runs/matrix-r3-n3-read4/load.txt": {
+      "bytes": 1320,
+      "sha256": "00dffe38f5efd08fab88a60135f7dd72f2bdc09376ce94f1260119035404465a"
+    },
+    "runs/matrix-r3-n3-read4/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/matrix-r3-n3-read4/pmu.csv": {
+      "bytes": 2548,
+      "sha256": "a2dac6a28ba373f923601bddd5d09d04777b1d06879c0d381d1be80fcf4b61b2"
+    },
+    "runs/matrix-r3-n3-read4/probe-snapshots.json": {
+      "bytes": 145516,
+      "sha256": "23aa23e51d2708dece9ed2bef5d295e0d7a9e0a441618fba061682aeded7ddf6"
+    },
+    "runs/matrix-r3-n3-read4/probe.txt": {
+      "bytes": 246421,
+      "sha256": "17493203c01fcd974e644c9c985a7b7c38e0adb8c2ac659436a547d0cc3369a2"
+    },
+    "runs/matrix-r3-n3-read4/run.json": {
+      "bytes": 2800,
+      "sha256": "3f6d9bfb6f420104944b6743b34d2d1b1714c1426d40061b0a2092a03e6c1615"
+    },
+    "runs/matrix-r3-n3-read4/software.csv": {
+      "bytes": 300,
+      "sha256": "28fbdbefb5fcbaa46507fbf52680b73341b350b35f9a65bbba1e86727f21b383"
+    },
+    "runs/matrix-r3-n3-read4/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "d977c7295a8c4a60fe375b5de4b25ecb02f219d3cc96cb7e0414523c41b7f8a9"
+    },
+    "runs/matrix-r3-n3-read4/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "ee68270ff34d0039d3ac4998d583ca40783134a7cf2982eeac1dac2a9deea8c8"
+    },
+    "runs/pebs-r1-idle-0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r1-idle-0/pmu.csv": {
+      "bytes": 1544,
+      "sha256": "2ef29620abe878b45e2f3f342be24083358a82ce8636315ff69ce3d49d0f61f7"
+    },
+    "runs/pebs-r1-idle-0/probe-snapshots.json": {
+      "bytes": 82471,
+      "sha256": "ef02057b24dfced1d6582b210c4ef0c78ac01637aae290d8c158cb0529b5c4b9"
+    },
+    "runs/pebs-r1-idle-0/probe.txt": {
+      "bytes": 139,
+      "sha256": "e51fd14cfe58478a487b3e4f38f4e0201730dce39ec130647a60b39f9c5c6977"
+    },
+    "runs/pebs-r1-idle-0/run.json": {
+      "bytes": 1214,
+      "sha256": "62f749bcfd44c02b996a7fe24c7ed4de5d912fdcc47d45dce9411ab36330a2b5"
+    },
+    "runs/pebs-r1-idle-0/vmstat-after.txt": {
+      "bytes": 3648,
+      "sha256": "19359c4951337e9f95185da5d479c612d329617c82b1c3d32bd0ad0ea09f3feb"
+    },
+    "runs/pebs-r1-idle-0/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "6eaac20b595a3b83d71ed102b152c55ee5c075d8156a213543f2ae55e0bed931"
+    },
+    "runs/pebs-r1-idle-1/decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r1-idle-1/events.txt": {
+      "bytes": 451,
+      "sha256": "91cb4c64464147d350a7469d719d5c26149f65873cef1f4b2f3cc6b3244667b3"
+    },
+    "runs/pebs-r1-idle-1/mem-report.txt": {
+      "bytes": 1323,
+      "sha256": "09ed52217b352a962f66caff3cc775d08cbdc1aec6861a7d105acd1c37a3cc03"
+    },
+    "runs/pebs-r1-idle-1/perf.data": {
+      "bytes": 133600,
+      "sha256": "3106eac6151386e051474ccf2097dd132d37d032d336bdc2bfce7866fc844072"
+    },
+    "runs/pebs-r1-idle-1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r1-idle-1/pmu.csv": {
+      "bytes": 1791,
+      "sha256": "8f9087ca3815984ff7a38e963f0c2f4fd3742363f2cec22437a9e3188c04403b"
+    },
+    "runs/pebs-r1-idle-1/probe-snapshots.json": {
+      "bytes": 76521,
+      "sha256": "2d111f802bc422334a75b74b2a3b991d46eba74a5f238cfe2968e471ff315e38"
+    },
+    "runs/pebs-r1-idle-1/probe.txt": {
+      "bytes": 325,
+      "sha256": "61b36e57df1eb61e487317953774790a619ddced6ade2e4fcf8a64227395f250"
+    },
+    "runs/pebs-r1-idle-1/run.json": {
+      "bytes": 1449,
+      "sha256": "da8e07e88ff5be5bb2af3651c7062bfe1c593b1f1536d7eb1e4c904b49655fdb"
+    },
+    "runs/pebs-r1-idle-1/samples.txt": {
+      "bytes": 207517,
+      "sha256": "0b71b6b51c4062d5f1aaceb4df6af41a29d6eb509260090c3e6d0980d641cdc1"
+    },
+    "runs/pebs-r1-idle-1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "f9b738619892592d9ce36a00029656e8263782f002a36c2567fc0aa404217049"
+    },
+    "runs/pebs-r1-idle-1/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "ad24881fe89a6b883e5b15f9655e8c1798a527939a4f7b51941b66e3158be65f"
+    },
+    "runs/pebs-r1-read4-0/load-placement.json": {
+      "bytes": 19182,
+      "sha256": "bbdcb7ef6d79c42b526a09b8254af0f6e336aaaccaa5a745b7435f677e07fdc1"
+    },
+    "runs/pebs-r1-read4-0/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/pebs-r1-read4-0/load.txt": {
+      "bytes": 1314,
+      "sha256": "c6d0a2454aaf2409e05b8cdc49fffd4f1d8f3e800670b376e15975a983557741"
+    },
+    "runs/pebs-r1-read4-0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r1-read4-0/pmu.csv": {
+      "bytes": 1546,
+      "sha256": "51cd39503ac06672f9f1bbb99e059d47906ab00266a2ff8ab655c05bb9b8b995"
+    },
+    "runs/pebs-r1-read4-0/probe-snapshots.json": {
+      "bytes": 76433,
+      "sha256": "12ac74f212dd2be06b2c5ad8dca08ed8d77f2153671a7b430abe175e4e9e431a"
+    },
+    "runs/pebs-r1-read4-0/probe.txt": {
+      "bytes": 141,
+      "sha256": "885f3c0e0b07dc28aedceb58601ebd2906eb734901705242a832de4a02889608"
+    },
+    "runs/pebs-r1-read4-0/run.json": {
+      "bytes": 1708,
+      "sha256": "141f0499ffa451164b8ae1b68fae4663c68a2066a10b76482c141e497a2a15a2"
+    },
+    "runs/pebs-r1-read4-0/vmstat-after.txt": {
+      "bytes": 3652,
+      "sha256": "bdcc1f5e47d382e9cbddcd773255ec76c34ffa79f298fdb009187eb37d03b0a5"
+    },
+    "runs/pebs-r1-read4-0/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "b8a1dece98a0ab2b497750d95fb4f20f7b30f554cbf93409725504b5bebceaed"
+    },
+    "runs/pebs-r1-read4-1/decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r1-read4-1/events.txt": {
+      "bytes": 451,
+      "sha256": "91cb4c64464147d350a7469d719d5c26149f65873cef1f4b2f3cc6b3244667b3"
+    },
+    "runs/pebs-r1-read4-1/load-placement.json": {
+      "bytes": 19183,
+      "sha256": "d8b69f07b839c4368aaad9a96984f4355ec7c98ee05dbb035e9d67632eb0af99"
+    },
+    "runs/pebs-r1-read4-1/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/pebs-r1-read4-1/load.txt": {
+      "bytes": 1314,
+      "sha256": "454f818d61a3681befce9d321221633edef3f733af5487a96970a55a61911010"
+    },
+    "runs/pebs-r1-read4-1/mem-report.txt": {
+      "bytes": 1117,
+      "sha256": "ae66486106c8786682404659d2084b180fccdce60eac3b6a770e551ad0339b5e"
+    },
+    "runs/pebs-r1-read4-1/perf.data": {
+      "bytes": 80864,
+      "sha256": "04e456e36cd6824e44c0974b5a7f96dd2aa87f548cc4c98b7777432e740ba62a"
+    },
+    "runs/pebs-r1-read4-1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r1-read4-1/pmu.csv": {
+      "bytes": 1799,
+      "sha256": "ccb516209b9679dd33757a89a69ea062ad2e74aae50dd753add686c22267ea69"
+    },
+    "runs/pebs-r1-read4-1/probe-snapshots.json": {
+      "bytes": 76639,
+      "sha256": "352f632aca5ffcb30ee732fe75329ea5e7d1647d4ef1d5f2996d42716f0b1930"
+    },
+    "runs/pebs-r1-read4-1/probe.txt": {
+      "bytes": 325,
+      "sha256": "36230b3470b287800fb837b8ef24340564ebad3d3c20671c7f8600bf6e90d4d8"
+    },
+    "runs/pebs-r1-read4-1/run.json": {
+      "bytes": 1942,
+      "sha256": "59650202a83e0aaeae2be290e32e12ef0b4dafc7cf438b84cab5667afe992a6c"
+    },
+    "runs/pebs-r1-read4-1/samples.txt": {
+      "bytes": 66467,
+      "sha256": "2fa624a1acaf3cca0e0c7b95e8f707614cbfeb4ac4fcca09dad469e3a3674df4"
+    },
+    "runs/pebs-r1-read4-1/vmstat-after.txt": {
+      "bytes": 3648,
+      "sha256": "7949e3103ba69e074563758bcd8c4a92f9243e89d48f98adb6d81f1025466510"
+    },
+    "runs/pebs-r1-read4-1/vmstat-before.txt": {
+      "bytes": 3653,
+      "sha256": "2bfa26fc343a6523d9efe6c454f915163e3c519bf0dad9cbf1c076118f27a113"
+    },
+    "runs/pebs-r2-idle-0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r2-idle-0/pmu.csv": {
+      "bytes": 1542,
+      "sha256": "9ecb96d852192609015d43bd92cadbf0ae4ac419b2b67fa11116586328b4eedb"
+    },
+    "runs/pebs-r2-idle-0/probe-snapshots.json": {
+      "bytes": 76313,
+      "sha256": "150b16eaf4e477229dfcdc1f4c23cc4964059393921035fd26751c525ec6b4fc"
+    },
+    "runs/pebs-r2-idle-0/probe.txt": {
+      "bytes": 141,
+      "sha256": "0bcff86a02952dba6d42b8ad758bd30411bec9fcaa9440c4a41b0ded910faafe"
+    },
+    "runs/pebs-r2-idle-0/run.json": {
+      "bytes": 1214,
+      "sha256": "1bb365c91cf9c969eeafa94a46b77b7dc897d698f2251be5f76354e5100640f1"
+    },
+    "runs/pebs-r2-idle-0/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "b366de71d892108cd51dc7550240565e3eb05838c502677f50945a9f7159eef1"
+    },
+    "runs/pebs-r2-idle-0/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "dcef12518b8d3072db90873bdabf7fbf526890764fd1356ff6f8b80152887880"
+    },
+    "runs/pebs-r2-idle-1/decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r2-idle-1/events.txt": {
+      "bytes": 451,
+      "sha256": "91cb4c64464147d350a7469d719d5c26149f65873cef1f4b2f3cc6b3244667b3"
+    },
+    "runs/pebs-r2-idle-1/mem-report.txt": {
+      "bytes": 1219,
+      "sha256": "886a2dc45965efd99169aee964e0968a1456473818fd5f57c072734e0187d128"
+    },
+    "runs/pebs-r2-idle-1/perf.data": {
+      "bytes": 132100,
+      "sha256": "b7b931496d808a4915b66c546302c6d6b4a82b590f444b388fc09875b925e428"
+    },
+    "runs/pebs-r2-idle-1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r2-idle-1/pmu.csv": {
+      "bytes": 1789,
+      "sha256": "2f3c090c339794e0c0c27bf2dc89015074076456c1e263e101bba1cd62693b7d"
+    },
+    "runs/pebs-r2-idle-1/probe-snapshots.json": {
+      "bytes": 76621,
+      "sha256": "05a2f6d6deafb26685eccf1d09dd3208d438d88a969617c19f024cfa1f7028b2"
+    },
+    "runs/pebs-r2-idle-1/probe.txt": {
+      "bytes": 325,
+      "sha256": "203c04cfdd7f32d7b4dda40532f5be24002c16604e79b00133685e896db6fb0b"
+    },
+    "runs/pebs-r2-idle-1/run.json": {
+      "bytes": 1447,
+      "sha256": "b15e6d81abeb63d16621bf7567ca266c8091d09540e7dc0de64ad73fc4ba847b"
+    },
+    "runs/pebs-r2-idle-1/samples.txt": {
+      "bytes": 203216,
+      "sha256": "2780b8e270b86a5369be9f756756c30f89dc86206d0bf653bfcc3b68de9590a2"
+    },
+    "runs/pebs-r2-idle-1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "9035a18d04c42291f188ca259cfbb5db052e18230cba21182bf9443e96acf418"
+    },
+    "runs/pebs-r2-idle-1/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "eaf812f5cacb2d7303d67976c08c337c7ced657dabcb68e9e9f5c1bf391b0b49"
+    },
+    "runs/pebs-r2-read4-0/load-placement.json": {
+      "bytes": 19200,
+      "sha256": "d8ce9ea38cfe86c7e43cff42ad4d36ec0648d6f8b1cedba6d836c2b6fdc6ef2c"
+    },
+    "runs/pebs-r2-read4-0/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/pebs-r2-read4-0/load.txt": {
+      "bytes": 1314,
+      "sha256": "1cd3a2af0ffb65e3d39577a21e9664a4c29ca7ab68632ae0e42006e309543977"
+    },
+    "runs/pebs-r2-read4-0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r2-read4-0/pmu.csv": {
+      "bytes": 1544,
+      "sha256": "834364a16f1fe157d00ea51ba65f2a0d982cb361989f36e891ad95655f6e3d78"
+    },
+    "runs/pebs-r2-read4-0/probe-snapshots.json": {
+      "bytes": 76633,
+      "sha256": "34d55562c5110f743a2706ed65dd39f00ea5f45eb014e7b75fa6886a1908281e"
+    },
+    "runs/pebs-r2-read4-0/probe.txt": {
+      "bytes": 141,
+      "sha256": "394563f81c6878efa6e5155600575c90d90b0f5a32c7fd38bdf114a038c1b09a"
+    },
+    "runs/pebs-r2-read4-0/run.json": {
+      "bytes": 1703,
+      "sha256": "0e7fd2ba186a6b6bdc6881a05103c1c3af119295bbd8c2238177a3d6a81b89b9"
+    },
+    "runs/pebs-r2-read4-0/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "971fdb13f003d48c5747c61b624dc0efb1a58d74dd6527798c361c56b720ce27"
+    },
+    "runs/pebs-r2-read4-0/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "f6e30b9be987631941e72db9e2d54a8005665bf152d657afe554f1ee69990450"
+    },
+    "runs/pebs-r2-read4-1/decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r2-read4-1/events.txt": {
+      "bytes": 451,
+      "sha256": "91cb4c64464147d350a7469d719d5c26149f65873cef1f4b2f3cc6b3244667b3"
+    },
+    "runs/pebs-r2-read4-1/load-placement.json": {
+      "bytes": 19182,
+      "sha256": "b8a4455ba2cacecfcf57aadcce2c0dbb7086973270b240b731e64d5b8e722951"
+    },
+    "runs/pebs-r2-read4-1/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/pebs-r2-read4-1/load.txt": {
+      "bytes": 1314,
+      "sha256": "fbb4c6e6e4e122711d771bf8cda4576c6e3ed4cfff640a26a38fcf1927fc2c6e"
+    },
+    "runs/pebs-r2-read4-1/mem-report.txt": {
+      "bytes": 1221,
+      "sha256": "0f7778388277c31415d5bcdc4a105227919b50618f663c5b4202e4237ee8c4a3"
+    },
+    "runs/pebs-r2-read4-1/perf.data": {
+      "bytes": 80800,
+      "sha256": "1973d164ea5eac0ba45777d3f9b803c18ac386b8db6fbc0f5208ff679a9f1af6"
+    },
+    "runs/pebs-r2-read4-1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r2-read4-1/pmu.csv": {
+      "bytes": 1800,
+      "sha256": "645b1f0451544803c2fde63c86aad7b66d871591de8d4d56ddd4d4f15685ebd5"
+    },
+    "runs/pebs-r2-read4-1/probe-snapshots.json": {
+      "bytes": 76627,
+      "sha256": "5e5a4ef8703c79b0dc7fb7344fd4ff0eaf350494cd4b0858ef7c0a8c13bf0c65"
+    },
+    "runs/pebs-r2-read4-1/probe.txt": {
+      "bytes": 325,
+      "sha256": "01df50bcf0ae6c5712b5ad242eac811ab6e3277ad0a06d514cf86d11e8af9fab"
+    },
+    "runs/pebs-r2-read4-1/run.json": {
+      "bytes": 1942,
+      "sha256": "3237dfd60e3cf6f049ca653e2b6209bb8ae4977fe5b3b0d020c94fe0a9d46a07"
+    },
+    "runs/pebs-r2-read4-1/samples.txt": {
+      "bytes": 66429,
+      "sha256": "379247d160e2b049c858b52b5894b00846b11414febf3f05534ca613e854598c"
+    },
+    "runs/pebs-r2-read4-1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "5197bc310668bed956412cb25c890e4a632433df972bcd9ba7ed08d51db359a3"
+    },
+    "runs/pebs-r2-read4-1/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "010c7c6a3fcf7991addbebbed8066d914f96f745e5ef1d807b83f646164a8531"
+    },
+    "runs/pebs-r3-idle-0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r3-idle-0/pmu.csv": {
+      "bytes": 1542,
+      "sha256": "2323c0bca5a4d9b93d0cab2faafbf016756bfb60488185cec1c20bb1918d17d3"
+    },
+    "runs/pebs-r3-idle-0/probe-snapshots.json": {
+      "bytes": 76605,
+      "sha256": "ef96987f66167252b93bbf53b33edf2ecaf33c59addc18eb92adfad7093c95c9"
+    },
+    "runs/pebs-r3-idle-0/probe.txt": {
+      "bytes": 142,
+      "sha256": "66a5890145853bf862218f8b76031ee1c660b1ef202ea386774cd8d5c3584be6"
+    },
+    "runs/pebs-r3-idle-0/run.json": {
+      "bytes": 1216,
+      "sha256": "abd9dceef79a91da67c9c94cb9d882f309baf4db694397a102ce3897c57e5d66"
+    },
+    "runs/pebs-r3-idle-0/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "4ef9ef89fc3ed171e3705ec8bb45867ced015db341fd300f2fdac38d12a4097c"
+    },
+    "runs/pebs-r3-idle-0/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "1ce7670c2675bfbcea56c90586dd76669284a84b5b62da73a038ff10d3043278"
+    },
+    "runs/pebs-r3-idle-1/decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r3-idle-1/events.txt": {
+      "bytes": 451,
+      "sha256": "91cb4c64464147d350a7469d719d5c26149f65873cef1f4b2f3cc6b3244667b3"
+    },
+    "runs/pebs-r3-idle-1/mem-report.txt": {
+      "bytes": 1219,
+      "sha256": "20a02574a7e2d85de6a9044e63b4f32ee086ce7171313b6170fc7e36c1389ec8"
+    },
+    "runs/pebs-r3-idle-1/perf.data": {
+      "bytes": 132384,
+      "sha256": "d2c7680598d447e2f4fd639ae3d1948d2741604ef78247810a55236a34f45d81"
+    },
+    "runs/pebs-r3-idle-1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r3-idle-1/pmu.csv": {
+      "bytes": 1791,
+      "sha256": "e75d5df46004c72ecb6d724d27bd90826a7efb6baa02402d4af7bb015662364c"
+    },
+    "runs/pebs-r3-idle-1/probe-snapshots.json": {
+      "bytes": 76861,
+      "sha256": "04677debfca37bba6fafb10bd06101e7a36bd51bcd616e092ee1e94adbcfc9df"
+    },
+    "runs/pebs-r3-idle-1/probe.txt": {
+      "bytes": 325,
+      "sha256": "627108ec362afa1ee22fc7872bce360c0e2c17a7ad58570bf952e527ca795058"
+    },
+    "runs/pebs-r3-idle-1/run.json": {
+      "bytes": 1448,
+      "sha256": "fb1325c7e116231d68a37cbebd8ee19c5ca44fc15a3d02181651654f3726ce2f"
+    },
+    "runs/pebs-r3-idle-1/samples.txt": {
+      "bytes": 204227,
+      "sha256": "6b8218c3063ce8849219e3f025d66e037abfa829ba3acf6a6d97ad5ac8d0eb13"
+    },
+    "runs/pebs-r3-idle-1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "af7e6ca4f1b38db4f17bf8feccd493a9064e29f696714cd79c0bddcb6a26bb88"
+    },
+    "runs/pebs-r3-idle-1/vmstat-before.txt": {
+      "bytes": 3650,
+      "sha256": "4e95b0882dbdffffd75259b78a42463e1f78f1a18d9d7fc632f4a2aac86928da"
+    },
+    "runs/pebs-r3-read4-0/load-placement.json": {
+      "bytes": 19289,
+      "sha256": "e5906c45cb649421a4ff2df6907b698c1aa1037a6a8facaa7a2a1cd57f340e01"
+    },
+    "runs/pebs-r3-read4-0/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/pebs-r3-read4-0/load.txt": {
+      "bytes": 1314,
+      "sha256": "0163c9a8105c88942441180b74a4098343d2c5cbfc00828eeaa764f09786a392"
+    },
+    "runs/pebs-r3-read4-0/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r3-read4-0/pmu.csv": {
+      "bytes": 1548,
+      "sha256": "542e6e467bff601b9b9b7cc534e15e2fee5fb09245f9ee353ab74a4d10797793"
+    },
+    "runs/pebs-r3-read4-0/probe-snapshots.json": {
+      "bytes": 76613,
+      "sha256": "169b27d2223b2e358e4f227df47253e8b10bc9894528298c4e4ed660f59a9439"
+    },
+    "runs/pebs-r3-read4-0/probe.txt": {
+      "bytes": 141,
+      "sha256": "3ba8985dab10e1f8a67a11b61b1e50620eebe3b11158c20aee9d743e844353c2"
+    },
+    "runs/pebs-r3-read4-0/run.json": {
+      "bytes": 1708,
+      "sha256": "342bb5c5a80caeaf0542041639698d6c3f66cb76ad46f492b1c385e56878b838"
+    },
+    "runs/pebs-r3-read4-0/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "c824858f925f816151a4ddb0c256275e53b69a28f1eb348c4ff02ab33ec37f5f"
+    },
+    "runs/pebs-r3-read4-0/vmstat-before.txt": {
+      "bytes": 3652,
+      "sha256": "c91a2e3575e7f272392cbbcfc7540a7a5af59c145cdee149c6c32d43162dae0e"
+    },
+    "runs/pebs-r3-read4-1/decode-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r3-read4-1/events.txt": {
+      "bytes": 451,
+      "sha256": "91cb4c64464147d350a7469d719d5c26149f65873cef1f4b2f3cc6b3244667b3"
+    },
+    "runs/pebs-r3-read4-1/load-placement.json": {
+      "bytes": 19289,
+      "sha256": "9b2170b35dccf7205ce165b63135604477f82430fa3b126f322fd938e2a7c0ff"
+    },
+    "runs/pebs-r3-read4-1/load.cfg": {
+      "bytes": 22,
+      "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+    },
+    "runs/pebs-r3-read4-1/load.txt": {
+      "bytes": 1314,
+      "sha256": "2b6f963f8a5f2eefa42794e736c9143c708c65494cd911126c0c0151bdc6c339"
+    },
+    "runs/pebs-r3-read4-1/mem-report.txt": {
+      "bytes": 1221,
+      "sha256": "64daae0b9d5479cc348ebd9f14125be688cfa99cb9d1fbc7689771d6de34ff9a"
+    },
+    "runs/pebs-r3-read4-1/perf.data": {
+      "bytes": 80992,
+      "sha256": "8f746e1110e767eb40ba1a2bfdc7e21ed956a60440dab46350abba6dfb699b66"
+    },
+    "runs/pebs-r3-read4-1/pmu-stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pebs-r3-read4-1/pmu.csv": {
+      "bytes": 1799,
+      "sha256": "9961de457cbca3ab218dcd00ee206970f1e3ed1fec024f2748a4a973a625e46a"
+    },
+    "runs/pebs-r3-read4-1/probe-snapshots.json": {
+      "bytes": 76881,
+      "sha256": "07d3643862607b677e1641fd4360aed2b718c917d11f3cfbf6fc0075184bfe13"
+    },
+    "runs/pebs-r3-read4-1/probe.txt": {
+      "bytes": 325,
+      "sha256": "4449dea322f29dbafd69dd4605a3273afd4f2a0898f1d0ee84f20dd025592255"
+    },
+    "runs/pebs-r3-read4-1/run.json": {
+      "bytes": 1936,
+      "sha256": "ab40596ba668e16259036c4d433e33f711bfa9e1dd3b2a906dc34c87e5ed8563"
+    },
+    "runs/pebs-r3-read4-1/samples.txt": {
+      "bytes": 66975,
+      "sha256": "08e8c9a8cbb26d7b540866e39f689d45bdaaec73adb0e1dcb08a70348f00cf33"
+    },
+    "runs/pebs-r3-read4-1/vmstat-after.txt": {
+      "bytes": 3650,
+      "sha256": "f55795e2e736fb665fc3a69c881dcd9b9b4cc13796953ae5a2f7b099d8ffacb4"
+    },
+    "runs/pebs-r3-read4-1/vmstat-before.txt": {
+      "bytes": 3651,
+      "sha256": "10051d2f5ba37c63b0c146b43797c7c1102b81394f1560f96521ba964a45e619"
+    },
+    "summary.csv": {
+      "bytes": 14503,
+      "sha256": "cd3edc4c5ad9eaac405cde53272d44639012ac88a8571c76d404901a3dfdab27"
+    }
+  }
+}

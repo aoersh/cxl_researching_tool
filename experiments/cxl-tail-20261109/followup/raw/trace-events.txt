@@ -1,0 +1,8 @@
+sched:sched_switch
+sched:sched_wakeup
+irq:irq_handler_entry
+irq:irq_handler_exit
+irq:softirq_entry
+irq:softirq_exit
+exceptions:page_fault_user
+migrate:mm_migrate_pages

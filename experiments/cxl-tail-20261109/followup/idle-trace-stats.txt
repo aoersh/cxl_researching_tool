@@ -1,0 +1,30 @@
+
+Aggregated stats:
+           TOTAL events:     210679
+            MMAP events:        139  ( 0.1%)
+            COMM events:       1784  ( 0.8%)
+            EXIT events:        279  ( 0.1%)
+            FORK events:       1997  ( 0.9%)
+          SAMPLE events:     199108  (94.5%)
+           MMAP2 events:       5490  ( 2.6%)
+         KSYMBOL events:         22  ( 0.0%)
+       BPF_EVENT events:         21  ( 0.0%)
+  FINISHED_ROUND events:       1835  ( 0.9%)
+        ID_INDEX events:          1  ( 0.0%)
+      THREAD_MAP events:          1  ( 0.0%)
+         CPU_MAP events:          1  ( 0.0%)
+   FINISHED_INIT events:          1  ( 0.0%)
+sched:sched_switch stats:
+          SAMPLE events:      54846
+sched:sched_wakeup stats:
+          SAMPLE events:      26896
+irq:irq_handler_entry stats:
+          SAMPLE events:        135
+irq:irq_handler_exit stats:
+          SAMPLE events:        135
+irq:softirq_entry stats:
+          SAMPLE events:      16120
+irq:softirq_exit stats:
+          SAMPLE events:      16120
+exceptions:page_fault_user stats:
+          SAMPLE events:      84856

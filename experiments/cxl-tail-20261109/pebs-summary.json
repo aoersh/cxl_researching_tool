@@ -1,0 +1,106 @@
+[
+  {
+    "run": "pebs-r1-idle-1",
+    "condition": "idle",
+    "all_samples": 1214,
+    "chase_samples": 1157,
+    "region0": 1140,
+    "physical_zero": 17,
+    "other_region": 0,
+    "sources": {
+      "L3 hit": 357,
+      "PMEM hit": 797,
+      "L1 hit": 1,
+      "LFB/MAB hit": 2
+    },
+    "weight_p50_cycles": 1266,
+    "weight_p95_cycles": 1343,
+    "lost_samples": 0,
+    "throttle_records": 0
+  },
+  {
+    "run": "pebs-r1-read4-1",
+    "condition": "read4",
+    "all_samples": 390,
+    "chase_samples": 333,
+    "region0": 332,
+    "physical_zero": 1,
+    "other_region": 0,
+    "sources": {
+      "PMEM hit": 333
+    },
+    "weight_p50_cycles": 3405,
+    "weight_p95_cycles": 5662,
+    "lost_samples": 0,
+    "throttle_records": 0
+  },
+  {
+    "run": "pebs-r2-idle-1",
+    "condition": "idle",
+    "all_samples": 1189,
+    "chase_samples": 1133,
+    "region0": 1127,
+    "physical_zero": 6,
+    "other_region": 0,
+    "sources": {
+      "PMEM hit": 787,
+      "L3 hit": 345,
+      "L2 hit": 1
+    },
+    "weight_p50_cycles": 1269,
+    "weight_p95_cycles": 1346,
+    "lost_samples": 0,
+    "throttle_records": 0
+  },
+  {
+    "run": "pebs-r2-read4-1",
+    "condition": "read4",
+    "all_samples": 389,
+    "chase_samples": 332,
+    "region0": 332,
+    "physical_zero": 0,
+    "other_region": 0,
+    "sources": {
+      "PMEM hit": 332
+    },
+    "weight_p50_cycles": 3397,
+    "weight_p95_cycles": 5277,
+    "lost_samples": 0,
+    "throttle_records": 0
+  },
+  {
+    "run": "pebs-r3-idle-1",
+    "condition": "idle",
+    "all_samples": 1195,
+    "chase_samples": 1137,
+    "region0": 1129,
+    "physical_zero": 8,
+    "other_region": 0,
+    "sources": {
+      "PMEM hit": 800,
+      "L3 hit": 336,
+      "L1 hit": 1
+    },
+    "weight_p50_cycles": 1269,
+    "weight_p95_cycles": 1493,
+    "lost_samples": 0,
+    "throttle_records": 0
+  },
+  {
+    "run": "pebs-r3-read4-1",
+    "condition": "read4",
+    "all_samples": 392,
+    "chase_samples": 335,
+    "region0": 332,
+    "physical_zero": 3,
+    "other_region": 0,
+    "sources": {
+      "PMEM hit": 334,
+      "L3 hit": 1
+    },
+    "weight_p50_cycles": 3415,
+    "weight_p95_cycles": 5770,
+    "lost_samples": 0,
+    "throttle_records": 0
+  }
+]

@@ -1,0 +1,8 @@
+Intel(R) Memory Latency Checker - v3.13
+Detected Birch Stream platform, latency optimized mode may need to be turned on to get the best latencies. 
+Command line parameters: --idle_latency -e -r -c0 -j1 -b256m -t3 
+
+Using buffer size of 256.000MiB
+In custom latency loop for BHS and OKS 
+Each iteration took 924.6 base frequency clocks (	402.0	ns)
+

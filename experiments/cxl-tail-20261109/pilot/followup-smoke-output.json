@@ -1,0 +1,89 @@
+{
+  "run": "node2-idle",
+  "node": 2,
+  "condition": "idle",
+  "histogram": true,
+  "pebs": null,
+  "start": {
+    "wall": "2026-11-10T17:11:38.708454+08:00",
+    "monotonic_ns": 1279847530501781
+  },
+  "cpu": 0,
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/pilot/followup-smoke/runs/node2-idle/pmu.csv",
+    "--",
+    "sleep",
+    "90"
+  ],
+  "command": [
+    "perf",
+    "stat",
+    "-x",
+    ";",
+    "-e",
+    "task-clock,minor-faults,major-faults,context-switches,cpu-migrations",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/pilot/followup-smoke/runs/node2-idle/software.csv",
+    "--",
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--idle_latency",
+    "-e",
+    "-r",
+    "-c0",
+    "-j2",
+    "-b256m",
+    "-t3",
+    "-f4",
+    "--lat_hist_max_us=100"
+  ],
+  "probe_start": {
+    "wall": "2026-11-10T17:11:38.709838+08:00",
+    "monotonic_ns": 1279847531881486
+  },
+  "probe_end": {
+    "wall": "2026-11-10T17:11:44.778214+08:00",
+    "monotonic_ns": 1279853600289980
+  },
+  "probe_returncode": 0,
+  "observer_returncode": -2,
+  "result": {
+    "base_mhz": 2300,
+    "mean_ns": 349.0,
+    "samples": 12097152,
+    "overflow_count": 0,
+    "overflow_limit_ns": 100006.95652173914,
+    "p50_low_ns": 389.5652173913044,
+    "p50_high_ns": 396.0869565217392,
+    "p95_low_ns": 500.86956521739137,
+    "p95_high_ns": 507.3913043478261,
+    "p99_low_ns": 556.5217391304349,
+    "p99_high_ns": 563.0434782608696,
+    "p999_low_ns": 660.8695652173914,
+    "p999_high_ns": 667.3913043478261,
+    "p9999_low_ns": 4813.913043478261,
+    "p9999_high_ns": 4820.434782608696,
+    "gt1000_pct_low": 0.038852119903924495,
+    "gt1000_pct_high": 0.038852119903924495,
+    "gt5000_pct_low": 0.008489601519432012,
+    "gt5000_pct_high": 0.008522667153392798,
+    "gt10000_pct_low": 0.0012399612735295052,
+    "gt10000_pct_high": 0.0012399612735295052,
+    "max_bin_low_ns": 84813.91304347827,
+    "max_bin_high_ns": 84820.4347826087
+  },
+  "status": "ok",
+  "end": {
+    "wall": "2026-11-10T17:11:44.800727+08:00",
+    "monotonic_ns": 1279853622771867
+  }
+}

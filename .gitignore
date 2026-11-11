@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+experiments/cxl-tail-20261109/followup/raw/*/scheduler.data
+experiments/cxl-tail-20261109/followup/raw/*/scheduler.txt

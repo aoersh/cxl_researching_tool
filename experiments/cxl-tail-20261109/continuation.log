@@ -1,0 +1,84 @@
+PHASE matrix
+SKIP existing matrix-r1-n1-read4
+SKIP existing matrix-r1-n0-read4
+SKIP existing matrix-r1-n0-idle
+SKIP existing matrix-r1-n2-other_dram_read4
+SKIP existing matrix-r1-n2-write4
+SKIP existing matrix-r1-n3-idle
+SKIP existing matrix-r1-n2-read4
+SKIP existing matrix-r1-n3-read4
+SKIP existing matrix-r1-n1-idle
+SKIP existing matrix-r1-n2-idle
+SKIP existing matrix-r2-n3-idle
+SKIP existing matrix-r2-n2-write4
+SKIP existing matrix-r2-n2-other_dram_read4
+SKIP existing matrix-r2-n0-idle
+SKIP existing matrix-r2-n1-idle
+SKIP existing matrix-r2-n1-read4
+SKIP existing matrix-r2-n0-read4
+[18/30] matrix-r2-n2-read4 2026-11-10T14:59:54.688467+08:00
+{"base_mhz": 2300, "mean_ns": 907.7, "samples": 12097152, "overflow_count": 4, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 939.1304347826087, "p50_high_ns": 945.6521739130435, "p95_low_ns": 1641.7391304347827, "p95_high_ns": 1648.2608695652175, "p99_low_ns": 1913.0434782608697, "p99_high_ns": 1919.5652173913045, "p999_low_ns": 2560.0, "p999_high_ns": 2566.521739130435, "p9999_low_ns": 5906.08695652174, "p9999_high_ns": 5912.608695652174, "gt1000_pct_low": 45.79747365330286, "gt1000_pct_high": 46.31141280195537, "gt5000_pct_low": 0.015821905850236486, "gt5000_pct_high": 0.01588803711815806, "gt10000_pct_low": 0.004323331640372874, "gt10000_pct_high": 0.004323331640372874, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[19/30] matrix-r2-n2-idle 2026-11-10T15:00:27.868094+08:00
+{"base_mhz": 2300, "mean_ns": 335.6, "samples": 12097152, "overflow_count": 0, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 389.5652173913044, "p50_high_ns": 396.0869565217392, "p95_low_ns": 500.86956521739137, "p95_high_ns": 507.3913043478261, "p99_low_ns": 563.4782608695652, "p99_high_ns": 570.0, "p999_low_ns": 674.7826086956522, "p999_high_ns": 681.304347826087, "p9999_low_ns": 4820.869565217392, "p9999_high_ns": 4827.391304347826, "gt1000_pct_low": 0.038017212646414625, "gt1000_pct_high": 0.038017212646414625, "gt5000_pct_low": 0.008522667153392798, "gt5000_pct_high": 0.008563999195843781, "gt10000_pct_low": 0.001686347332000127, "gt10000_pct_high": 0.001686347332000127, "max_bin_low_ns": 90949.56521739131, "max_bin_high_ns": 90956.08695652174}
+[20/30] matrix-r2-n3-read4 2026-11-10T15:00:34.469732+08:00
+{"base_mhz": 2300, "mean_ns": 555.6, "samples": 12097152, "overflow_count": 2, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 556.5217391304349, "p50_high_ns": 563.0434782608696, "p95_low_ns": 876.5217391304349, "p95_high_ns": 883.0434782608696, "p99_low_ns": 1099.1304347826087, "p99_high_ns": 1105.6521739130435, "p999_low_ns": 1968.6956521739132, "p999_high_ns": 1975.217391304348, "p9999_low_ns": 3958.2608695652175, "p9999_high_ns": 3964.7826086956525, "gt1000_pct_low": 1.7567110010686813, "gt1000_pct_high": 1.8515349728597277, "gt5000_pct_low": 0.00466225438847094, "gt5000_pct_high": 0.004670520796961136, "gt10000_pct_low": 0.0025708530404511738, "gt10000_pct_high": 0.0025708530404511738, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[21/30] matrix-r3-n1-idle 2026-11-10T15:01:09.440592+08:00
+{"base_mhz": 2300, "mean_ns": 391.5, "samples": 12097152, "overflow_count": 1, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 445.21739130434787, "p50_high_ns": 451.7391304347826, "p95_low_ns": 528.6956521739131, "p95_high_ns": 535.2173913043479, "p99_low_ns": 633.0434782608696, "p99_high_ns": 639.5652173913044, "p999_low_ns": 660.8695652173914, "p999_high_ns": 667.3913043478261, "p9999_low_ns": 4987.826086956522, "p9999_high_ns": 4994.347826086957, "gt1000_pct_low": 0.04525858648382694, "gt1000_pct_high": 0.04525858648382694, "gt5000_pct_low": 0.00989489096276545, "gt5000_pct_high": 0.009936223005216434, "gt10000_pct_low": 0.0018599419102942577, "gt10000_pct_high": 0.0018599419102942577, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[22/30] matrix-r3-n2-idle 2026-11-10T15:01:17.567303+08:00
+{"base_mhz": 2300, "mean_ns": 341.9, "samples": 12097152, "overflow_count": 4, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 389.5652173913044, "p50_high_ns": 396.0869565217392, "p95_low_ns": 500.86956521739137, "p95_high_ns": 507.3913043478261, "p99_low_ns": 563.4782608695652, "p99_high_ns": 570.0, "p999_low_ns": 674.7826086956522, "p999_high_ns": 681.304347826087, "p9999_low_ns": 4813.913043478261, "p9999_high_ns": 4820.434782608696, "gt1000_pct_low": 0.038364401803002886, "gt1000_pct_high": 0.038364401803002886, "gt5000_pct_low": 0.008588798421314372, "gt5000_pct_high": 0.008597064829804569, "gt10000_pct_low": 0.001826876276333471, "gt10000_pct_high": 0.001826876276333471, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[23/30] matrix-r3-n3-idle 2026-11-10T15:01:24.166301+08:00
+{"base_mhz": 2300, "mean_ns": 624.8, "samples": 12097152, "overflow_count": 7, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 737.3913043478261, "p50_high_ns": 743.9130434782609, "p95_low_ns": 820.8695652173914, "p95_high_ns": 827.3913043478261, "p99_low_ns": 953.0434782608696, "p99_high_ns": 959.5652173913044, "p999_low_ns": 1099.1304347826087, "p999_high_ns": 1105.6521739130435, "p9999_low_ns": 6406.956521739131, "p9999_high_ns": 6413.478260869566, "gt1000_pct_low": 0.6478384333767154, "gt1000_pct_high": 0.702826582653504, "gt5000_pct_low": 0.020583357140589786, "gt5000_pct_high": 0.020666021225491753, "gt10000_pct_low": 0.0031081695923139596, "gt10000_pct_high": 0.0031081695923139596, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[24/30] matrix-r3-n0-idle 2026-11-10T15:01:34.820742+08:00
+{"base_mhz": 2300, "mean_ns": 104.8, "samples": 32097152, "overflow_count": 4, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 97.3913043478261, "p50_high_ns": 103.91304347826087, "p95_low_ns": 187.82608695652175, "p95_high_ns": 194.34782608695653, "p99_low_ns": 292.1739130434783, "p99_high_ns": 298.69565217391306, "p999_low_ns": 299.13043478260875, "p999_high_ns": 305.6521739130435, "p9999_low_ns": 4932.173913043479, "p9999_high_ns": 4938.695652173913, "gt1000_pct_low": 0.021135831615216205, "gt1000_pct_high": 0.021260453263890828, "gt5000_pct_low": 0.00384146232039528, "gt5000_pct_high": 0.003953621804202442, "gt10000_pct_low": 0.0005327575480840169, "gt10000_pct_high": 0.0005358730893008825, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[25/30] matrix-r3-n0-read4 2026-11-10T15:01:40.912793+08:00
+{"base_mhz": 2300, "mean_ns": 170.5, "samples": 22097152, "overflow_count": 8, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 146.08695652173915, "p50_high_ns": 152.60869565217394, "p95_low_ns": 326.95652173913044, "p95_high_ns": 333.47826086956525, "p99_low_ns": 445.21739130434787, "p99_high_ns": 451.7391304347826, "p999_low_ns": 640.0, "p999_high_ns": 646.5217391304349, "p9999_low_ns": 5022.608695652174, "p9999_high_ns": 5029.130434782609, "gt1000_pct_low": 0.03751614687720843, "gt1000_pct_high": 0.03757497798811358, "gt5000_pct_low": 0.012218769187993096, "gt5000_pct_high": 0.012929267988924546, "gt10000_pct_low": 0.0006697695703048067, "gt10000_pct_high": 0.0006697695703048067, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[26/30] matrix-r3-n2-read4 2026-11-10T15:02:14.061274+08:00
+{"base_mhz": 2300, "mean_ns": 909.3, "samples": 12097152, "overflow_count": 4, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 939.1304347826087, "p50_high_ns": 945.6521739130435, "p95_low_ns": 1641.7391304347827, "p95_high_ns": 1648.2608695652175, "p99_low_ns": 1906.0869565217392, "p99_high_ns": 1912.608695652174, "p999_low_ns": 2539.130434782609, "p999_high_ns": 2545.6521739130435, "p9999_low_ns": 5078.260869565218, "p9999_high_ns": 5084.782608695653, "gt1000_pct_low": 45.91614621358812, "gt1000_pct_high": 46.42881233533314, "gt5000_pct_low": 0.01064713413537335, "gt5000_pct_high": 0.010680199769334138, "gt10000_pct_low": 0.003736416637568909, "gt10000_pct_high": 0.003736416637568909, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[27/30] matrix-r3-n3-read4 2026-11-10T15:02:47.235239+08:00
+{"base_mhz": 2300, "mean_ns": 551.8, "samples": 12097152, "overflow_count": 1, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 549.5652173913044, "p50_high_ns": 556.0869565217391, "p95_low_ns": 876.5217391304349, "p95_high_ns": 883.0434782608696, "p99_low_ns": 1106.0869565217392, "p99_high_ns": 1112.608695652174, "p999_low_ns": 1961.7391304347827, "p999_high_ns": 1968.2608695652175, "p9999_low_ns": 3846.956521739131, "p9999_high_ns": 3853.4782608695655, "gt1000_pct_low": 1.762249494757113, "gt1000_pct_high": 1.8559327021765122, "gt5000_pct_low": 0.0033561618470198604, "gt5000_pct_high": 0.003364428255510057, "gt10000_pct_low": 0.0018847411357648478, "gt10000_pct_high": 0.0018847411357648478, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[28/30] matrix-r3-n2-other_dram_read4 2026-11-10T15:03:22.196062+08:00
+{"base_mhz": 2300, "mean_ns": 357.4, "samples": 12097152, "overflow_count": 4, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 389.5652173913044, "p50_high_ns": 396.0869565217392, "p95_low_ns": 493.91304347826093, "p95_high_ns": 500.4347826086957, "p99_low_ns": 549.5652173913044, "p99_high_ns": 556.0869565217391, "p999_low_ns": 681.7391304347826, "p999_high_ns": 688.2608695652175, "p9999_low_ns": 4055.652173913044, "p9999_high_ns": 4062.1739130434785, "gt1000_pct_low": 0.040348339840650095, "gt1000_pct_high": 0.04038140547461088, "gt5000_pct_low": 0.004505192627157202, "gt5000_pct_high": 0.004505192627157202, "gt10000_pct_low": 0.0017772778253922906, "gt10000_pct_high": 0.0017772778253922906, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[29/30] matrix-r3-n2-write4 2026-11-10T15:03:55.298135+08:00
+{"base_mhz": 2300, "mean_ns": 707.7, "samples": 12097152, "overflow_count": 57, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 556.5217391304349, "p50_high_ns": 563.0434782608696, "p95_low_ns": 2052.1739130434785, "p95_high_ns": 2058.695652173913, "p99_low_ns": 2942.608695652174, "p99_high_ns": 2949.130434782609, "p999_low_ns": 3972.1739130434785, "p999_high_ns": 3978.6956521739135, "p9999_low_ns": 6991.304347826088, "p9999_high_ns": 6997.826086956522, "gt1000_pct_low": 20.239929199864562, "gt1000_pct_high": 20.365595141732534, "gt5000_pct_low": 0.023269939899903714, "gt5000_pct_high": 0.023369136801786074, "gt10000_pct_low": 0.00488544741770625, "gt10000_pct_high": 0.004893713826196447, "max_bin_low_ns": 100006.95652173914, "max_bin_high_ns": null}
+[30/30] matrix-r3-n1-read4 2026-11-10T15:04:28.455061+08:00
+{"base_mhz": 2300, "mean_ns": 271.7, "samples": 22097152, "overflow_count": 0, "overflow_limit_ns": 100006.95652173914, "p50_low_ns": 285.21739130434787, "p50_high_ns": 291.7391304347826, "p95_low_ns": 410.4347826086957, "p95_high_ns": 416.9565217391305, "p99_low_ns": 493.91304347826093, "p99_high_ns": 500.4347826086957, "p999_low_ns": 605.2173913043479, "p999_high_ns": 611.7391304347826, "p9999_low_ns": 3074.7826086956525, "p9999_high_ns": 3081.304347826087, "gt1000_pct_low": 0.032434043989017225, "gt1000_pct_high": 0.03245667133936536, "gt5000_pct_low": 0.0020998181123069617, "gt5000_pct_high": 0.0021043435823765886, "gt10000_pct_low": 0.0011539948677549035, "gt10000_pct_high": 0.0011539948677549035, "max_bin_low_ns": 85064.34782608696, "max_bin_high_ns": 85070.86956521739}
+PHASE control
+[1/12] control-r1-n1 2026-11-10T15:05:03.507671+08:00
+{"mean_ns": 393.5}
+[2/12] control-r1-n2 2026-11-10T15:05:11.113094+08:00
+{"mean_ns": 349.3}
+[3/12] control-r1-n3 2026-11-10T15:05:17.697162+08:00
+{"mean_ns": 661.4}
+[4/12] control-r1-n0 2026-11-10T15:05:28.849118+08:00
+{"mean_ns": 97.1}
+[5/12] control-r2-n0 2026-11-10T15:05:34.932603+08:00
+{"mean_ns": 92.9}
+[6/12] control-r2-n1 2026-11-10T15:05:41.013760+08:00
+{"mean_ns": 402.0}
+[7/12] control-r2-n2 2026-11-10T15:05:48.622400+08:00
+{"mean_ns": 347.0}
+[8/12] control-r2-n3 2026-11-10T15:05:54.700510+08:00
+{"mean_ns": 666.0}
+[9/12] control-r3-n1 2026-11-10T15:06:05.852396+08:00
+{"mean_ns": 394.8}
+[10/12] control-r3-n0 2026-11-10T15:06:13.462046+08:00
+{"mean_ns": 97.5}
+[11/12] control-r3-n3 2026-11-10T15:06:19.545887+08:00
+{"mean_ns": 667.3}
+[12/12] control-r3-n2 2026-11-10T15:06:30.701748+08:00
+{"mean_ns": 346.1}
+PHASE pebs
+[1/12] pebs-r1-idle-0 2026-11-10T15:06:36.879394+08:00
+Traceback (most recent call last):
+  File "/home/hjy/tools/experiments/cxl-tail-20261109/run_experiment.py", line 358, in <module>
+    main()
+  File "/home/hjy/tools/experiments/cxl-tail-20261109/run_experiment.py", line 350, in main
+    result = execute_run(*job)
+  File "/home/hjy/tools/experiments/cxl-tail-20261109/run_experiment.py", line 250, in execute_run
+    raise RuntimeError(f'Probe exited {probe.returncode}')
+RuntimeError: Probe exited 1
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-u', 'experiments/cxl-tail-20261109/run_experiment.py', 'pebs']' returned non-zero exit status 1.

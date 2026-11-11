@@ -1,0 +1,72 @@
+{
+  "run": "matrix-r2-n2-read4",
+  "node": 2,
+  "condition": "read4",
+  "histogram": true,
+  "pebs": null,
+  "start": {
+    "wall": "2026-11-09T22:01:01.904278+08:00",
+    "monotonic_ns": 1210810726324624
+  },
+  "cpu": 0,
+  "load_command": [
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--loaded_latency",
+    "-T",
+    "-e",
+    "-o/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r2-n2-read4/load.cfg",
+    "-d0",
+    "-t12"
+  ],
+  "load_ready": {
+    "wall": "2026-11-09T22:01:04.628021+08:00",
+    "monotonic_ns": 1210813450100489
+  },
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r2-n2-read4/pmu.csv",
+    "--",
+    "sleep",
+    "60"
+  ],
+  "command": [
+    "perf",
+    "stat",
+    "-x",
+    ";",
+    "-e",
+    "task-clock,minor-faults,major-faults,context-switches,cpu-migrations",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r2-n2-read4/software.csv",
+    "--",
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--idle_latency",
+    "-e",
+    "-r",
+    "-c0",
+    "-j2",
+    "-b256m",
+    "-t3",
+    "-f4",
+    "--lat_hist_max_us=100"
+  ],
+  "probe_start": {
+    "wall": "2026-11-09T22:01:04.643475+08:00",
+    "monotonic_ns": 1210813465518506
+  },
+  "status": "error",
+  "error": "Background load ended before probe",
+  "end": {
+    "wall": "2026-11-09T22:01:16.803689+08:00",
+    "monotonic_ns": 1210825625770242
+  }
+}

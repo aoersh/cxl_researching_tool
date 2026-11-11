@@ -1,0 +1,26 @@
+libdaxctl: memblock_in_dev: dax9.0: memory_failure: Unable to determine phys_index: No such file or directory
+libdaxctl: memblock_in_dev: dax9.0: memory_failure: Unable to determine phys_index: No such file or directory
+libdaxctl: memblock_in_dev: dax9.0: memory_failure: Unable to determine phys_index: No such file or directory
+libdaxctl: memblock_in_dev: dax0.0: memory_failure: Unable to determine phys_index: No such file or directory
+libdaxctl: memblock_in_dev: dax0.0: memory_failure: Unable to determine phys_index: No such file or directory
+libdaxctl: memblock_in_dev: dax0.0: memory_failure: Unable to determine phys_index: No such file or directory
+[
+  {
+    "chardev":"dax9.0",
+    "size":68719476736,
+    "target_node":3,
+    "align":2097152,
+    "mode":"system-ram",
+    "online_memblocks":-2,
+    "total_memblocks":-2
+  },
+  {
+    "chardev":"dax0.0",
+    "size":68719476736,
+    "target_node":2,
+    "align":2097152,
+    "mode":"system-ram",
+    "online_memblocks":-2,
+    "total_memblocks":-2
+  }
+]

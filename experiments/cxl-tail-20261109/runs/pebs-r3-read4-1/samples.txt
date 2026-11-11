@@ -1,0 +1,392 @@
+1273002.786716:     754d8f5e5e1c     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A              95     5c6a7ff7c2d3 main      1098683e1c
+1273002.788502:     754d8f16be64     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                3312     5c6a7ff7c2ff main      10b9609e64
+1273002.790222:     754d8f55c6b0     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   99     5c6a7ff7c2ff main      10985fa6b0
+1273002.791981:     754d8f357a24     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   94     5c6a7ff7c2ff main      10b97f5a24
+1273002.793672:     754d8ee16148     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  111     5c6a7ff7c2ff main      109203d148
+1273002.795442:     754d8f0d0774     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                4850     5c6a7ff7c2ff main      10b956e774
+1273002.797052:     754d8f2b90cc     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  108     5c6a7ff7c2ff main      10b97570cc
+1273002.798576:     754d8f0eca64     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  113     5c6a7ff7c2ff main      10b958aa64
+1273002.799919:     754d8efb0560     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  114     5c6a7ff7c2ff main      108bb0e560
+1273002.801242:     754d8ef754ec     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  123     5c6a7ff7c2ff main      108bad64ec
+1273002.802660:     754d8f02a9f8     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  141     5c6a7ff7c2ff main      10b94c89f8
+1273002.803887:     754d8f1bad28     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  136     5c6a7ff7c2ff main      10b9658d28
+1273002.804945:     754d8f003e9c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  142     5c6a7ff7c2ff main      10b94a1e9c
+1273002.805863:     754d8f2fbe7c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  102     5c6a7ff7c2ff main      10b9799e7c
+1273002.806714:     754d8efbf8c4     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  114     5c6a7ff7c2ff main      108bb1d8c4
+1273002.807422:     754d8eeae28c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  112     5c6a7ff7c2ff main      10920d528c
+1273002.808009:     754d8efb87f4     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  122     5c6a7ff7c2ff main      108bb167f4
+1273002.808587:     754d8ef8701c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  113     5c6a7ff7c2ff main      108bae801c
+1273002.809105:     754d8f27082c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  105     5c6a7ff7c2ff main      10b970e82c
+1273002.809539:     754d8f220370     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  102     5c6a7ff7c2ff main      10b96be370
+1273002.809904:     754d8f21ea0c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  107     5c6a7ff7c2ff main      10b96bca0c
+1273002.810201:     754d8f1d95e0     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   98     5c6a7ff7c2ff main      10b96775e0
+1273002.810458:     754d8ee2bfc0     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  143     5c6a7ff7c2ff main      1092052fc0
+1273002.810685:     754d8f07cdbc     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  115     5c6a7ff7c2ff main      10b951adbc
+1273002.810887:     754d8f2a2f00     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  125     5c6a7ff7c2ff main      10b9740f00
+1273002.811091:     754d8edff390     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  118     5c6a7ff7c2ff main      1092026390
+1273002.811252:     754d8f19b29c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   91     5c6a7ff7c2ff main      10b963929c
+1273002.811428:     754d8eebad0c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  128     5c6a7ff7c2ff main      109e67bd0c
+1273002.811587:     754d8efc8380     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  124     5c6a7ff7c2ff main      108bb26380
+1273002.811731:     754d8f0845d0     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  102     5c6a7ff7c2ff main      10b95225d0
+1273002.811866:     754d8efb7440     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  115     5c6a7ff7c2ff main      108bb15440
+1273002.811999:     754d8f1dbca8     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   98     5c6a7ff7c2ff main      10b9679ca8
+1273002.812132:     754d8f0b1404     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   92     5c6a7ff7c2ff main      10b954f404
+1273002.812271:     754d8ef031f4     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   90     5c6a7ff7c2ff main      108ba641f4
+1273002.812403:     754d8eec5264     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  124     5c6a7ff7c2ff main      109e686264
+1273002.812536:     754d8ee5bb9c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                   89     5c6a7ff7c2ff main      1092082b9c
+1273002.812679:     754d8f0621ac     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  115     5c6a7ff7c2ff main      10b95001ac
+1273002.812838:     754d8f08e14c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  127     5c6a7ff7c2ff main      10b952c14c
+1273002.813002:     754d8efa7fd0     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  135     5c6a7ff7c2ff main      108bb05fd0
+1273002.813161:     754d8ef34e10     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  117     5c6a7ff7c2ff main      108ba95e10
+1273002.813365:     754d8f074f8c     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  109     5c6a7ff7c2ff main      10b9512f8c
+1273002.813616:     754d8eee4728     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  121     5c6a7ff7c2ff main      109e6a5728
+1273002.814096:     754d8ee28000     10668100842 |OP LOAD|LVL L3 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                  106     5c6a7ff7c2ff main      109204f000
+1273002.913533:     754d8eea8ff4     10268100142 |OP LOAD|LVL L1 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                 1842     5c6a7ff7c31f main      10920cfff4
+1273002.932988:     754d8ef5bc04     10268100142 |OP LOAD|LVL L1 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                    5     5c6a7ff7c31f main      108babcc04
+1273002.953676:     754d8f0238dc     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A            2895     5c6a7ff7c32a main      10b94c18dc
+1273002.965565:     754d8f097c84     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A             400     5c6a7ff7c31f main      10b9535c84
+1273002.982326:     754d8f13f64c     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A            1617     5c6a7ff7c32a main      10b95dd64c
+1273002.995685:     754d8f1c5d80     10468100442 |OP LOAD|LVL L2 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                 2586     5c6a7ff7c32a main      10b9663d80
+1273003.007359:     754d8f239f18     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A            1830     5c6a7ff7c31f main      10b96d7f18
+1273003.022262:     754d8f2c8ec8     10268100142 |OP LOAD|LVL L1 hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A                 3906     5c6a7ff7c32a main      10b9766ec8
+1273003.035918:     754d8f34f030     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A             127     5c6a7ff7c32a main      10b97ed030
+1273003.049529:     754d8f3d5a84     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A             102     5c6a7ff7c31f main      1098473a84
+1273003.062543:     754d8f458548     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A             318     5c6a7ff7c31f main      10984f6548
+1273003.075174:     754d8f4dbba4     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A            5333     5c6a7ff7c32a main      1098579ba4
+1273003.087524:     754d8f5565e8     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A            5458     5c6a7ff7c31f main      10985f45e8
+1273003.100055:     754d8f5d1ee0     11868100242 |OP LOAD|LVL LFB/MAB hit|SNP None|TLB L1 or L2 hit|LCK No|BLK  N/A            4788     5c6a7ff7c31f main      109866fee0
+1273003.113798:     754d94f17e00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3140     5c6a7ff7c5b7 chase      10c9d33e00
+1273003.129757:     754d94da38c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4854     5c6a7ff7c5b7 chase      10c2a3b8c0
+1273003.145112:     754d95acf980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1451     5c6a7ff7c5b7 chase      10a2e00980
+1273003.159330:     754d96601e00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4040     5c6a7ff7c5b7 chase      1081343e00
+1273003.174519:     754d9690c3c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3365     5c6a7ff7c5b7 chase      10aeb5f3c0
+1273003.189102:     754d91395540     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3415     5c6a7ff7c5b7 chase      10c6a65540
+1273003.203339:     754d91937400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3851     5c6a7ff7c5b7 chase      109a738400
+1273003.218309:     754d947ccf40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4603     5c6a7ff7c5b7 chase      10c2b2cf40
+1273003.233415:     754d8f77f340     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3319     5c6a7ff7c5b7 chase      10c6b4b340
+1273003.248350:     754d90d6f2c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2597     5c6a7ff7c5b7 chase      10987b02c0
+1273003.262897:     754d95bf9280     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2635     5c6a7ff7c5b7 chase      1085ca9280
+1273003.278207:     754d94f57880     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4373     5c6a7ff7c5b7 chase      10a189f880
+1273003.293082:     754d95d20f00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2543     5c6a7ff7c5b7 chase      10a934cf00
+1273003.306759:     754d928233c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3260     5c6a7ff7c5b7 chase      10af3643c0
+1273003.320966:     754d94f14780     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5239     5c6a7ff7c5b7 chase      10ad10a780
+1273003.335548:     754d92c380c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4657     5c6a7ff7c5b7 chase      10aeaeb0c0
+1273003.350678:     754d919ea540     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1778     5c6a7ff7c5b7 chase      109a7b4540
+1273003.365685:     754d965c3980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1972     5c6a7ff7c5b7 chase      1086515980
+1273003.380524:     754d95335b40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5484     5c6a7ff7c5b7 chase      10a164eb40
+1273003.394158:     754d91ee1e00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5770     5c6a7ff7c5b7 chase      10c9dc6e00
+1273003.410955:     754d94ea6200     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4774     5c6a7ff7c5b7 chase      109a5ab200
+1273003.427955:     754d92900840     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5835     5c6a7ff7c5b7 chase      10a90cc840
+1273003.442947:     754d948a5fc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4390     5c6a7ff7c5b7 chase      10aaca8fc0
+1273003.457839:     754d9024b980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4155     5c6a7ff7c5b7 chase      10a26e2980
+1273003.472672:     754d92948b80     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                1599     5c6a7ff7c5b7 chase      10c2b85b80
+1273003.488415:     754d94c00140     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4519     5c6a7ff7c5b7 chase      10ad1af140
+1273003.505312:     754d96fb7800     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5081     5c6a7ff7c5b7 chase      109a664800
+1273003.521589:     754d8f9e0ac0     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                1516     5c6a7ff7c5b7 chase      10a6ab3ac0
+1273003.536603:     754d8fc51b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2672     5c6a7ff7c5b7 chase      10a197cb80
+1273003.550332:     754d94a4fc80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3348     5c6a7ff7c5b7 chase      10a242cc80
+1273003.565613:     754d90e63f80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2371     5c6a7ff7c5b7 chase      10a2618f80
+1273003.581081:     754d9424c380     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6887     5c6a7ff7c5b7 chase      10b8c42380
+1273003.596065:     754d8f85e200     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6030     5c6a7ff7c5b7 chase      10cfbfb200
+1273003.612260:     754d95809400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3505     5c6a7ff7c5b7 chase      10acfe8400
+1273003.627036:     754d947ea100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2200     5c6a7ff7c5b7 chase      10cc95c100
+1273003.642435:     754d93bfff40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2800     5c6a7ff7c5b7 chase      10b8c54f40
+1273003.658014:     754d9357bf00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2265     5c6a7ff7c5b7 chase      10af3a2f00
+1273003.673365:     754d8ff20400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4904     5c6a7ff7c5b7 chase      10a2f8a400
+1273003.688519:     754d91419380     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1440     5c6a7ff7c5b7 chase      10cfa84380
+1273003.702850:     754d92778580     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                1967     5c6a7ff7c5b7 chase      10caece580
+1273003.717484:     754d960d3580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1672     5c6a7ff7c5b7 chase      10b8f62580
+1273003.733472:     754d95f32d00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5882     5c6a7ff7c5b7 chase      10a159ed00
+1273003.746646:     754d918ab600     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2258     5c6a7ff7c5b7 chase      1096aaf600
+1273003.761046:     754d96c3bbc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2563     5c6a7ff7c5b7 chase      10b43bebc0
+1273003.775994:     754d901e4840     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2779     5c6a7ff7c5b7 chase      10b5d65840
+1273003.790729:     754d937add40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3011     5c6a7ff7c5b7 chase      10b5ed6d40
+1273003.804695:     754d91aabac0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2756     5c6a7ff7c5b7 chase      10c7e13ac0
+1273003.820128:     754d92649240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4412     5c6a7ff7c5b7 chase      10cf8a1240
+1273003.834950:     754d922cdb80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3784     5c6a7ff7c5b7 chase      10b713cb80
+1273003.850560:     754d91bcee80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4244     5c6a7ff7c5b7 chase      108ef90e80
+1273003.864530:     754d8fb7f180     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4572     5c6a7ff7c5b7 chase      10a2cde180
+1273003.879510:     754d952c81c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5105     5c6a7ff7c5b7 chase      108ec5c1c0
+1273003.893858:     754d95f079c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4391     5c6a7ff7c5b7 chase      10a19d19c0
+1273003.909052:     754d9324de00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3767     5c6a7ff7c5b7 chase      10cf90de00
+1273003.924313:     754d8ff732c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4689     5c6a7ff7c5b7 chase      10c7c1d2c0
+1273003.941018:     754d93d1fd80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2770     5c6a7ff7c5b7 chase      10aea24d80
+1273003.956255:     754d95cd8f40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2801     5c6a7ff7c5b7 chase      10c2ad6f40
+1273003.971264:     754d971a8a00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4237     5c6a7ff7c5b7 chase      10a26f0a00
+1273003.984360:     754d95886fc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5573     5c6a7ff7c5b7 chase      1085e1ffc0
+1273003.999673:     754d9665c240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2032     5c6a7ff7c5b7 chase      10a1927240
+1273004.015666:     754d9184d580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1677     5c6a7ff7c5b7 chase      10a17d1580
+1273004.031135:     754d96fe0880     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4183     5c6a7ff7c5b7 chase      10af18e880
+1273004.046288:     754d92964c40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2119     5c6a7ff7c5b7 chase      10c6a00c40
+1273004.060173:     754d92edfb40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4734     5c6a7ff7c5b7 chase      10af175b40
+1273004.074625:     754d8f8cb8c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2339     5c6a7ff7c5b7 chase      10a24388c0
+1273004.088779:     754d95d96cc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5120     5c6a7ff7c5b7 chase      10a172ecc0
+1273004.103146:     754d95c18680     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4590     5c6a7ff7c5b7 chase      1090f8b680
+1273004.117236:     754d9314e000     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1504     5c6a7ff7c5b7 chase      10c2ac0000
+1273004.131053:     754d94c66e80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1459     5c6a7ff7c5b7 chase      10a9031e80
+1273004.148527:     754d8f64c1c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3966     5c6a7ff7c5b7 chase      10a247b1c0
+1273004.163055:     754d936126c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4600     5c6a7ff7c5b7 chase      10af1bb6c0
+1273004.178304:     754d9271fc00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1852     5c6a7ff7c5b7 chase      10b4525c00
+1273004.192813:     754d92a70900     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4633     5c6a7ff7c5b7 chase      10acc56900
+1273004.209487:     754d96c20700     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5700     5c6a7ff7c5b7 chase      10811fe700
+1273004.224965:     754d917f5780     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5483     5c6a7ff7c5b7 chase      10ad15f780
+1273004.240245:     754d94c8ff80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4185     5c6a7ff7c5b7 chase      10cfbcbf80
+1273004.256083:     754d8f8c0900     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1858     5c6a7ff7c5b7 chase      1096ac3900
+1273004.270095:     754d94c25c00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3726     5c6a7ff7c5b7 chase      10a2df9c00
+1273004.284678:     754d90e3f280     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2316     5c6a7ff7c5b7 chase      1086731280
+1273004.300212:     754d96c91640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3692     5c6a7ff7c5b7 chase      10a1486640
+1273004.315599:     754d9202c980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4723     5c6a7ff7c5b7 chase      10c699e980
+1273004.331677:     754d93017500     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1705     5c6a7ff7c5b7 chase      10d1d09500
+1273004.346634:     754d92200b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2075     5c6a7ff7c5b7 chase      10a1644b80
+1273004.361555:     754d9217a4c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3218     5c6a7ff7c5b7 chase      10c7d714c0
+1273004.375577:     754d94f8bec0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5332     5c6a7ff7c5b7 chase      10cad17ec0
+1273004.389695:     754d96dbaac0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1531     5c6a7ff7c5b7 chase      10b72bcac0
+1273004.405063:     754d970ed140     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2997     5c6a7ff7c5b7 chase      10968f0140
+1273004.420161:     754d94265100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1359     5c6a7ff7c5b7 chase      10c2932100
+1273004.434357:     754d9175af00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4872     5c6a7ff7c5b7 chase      10c9eecf00
+1273004.449759:     754d94c5f9c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4411     5c6a7ff7c5b7 chase      108ecb89c0
+1273004.462336:     754d9558ba40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3558     5c6a7ff7c5b7 chase      10a920ca40
+1273004.477786:     754d94dbe280     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3771     5c6a7ff7c5b7 chase      10cfab0280
+1273004.490687:     754d92589480     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1577     5c6a7ff7c5b7 chase      10a15c2480
+1273004.504989:     754d9414e9c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1245     5c6a7ff7c5b7 chase      10864949c0
+1273004.520024:     754d96299240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3491     5c6a7ff7c5b7 chase      10b44da240
+1273004.535891:     754d96d4f900     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3783     5c6a7ff7c5b7 chase      10acdc8900
+1273004.551069:     754d922241c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5290     5c6a7ff7c5b7 chase      1090d7f1c0
+1273004.566960:     754d95bc4dc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1542     5c6a7ff7c5b7 chase      10cca62dc0
+1273004.581486:     754d94c23480     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4183     5c6a7ff7c5b7 chase      1086573480
+1273004.595315:     754d94c697c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3765     5c6a7ff7c5b7 chase      10b5cfa7c0
+1273004.609417:     754d94d5df00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3625     5c6a7ff7c5b7 chase      10a1708f00
+1273004.626606:     754d96f00d40     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                3585     5c6a7ff7c5b7 chase      109a645d40
+1273004.641908:     754d91ca2740     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6483     5c6a7ff7c5b7 chase      10c2b1f740
+1273004.658136:     754d90f95340     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3761     5c6a7ff7c5b7 chase      10aceb5340
+1273004.672879:     754d93dafb40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     7027     5c6a7ff7c5b7 chase      1096b16b40
+1273004.687073:     754d905ee180     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4440     5c6a7ff7c5b7 chase      10c7f01180
+1273004.702690:     754d94b043c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2310     5c6a7ff7c5b7 chase      10cf9263c0
+1273004.718936:     754d97093f40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4066     5c6a7ff7c5b7 chase      10ad19af40
+1273004.735235:     754d925fc880     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2003     5c6a7ff7c5b7 chase      1096b4a880
+1273004.749634:     754d95696a40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2250     5c6a7ff7c5b7 chase      1090d0fa40
+1273004.763844:     754d95de3500     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2309     5c6a7ff7c5b7 chase      10c9dc9500
+1273004.780558:     754d953b6a00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3840     5c6a7ff7c5b7 chase      10af174a00
+1273004.795339:     754d94494300     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4827     5c6a7ff7c5b7 chase      10b8e59300
+1273004.809625:     754d9081a800     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2122     5c6a7ff7c5b7 chase      10b4761800
+1273004.824615:     754d92f68700     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4168     5c6a7ff7c5b7 chase      109a533700
+1273004.839420:     754d937e3780     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4790     5c6a7ff7c5b7 chase      10c9e2d780
+1273004.854008:     754d95522740     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2278     5c6a7ff7c5b7 chase      10c2be8740
+1273004.868794:     754d95b56d00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2717     5c6a7ff7c5b7 chase      10cf8fad00
+1273004.883187:     754d91324440     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3947     5c6a7ff7c5b7 chase      10ba221440
+1273004.897805:     754d92802600     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2673     5c6a7ff7c5b7 chase      1085fbc600
+1273004.913584:     754d939cbf00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3420     5c6a7ff7c5b7 chase      10864d3f00
+1273004.929492:     754d936ed080     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2570     5c6a7ff7c5b7 chase      10c9cd2080
+1273004.945061:     754d91e34dc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1882     5c6a7ff7c5b7 chase      10a140cdc0
+1273004.960567:     754d907ccd00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3492     5c6a7ff7c5b7 chase      10b4356d00
+1273004.976426:     754d925ece00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5883     5c6a7ff7c5b7 chase      10aae72e00
+1273004.991606:     754d906a5240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3839     5c6a7ff7c5b7 chase      10c9d7e240
+1273005.007349:     754d96e22700     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2714     5c6a7ff7c5b7 chase      10b5dda700
+1273005.023895:     754d95848880     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2050     5c6a7ff7c5b7 chase      1090ce5880
+1273005.040256:     754d8fd21640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3510     5c6a7ff7c5b7 chase      10a6bec640
+1273005.057274:     754d955bc980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4606     5c6a7ff7c5b7 chase      10cf854980
+1273005.069672:     754d954dd400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2605     5c6a7ff7c5b7 chase      10867d0400
+1273005.085151:     754d96134980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4726     5c6a7ff7c5b7 chase      10ba1f6980
+1273005.100300:     754d94172080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4219     5c6a7ff7c5b7 chase      1090c7c080
+1273005.113692:     754d956a9b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2340     5c6a7ff7c5b7 chase      10cac10b80
+1273005.128895:     754d94fb8840     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1984     5c6a7ff7c5b7 chase      10aae68840
+1273005.144527:     754d90f87440     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4052     5c6a7ff7c5b7 chase      10c9eb0440
+1273005.160108:     754d9052ec80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3372     5c6a7ff7c5b7 chase      10ad2c8c80
+1273005.175989:     754d952d24c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2585     5c6a7ff7c5b7 chase      10c6a554c0
+1273005.192276:     754d9556b6c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4314     5c6a7ff7c5b7 chase      10a15776c0
+1273005.208604:     754d90a11500     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1769     5c6a7ff7c5b7 chase      10b5f6a500
+1273005.223996:     754d90db9d00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3495     5c6a7ff7c5b7 chase      10a90e4d00
+1273005.238597:     754d91432c00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4389     5c6a7ff7c5b7 chase      10b41b6c00
+1273005.252748:     754d91787400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3641     5c6a7ff7c5b7 chase      10a6bb4400
+1273005.269796:     754d95779100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3856     5c6a7ff7c5b7 chase      10b5ee5100
+1273005.284557:     754d91014b00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5778     5c6a7ff7c5b7 chase      10ba16bb00
+1273005.299498:     754d964cf640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1421     5c6a7ff7c5b7 chase      10a2490640
+1273005.315060:     754d90573540     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3596     5c6a7ff7c5b7 chase      10c7c29540
+1273005.328928:     754d93302000     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2255     5c6a7ff7c5b7 chase      1090f59000
+1273005.343126:     754d9403b080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2895     5c6a7ff7c5b7 chase      10a27c6080
+1273005.358724:     754d955e49c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4358     5c6a7ff7c5b7 chase      1096b1a9c0
+1273005.372615:     754d94e11580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1415     5c6a7ff7c5b7 chase      10cfad1580
+1273005.388629:     754d924cc200     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2394     5c6a7ff7c5b7 chase      10acc80200
+1273005.405041:     754d94cf7f00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5536     5c6a7ff7c5b7 chase      10ba1b0f00
+1273005.418529:     754d93586c40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4059     5c6a7ff7c5b7 chase      10cac6fc40
+1273005.434147:     754d91e67940     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3668     5c6a7ff7c5b7 chase      10b4755940
+1273005.448952:     754d932ea080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3408     5c6a7ff7c5b7 chase      10acc58080
+1273005.464486:     754d925442c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1714     5c6a7ff7c5b7 chase      10aaf7d2c0
+1273005.478079:     754d91863b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2011     5c6a7ff7c5b7 chase      10c2a45b80
+1273005.492038:     754d90986680     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4297     5c6a7ff7c5b7 chase      10c280b680
+1273005.507200:     754d957ba2c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4713     5c6a7ff7c5b7 chase      10aeb1b2c0
+1273005.521887:     754d901b8c80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1462     5c6a7ff7c5b7 chase      1081270c80
+1273005.537550:     754d9538f2c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3862     5c6a7ff7c5b7 chase      10aae052c0
+1273005.551641:     754d96c1b600     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4222     5c6a7ff7c5b7 chase      1086651600
+1273005.566577:     754d96708e40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3840     5c6a7ff7c5b7 chase      10cf980e40
+1273005.584522:     754d8f956000     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3575     5c6a7ff7c5b7 chase      10cad44000
+1273005.599384:     754d945a1a80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4007     5c6a7ff7c5b7 chase      10b405ba80
+1273005.614596:     754d910ae240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3592     5c6a7ff7c5b7 chase      10c7fe2240
+1273005.627721:     754d9217c2c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4226     5c6a7ff7c5b7 chase      10b5e8c2c0
+1273005.643381:     754d94e3ac00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2418     5c6a7ff7c5b7 chase      10c6a9bc00
+1273005.661158:     754d947cbcc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4571     5c6a7ff7c5b7 chase      10ba3eccc0
+1273005.676913:     754d956a1580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1573     5c6a7ff7c5b7 chase      10a17fa580
+1273005.691276:     754d94d062c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3021     5c6a7ff7c5b7 chase      108130d2c0
+1273005.705304:     754d955298c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1704     5c6a7ff7c5b7 chase      10b8fbb8c0
+1273005.719190:     754d929c8640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2435     5c6a7ff7c5b7 chase      10a6967640
+1273005.735881:     754d95897240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1546     5c6a7ff7c5b7 chase      10a9229240
+1273005.751741:     754d90d2c300     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5195     5c6a7ff7c5b7 chase      10c6836300
+1273005.766621:     754d90673d00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3602     5c6a7ff7c5b7 chase      10cf8d1d00
+1273005.781682:     754d949fb7c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2230     5c6a7ff7c5b7 chase      10a939d7c0
+1273005.795990:     754d92c967c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2020     5c6a7ff7c5b7 chase      10cca0d7c0
+1273005.811647:     754d94885500     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4952     5c6a7ff7c5b7 chase      1096ba5500
+1273005.826108:     754d93b33040     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3192     5c6a7ff7c5b7 chase      108ee89040
+1273005.842909:     754d96677b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2510     5c6a7ff7c5b7 chase      10866eab80
+1273005.858223:     754d954f3100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2873     5c6a7ff7c5b7 chase      10b728b100
+1273005.872722:     754d94091f40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3468     5c6a7ff7c5b7 chase      1085e81f40
+1273005.887245:     754d90971600     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5645     5c6a7ff7c5b7 chase      10a6870600
+1273005.902172:     754d9366b800     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5440     5c6a7ff7c5b7 chase      108ec4d800
+1273005.918660:     754d8f7ad580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1858     5c6a7ff7c5b7 chase      10aeb39580
+1273005.933146:     754d95e10300     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4278     5c6a7ff7c5b7 chase      10a69f5300
+1273005.947625:     754d95d6f000     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3757     5c6a7ff7c5b7 chase      10b8e2b000
+1273005.963308:     754d948732c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1345     5c6a7ff7c5b7 chase      10caf7f2c0
+1273005.977680:     754d93e13440     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2551     5c6a7ff7c5b7 chase      10d1f1c440
+1273005.992635:     754d93feafc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1860     5c6a7ff7c5b7 chase      10cad65fc0
+1273006.005699:     754d91d41980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2149     5c6a7ff7c5b7 chase      10aea00980
+1273006.019611:     754d924498c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2470     5c6a7ff7c5b7 chase      10c6a8f8c0
+1273006.033326:     754d962a6640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3825     5c6a7ff7c5b7 chase      10ba0a4640
+1273006.049116:     754d94adce00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4260     5c6a7ff7c5b7 chase      10b437ce00
+1273006.065802:     754d950dfc40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2144     5c6a7ff7c5b7 chase      10caccfc40
+1273006.081189:     754d93a63280     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4486     5c6a7ff7c5b7 chase      10a17bf280
+1273006.095598:     754d966c8040     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1858     5c6a7ff7c5b7 chase      10b7337040
+1273006.111171:     754d91592800     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4818     5c6a7ff7c5b7 chase      1096857800
+1273006.126817:     754d96ec7580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2327     5c6a7ff7c5b7 chase      10c9ea0580
+1273006.141218:     754d95bcdd80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1467     5c6a7ff7c5b7 chase      10b4385d80
+1273006.156383:     754d972d1d00     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2794     5c6a7ff7c5b7 chase      10af17ed00
+1273006.171534:     754d91356c40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1627     5c6a7ff7c5b7 chase      1096993c40
+1273006.186866:     754d90e82680     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4189     5c6a7ff7c5b7 chase      10a193e680
+1273006.200679:     754d9048e800     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2114     5c6a7ff7c5b7 chase      10b5c6a800
+1273006.214991:     754d96995580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5278     5c6a7ff7c5b7 chase      10a16ed580
+1273006.230184:     754d8f919ec0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3203     5c6a7ff7c5b7 chase      10a24ecec0
+1273006.244327:     754d9198e100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3265     5c6a7ff7c5b7 chase      10b72ca100
+1273006.258517:     754d93a84380     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3585     5c6a7ff7c5b7 chase      10b4600380
+1273006.273558:     754d90119580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1615     5c6a7ff7c5b7 chase      10b702f580
+1273006.287013:     754d963a6b00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3119     5c6a7ff7c5b7 chase      10a6a65b00
+1273006.301344:     754d95cc20c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3665     5c6a7ff7c5b7 chase      10b41260c0
+1273006.316074:     754d929dc280     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3303     5c6a7ff7c5b7 chase      10a1871280
+1273006.331789:     754d9166bb80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4768     5c6a7ff7c5b7 chase      1085f84b80
+1273006.346697:     754d94656e80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2410     5c6a7ff7c5b7 chase      10ad24ee80
+1273006.361397:     754d91911b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3365     5c6a7ff7c5b7 chase      10cc8bab80
+1273006.377642:     754d8ff2e800     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2059     5c6a7ff7c5b7 chase      10ad3ac800
+1273006.393985:     754d96b4fe40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6108     5c6a7ff7c5b7 chase      1081076e40
+1273006.410333:     754d9299ed40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5442     5c6a7ff7c5b7 chase      10b8d7fd40
+1273006.424699:     754d954720c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2222     5c6a7ff7c5b7 chase      109a5cd0c0
+1273006.438892:     754d94eb0e80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2705     5c6a7ff7c5b7 chase      10a16a9e80
+1273006.455325:     754d93319140     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2998     5c6a7ff7c5b7 chase      10a6acb140
+1273006.470165:     754d9208db40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6107     5c6a7ff7c5b7 chase      10a19bbb40
+1273006.485596:     754d8fa08400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1493     5c6a7ff7c5b7 chase      10b5e89400
+1273006.500861:     754d93ff3440     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2108     5c6a7ff7c5b7 chase      10ba3b8440
+1273006.516681:     754d910bcbc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1946     5c6a7ff7c5b7 chase      10c2bbbbc0
+1273006.532541:     754d96ec1fc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3008     5c6a7ff7c5b7 chase      10c9de0fc0
+1273006.546919:     754d917e03c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4594     5c6a7ff7c5b7 chase      10c9ea23c0
+1273006.562691:     754d951f98c0     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2051     5c6a7ff7c5b7 chase      108675d8c0
+1273006.576921:     754d901babc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4849     5c6a7ff7c5b7 chase      1086509bc0
+1273006.592725:     754d9003d5c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6136     5c6a7ff7c5b7 chase      10aeb555c0
+1273006.607229:     754d90fd8040     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3376     5c6a7ff7c5b7 chase      1090f42040
+1273006.621017:     754d93f30ac0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2937     5c6a7ff7c5b7 chase      10a6a69ac0
+1273006.635883:     754d8fc0a640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4925     5c6a7ff7c5b7 chase      10b710f640
+1273006.650878:     754d927f8980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3268     5c6a7ff7c5b7 chase      10a185e980
+1273006.665554:     754d9018d280     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1776     5c6a7ff7c5b7 chase      10af010280
+1273006.680712:     754d903b4780     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4533     5c6a7ff7c5b7 chase      10b46f7780
+1273006.697358:     754d964b5cc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3534     5c6a7ff7c5b7 chase      10a91e4cc0
+1273006.711235:     754d92f4bc00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5853     5c6a7ff7c5b7 chase      10a145ec00
+1273006.726935:     754d94ec3a40     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2969     5c6a7ff7c5b7 chase      10a924ca40
+1273006.742090:     754d9139a840     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1603     5c6a7ff7c5b7 chase      10acce8840
+1273006.757055:     754d9590f380     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3252     5c6a7ff7c5b7 chase      108121a380
+1273006.771772:     754d9684a3c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5630     5c6a7ff7c5b7 chase      10a2ebf3c0
+1273006.787053:     754d959f2d80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3924     5c6a7ff7c5b7 chase      10cae5dd80
+1273006.803344:     754d905e5cc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6100     5c6a7ff7c5b7 chase      10c6b0bcc0
+1273006.817332:     754d94f6bf00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2743     5c6a7ff7c5b7 chase      1086650f00
+1273006.833625:     754d94a04dc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1588     5c6a7ff7c5b7 chase      10acf5ddc0
+1273006.848845:     754d93f26bc0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3586     5c6a7ff7c5b7 chase      108ef4bbc0
+1273006.864639:     754d931fde80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2139     5c6a7ff7c5b7 chase      10a2e22e80
+1273006.879197:     754d9317e540     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                3604     5c6a7ff7c5b7 chase      10b7030540
+1273006.894552:     754d94fd3a40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4721     5c6a7ff7c5b7 chase      10ae92ba40
+1273006.909881:     754d91bc5480     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6411     5c6a7ff7c5b7 chase      109a55b480
+1273006.925709:     754d9520ae40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3839     5c6a7ff7c5b7 chase      10ad012e40
+1273006.941017:     754d963cc0c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3834     5c6a7ff7c5b7 chase      10c7df40c0
+1273006.954768:     754d972ae480     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3732     5c6a7ff7c5b7 chase      108115e480
+1273006.968227:     754d9137a6c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4742     5c6a7ff7c5b7 chase      10d1ca76c0
+1273006.983352:     754d95a911c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2639     5c6a7ff7c5b7 chase      10ad07b1c0
+1273006.999195:     754d96a5c580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2821     5c6a7ff7c5b7 chase      10cfb8e580
+1273007.013122:     754d94324580     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3605     5c6a7ff7c5b7 chase      10ace28580
+1273007.028227:     754d966da480     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4187     5c6a7ff7c5b7 chase      10b466e480
+1273007.043435:     754d9198fc40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3332     5c6a7ff7c5b7 chase      10cac4bc40
+1273007.057777:     754d93939a40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5742     5c6a7ff7c5b7 chase      10af245a40
+1273007.074062:     754d9329c240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3455     5c6a7ff7c5b7 chase      10aacf9240
+1273007.088454:     754d8f9cd080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3869     5c6a7ff7c5b7 chase      10b5cfd080
+1273007.102691:     754d95460a80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2331     5c6a7ff7c5b7 chase      1090e14a80
+1273007.116640:     754d91699100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1816     5c6a7ff7c5b7 chase      10c29f5100
+1273007.132645:     754d95277340     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1891     5c6a7ff7c5b7 chase      10cac0f340
+1273007.147086:     754d9178dd00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3158     5c6a7ff7c5b7 chase      10811b4d00
+1273007.160824:     754d944bbd80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3844     5c6a7ff7c5b7 chase      10b71bed80
+1273007.176854:     754d92a5f900     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5285     5c6a7ff7c5b7 chase      10ba002900
+1273007.192329:     754d8faae380     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                4439     5c6a7ff7c5b7 chase      10b4659380
+1273007.208185:     754d910a5a80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4031     5c6a7ff7c5b7 chase      10cae13a80
+1273007.223739:     754d96fee280     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1595     5c6a7ff7c5b7 chase      10c6b0d280
+1273007.239694:     754d92cd8040     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2946     5c6a7ff7c5b7 chase      10acfc1040
+1273007.254676:     754d93780a80     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                1860     5c6a7ff7c5b7 chase      10ae863a80
+1273007.270605:     754d95d25080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2903     5c6a7ff7c5b7 chase      109a424080
+1273007.287321:     754d93ac8500     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2458     5c6a7ff7c5b7 chase      10b42b6500
+1273007.302532:     754d9008c6c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4941     5c6a7ff7c5b7 chase      10b44136c0
+1273007.317826:     754d92473040     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3011     5c6a7ff7c5b7 chase      10af23e040
+1273007.331087:     754d91adfd80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     6530     5c6a7ff7c5b7 chase      10ba3a2d80
+1273007.344960:     754d92957080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1298     5c6a7ff7c5b7 chase      10a240f080
+1273007.361759:     754d967c0100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2472     5c6a7ff7c5b7 chase      10af36b100
+1273007.375816:     754d8fb79d00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2632     5c6a7ff7c5b7 chase      10cf82fd00
+1273007.389121:     754d93447440     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                3791     5c6a7ff7c5b7 chase      108106f440
+1273007.403654:     754d93b0e080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1463     5c6a7ff7c5b7 chase      10ad03d080
+1273007.416808:     754d92946b00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4976     5c6a7ff7c5b7 chase      10d1e10b00
+1273007.431467:     754d95d48900     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2964     5c6a7ff7c5b7 chase      1090cda900
+1273007.446281:     754d918d4b00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5445     5c6a7ff7c5b7 chase      10af367b00
+1273007.461843:     754d964bfd80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2966     5c6a7ff7c5b7 chase      10a6bacd80
+1273007.475791:     754d95c091c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3806     5c6a7ff7c5b7 chase      10a26731c0
+1273007.490735:     754d94da2c40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3123     5c6a7ff7c5b7 chase      10b5eb2c40
+1273007.505179:     754d94ef5ec0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4103     5c6a7ff7c5b7 chase      10af2c6ec0
+1273007.520619:     754d908d2080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1447     5c6a7ff7c5b7 chase      1081262080
+1273007.534934:     754d937873c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     5315     5c6a7ff7c5b7 chase      10a198f3c0
+1273007.548549:     754d94d85340     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                2227     5c6a7ff7c5b7 chase      10d1fa2340
+1273007.564602:     754d8fd039c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2105     5c6a7ff7c5b7 chase      10b5ff09c0
+1273007.580192:     754d915f7900     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1830     5c6a7ff7c5b7 chase      1090cf2900
+1273007.594264:     754d9578c0c0     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                7353     5c6a7ff7c5b7 chase      109690e0c0
+1273007.609668:     754d9489e2c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2337     5c6a7ff7c5b7 chase      10a902d2c0
+1273007.623690:     754d8fedfc80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1403     5c6a7ff7c5b7 chase      1085da5c80
+1273007.638469:     754d90367c80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1245     5c6a7ff7c5b7 chase      10b8f8cc80
+1273007.652783:     754d91ddd9c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2389     5c6a7ff7c5b7 chase      10a24d79c0
+1273007.666252:     754d90614f40     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3769     5c6a7ff7c5b7 chase      10a92f8f40
+1273007.681022:     754d90178840     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4670     5c6a7ff7c5b7 chase      10ae85d840
+1273007.697088:     754d96dbfc80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3852     5c6a7ff7c5b7 chase      10b4484c80
+1273007.712312:     754d95ba2400     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1886     5c6a7ff7c5b7 chase      10c696b400
+1273007.726323:     754d96fb9b00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4547     5c6a7ff7c5b7 chase      10a2e81b00
+1273007.741722:     754d9048d980     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2827     5c6a7ff7c5b7 chase      108677d980
+1273007.756716:     754d94048700     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2662     5c6a7ff7c5b7 chase      1086614700
+1273007.771392:     754d94a16100     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3118     5c6a7ff7c5b7 chase      10b44a3100
+1273007.787874:     754d94349600     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                4046     5c6a7ff7c5b7 chase      10ad37e600
+1273007.802698:     754d9321a0c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1858     5c6a7ff7c5b7 chase      1096b1e0c0
+1273007.817465:     754d94640d80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3371     5c6a7ff7c5b7 chase      10ba2b5d80
+1273007.833753:     754d91169c00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3286     5c6a7ff7c5b7 chase      1086492c00
+1273007.846579:     754d93f99380     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1449     5c6a7ff7c5b7 chase      108649a380
+1273007.862758:     754d960e0500     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3467     5c6a7ff7c5b7 chase      10c2ac5500
+1273007.877514:     754d953b31c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4967     5c6a7ff7c5b7 chase      10cf92f1c0
+1273007.892595:     754d924e76c0     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                5429     5c6a7ff7c5b7 chase      10a26206c0
+1273007.907854:     754d952b1640     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2306     5c6a7ff7c5b7 chase      10aaf76640
+1273007.923166:     754d8fa58380     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     2660     5c6a7ff7c5b7 chase      10aeb24380
+1273007.937660:     754d94b6a0c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1700     5c6a7ff7c5b7 chase      109a4140c0
+1273007.952872:     754d91d71500     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3927     5c6a7ff7c5b7 chase      10866f8500
+1273007.967042:     754d967df080     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4889     5c6a7ff7c5b7 chase      10b4612080
+1273007.981848:     754d9421e180     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3117     5c6a7ff7c5b7 chase      10af3c6180
+1273007.997696:     754d93978240     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     3205     5c6a7ff7c5b7 chase      10864df240
+1273008.012237:     754d94435940     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4911     5c6a7ff7c5b7 chase      10a2576940
+1273008.027497:     754d901a42c0     10650100842 |OP LOAD|LVL L3 hit|SNP None|TLB L2 miss|LCK No|BLK  N/A                       112     5c6a7ff7c5b7 chase      1085fbb2c0
+1273008.042107:     754d96a72c00     11c68200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L1 or L2 hit|LCK No|BLK  N/A                5101     5c6a7ff7c5b7 chase      10a1b47c00
+1273008.058263:     754d90e95b80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1869     5c6a7ff7c5b7 chase      10a1453b80
+1273008.073369:     754d905a9f00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4891     5c6a7ff7c5b7 chase      10a14b0f00
+1273008.088360:     754d90994f00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4647     5c6a7ff7c5b7 chase      10a6922f00
+1273008.103757:     754d918a0f80     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4575     5c6a7ff7c5b7 chase               0
+1273008.118050:     754d917d4e00     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     1587     5c6a7ff7c5b7 chase               0
+1273008.135011:     754d922d73c0     11c50200042 |OP LOAD|LVL PMEM hit|SNP Hit|TLB L2 miss|LCK No|BLK  N/A                     4802     5c6a7ff7c5b7 chase               0

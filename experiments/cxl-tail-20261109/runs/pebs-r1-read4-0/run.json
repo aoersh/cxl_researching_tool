@@ -1,0 +1,74 @@
+{
+  "run": "pebs-r1-read4-0",
+  "node": 2,
+  "condition": "read4",
+  "histogram": false,
+  "pebs": false,
+  "start": {
+    "wall": "2026-11-10T15:14:33.745172+08:00",
+    "monotonic_ns": 1272822567220658
+  },
+  "cpu": 0,
+  "load_command": [
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--loaded_latency",
+    "-T",
+    "-e",
+    "-o/home/hjy/tools/experiments/cxl-tail-20261109/runs/pebs-r1-read4-0/load.cfg",
+    "-d0",
+    "-t30"
+  ],
+  "load_ready": {
+    "wall": "2026-11-10T15:14:36.471955+08:00",
+    "monotonic_ns": 1272825294053224
+  },
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/pebs-r1-read4-0/pmu.csv",
+    "--",
+    "sleep",
+    "90"
+  ],
+  "command": [
+    "numactl",
+    "--all",
+    "--physcpubind=0",
+    "--membind=2",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/pebs_probe",
+    "5"
+  ],
+  "probe_start": {
+    "wall": "2026-11-10T15:14:36.487708+08:00",
+    "monotonic_ns": 1272825309755008
+  },
+  "probe_end": {
+    "wall": "2026-11-10T15:14:42.045848+08:00",
+    "monotonic_ns": 1272830867917677
+  },
+  "probe_returncode": 0,
+  "observer_returncode": 0,
+  "load_end": {
+    "wall": "2026-11-10T15:15:06.399022+08:00",
+    "monotonic_ns": 1272855221179734
+  },
+  "load_returncode": 0,
+  "result": {
+    "loads": 4849664,
+    "seconds": 5.023,
+    "mean_ns": 1035.7418575802365
+  },
+  "status": "ok",
+  "end": {
+    "wall": "2026-11-10T15:15:06.400414+08:00",
+    "monotonic_ns": 1272855222482933
+  }
+}

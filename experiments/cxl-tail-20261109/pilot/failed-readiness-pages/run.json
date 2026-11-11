@@ -1,0 +1,27 @@
+{
+  "run": "matrix-r1-n1-read4",
+  "node": 1,
+  "condition": "read4",
+  "histogram": true,
+  "pebs": null,
+  "start": {
+    "wall": "2026-11-09T21:49:54.661196+08:00",
+    "monotonic_ns": 1210143483245486
+  },
+  "cpu": 0,
+  "load_command": [
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--loaded_latency",
+    "-T",
+    "-e",
+    "-o/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r1-n1-read4/load.cfg",
+    "-d0",
+    "-t12"
+  ],
+  "status": "error",
+  "error": "Load memory did not reach target node before deadline",
+  "end": {
+    "wall": "2026-11-09T21:50:06.794709+08:00",
+    "monotonic_ns": 1210155616897839
+  }
+}

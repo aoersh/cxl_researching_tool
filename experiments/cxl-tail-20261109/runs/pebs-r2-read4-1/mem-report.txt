@@ -1,0 +1,24 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 389  of event 'cpu/mem-loads,ldlat=64/upp'
+# Total weight : 1117154
+# Sort order   : mem,snoop,tlb
+#
+# Overhead       Samples  Memory access                            Snoop         TLB access            
+# ........  ............  .......................................  ............  ......................
+#
+    90.00%           309  PMEM hit                                 Hit           L2 miss               
+     8.72%            24  PMEM hit                                 Hit           L1 or L2 hit          
+     0.68%            11  LFB/MAB hit                              None          L1 or L2 hit          
+     0.40%            39  L3 hit                                   None          L1 or L2 hit          
+     0.13%             4  L1 hit                                   None          L1 or L2 hit          
+     0.06%             1  L2 hit                                   None          L1 or L2 hit          
+     0.01%             1  L3 hit                                   None          L2 miss               
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

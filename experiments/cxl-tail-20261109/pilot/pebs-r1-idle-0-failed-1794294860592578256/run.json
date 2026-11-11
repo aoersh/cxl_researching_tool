@@ -1,0 +1,50 @@
+{
+  "run": "pebs-r1-idle-0",
+  "node": 2,
+  "condition": "idle",
+  "histogram": false,
+  "pebs": false,
+  "start": {
+    "wall": "2026-11-10T15:06:36.879603+08:00",
+    "monotonic_ns": 1272345701634871
+  },
+  "cpu": 0,
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/pebs-r1-idle-0/pmu.csv",
+    "--",
+    "sleep",
+    "90"
+  ],
+  "command": [
+    "numactl",
+    "--physcpubind=0",
+    "--membind=2",
+    "/tmp/cxl-pebs-check.WkFxj2/pebs_probe",
+    "5"
+  ],
+  "probe_start": {
+    "wall": "2026-11-10T15:06:36.881338+08:00",
+    "monotonic_ns": 1272345703387757
+  },
+  "probe_end": {
+    "wall": "2026-11-10T15:06:36.882838+08:00",
+    "monotonic_ns": 1272345704885377
+  },
+  "probe_returncode": 1,
+  "status": "error",
+  "error": "Probe exited 1",
+  "end": {
+    "wall": "2026-11-10T15:06:36.884333+08:00",
+    "monotonic_ns": 1272345706369467
+  }
+}

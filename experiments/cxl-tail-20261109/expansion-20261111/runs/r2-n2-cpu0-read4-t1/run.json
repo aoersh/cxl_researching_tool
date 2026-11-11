@@ -1,0 +1,111 @@
+{
+  "run": "r2-n2-cpu0-read4-t1",
+  "node": 2,
+  "condition": "read4",
+  "histogram": true,
+  "pebs": null,
+  "start": {
+    "wall": "2026-11-11T14:37:46.411056+08:00",
+    "monotonic_ns": 1357015233101855
+  },
+  "cpu": 0,
+  "load_cpus": [
+    1
+  ],
+  "injection_delay": 0,
+  "load_command": [
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--loaded_latency",
+    "-T",
+    "-e",
+    "-o/home/hjy/tools/experiments/cxl-tail-20261109/expansion-20261111/runs/r2-n2-cpu0-read4-t1/load.cfg",
+    "-d0",
+    "-t30"
+  ],
+  "load_ready": {
+    "wall": "2026-11-11T14:37:49.126607+08:00",
+    "monotonic_ns": 1357017948691737
+  },
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/expansion-20261111/runs/r2-n2-cpu0-read4-t1/pmu.csv",
+    "--",
+    "sleep",
+    "90"
+  ],
+  "command": [
+    "perf",
+    "stat",
+    "-x",
+    ";",
+    "-e",
+    "task-clock,minor-faults,major-faults,context-switches,cpu-migrations",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/expansion-20261111/runs/r2-n2-cpu0-read4-t1/software.csv",
+    "--",
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--idle_latency",
+    "-e",
+    "-r",
+    "-c0",
+    "-j2",
+    "-b256m",
+    "-t3",
+    "-f4",
+    "--lat_hist_max_us=100"
+  ],
+  "probe_start": {
+    "wall": "2026-11-11T14:37:49.136312+08:00",
+    "monotonic_ns": 1357017958360207
+  },
+  "probe_end": {
+    "wall": "2026-11-11T14:37:55.714544+08:00",
+    "monotonic_ns": 1357024536655596
+  },
+  "probe_returncode": 0,
+  "observer_returncode": -2,
+  "load_end": {
+    "wall": "2026-11-11T14:38:18.917099+08:00",
+    "monotonic_ns": 1357047739228256
+  },
+  "load_returncode": 0,
+  "result": {
+    "base_mhz": 2299,
+    "mean_ns": 388.2,
+    "samples": 12097152,
+    "overflow_count": 0,
+    "overflow_limit_ns": 100043.49717268378,
+    "p50_low_ns": 396.6942148760331,
+    "p50_high_ns": 403.2187907785994,
+    "p95_low_ns": 612.4401913875598,
+    "p95_high_ns": 618.9647672901261,
+    "p99_low_ns": 821.2266202696825,
+    "p99_high_ns": 827.7511961722488,
+    "p999_low_ns": 1600.6959547629403,
+    "p999_high_ns": 1607.2205306655069,
+    "p9999_low_ns": 3507.6120052196607,
+    "p9999_high_ns": 3514.136581122227,
+    "gt1000_pct_low": 0.5718288073093568,
+    "gt1000_pct_high": 0.5756065559893767,
+    "gt5000_pct_low": 0.002678316350823731,
+    "gt5000_pct_high": 0.002678316350823731,
+    "gt10000_pct_low": 0.0017772778253922906,
+    "gt10000_pct_high": 0.0017772778253922906,
+    "max_bin_low_ns": 85045.67203131797,
+    "max_bin_high_ns": 85052.19660722054
+  },
+  "status": "ok",
+  "end": {
+    "wall": "2026-11-11T14:38:18.936796+08:00",
+    "monotonic_ns": 1357047758850380
+  }
+}

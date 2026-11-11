@@ -1,0 +1,75 @@
+
+ Intel(r) Performance Counter Monitor: Memory Bandwidth Monitoring Utility (2026-10-15 11:08:16 +0200 ID=96751b66)
+
+ This utility measures memory bandwidth per channel or per DIMM rank in real-time
+
+INFO: Reducing the number of programmable counters to 7 because NMI watchdog is enabled.
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 36
+CPU family               : 6
+CPU model number         : 173
+INFO: Reducing the number of programmable counters to 7 because NMI watchdog is enabled.
+Number of physical cores: 32
+Number of logical cores: 64
+Number of online logical cores: 64
+Threads (logical cores) per physical core: 2
+Num sockets: 2
+Physical cores per socket: 16
+Last level cache slices per socket: 18
+Core PMU (perfmon) version: 5
+Number of core PMU generic (programmable) counters: 7
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 4
+Width of fixed counters: 48 bits
+Nominal core frequency: 2300000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 0 memory controllers detected with total number of 2 channels. 3 UPI ports detected. 0 M2M (mesh to memory)/B2CMI blocks detected. 0 HBM M2M blocks detected. 0 EDC/HBM channels detected. 0 Home Agents detected. 0 M3UPI/B2UPI blocks detected.
+Socket 1: 0 memory controllers detected with total number of 2 channels. 3 UPI ports detected. 0 M2M (mesh to memory)/B2CMI blocks detected. 0 HBM M2M blocks detected. 0 EDC/HBM channels detected. 0 Home Agents detected. 0 M3UPI/B2UPI blocks detected.
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+Error in initSocket2Bus: cannot open any of /[pcm]/sys/firmware/acpi/tables/MCFG* files!
+Info: IDX - Detected 4 IAA devices, 4 DSA devices.
+Warning: IDX - QAT device NOT support perf driver mode.
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+ERROR: Could not initialize TPMI. Uncore frequency metrics will be unavailable. Exception details: cannot open any of /[pcm]/sys/firmware/acpi/tables/MCFG* files!
+Socket 0: 3 PCU units detected. 8 IIO units detected. 8 IRP units detected. 18 CHA/CBO units detected. 0 MDF units detected. 1 UBOX units detected. 0 CXL units detected. 0 PCIE_GEN5x16 units detected. 0 PCIE_GEN5x8 units detected.
+Socket 1: 3 PCU units detected. 8 IIO units detected. 8 IRP units detected. 18 CHA/CBO units detected. 0 MDF units detected. 1 UBOX units detected. 0 CXL units detected. 0 PCIE_GEN5x16 units detected. 0 PCIE_GEN5x8 units detected.
+
+
+Detected Intel(R) Xeon(R) 6515P "Intel(r) microarchitecture codename Granite Rapids" stepping 1
+Update every 1 seconds
+Read/Write values expressed in (MB/s)
+Cleaning up
+ Closed perf event handles
+Linux Perf: Error on programming PMU 85:  Invalid argument
+config: 0xff config1: 0x0 config2: 0x0
+Linux Perf: Error on programming PMU 85:  Invalid argument
+config: 0xff config1: 0x0 config2: 0x0
+ Zeroed uncore PMU registers

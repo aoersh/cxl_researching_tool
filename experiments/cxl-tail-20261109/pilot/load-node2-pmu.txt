@@ -1,0 +1,6 @@
+# started on Mon Nov  9 21:41:49 2026
+
+6319751;;cxl_pmu_mem0.0/ddr_casrd/;10542052794;100.00;;
+66124;;cxl_pmu_mem0.0/ddr_caswr/;10542048609;100.00;;
+518;;cxl_pmu_mem1.0/ddr_casrd/;10542046383;100.00;;
+512;;cxl_pmu_mem1.0/ddr_caswr/;10542043925;100.00;;

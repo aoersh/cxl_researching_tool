@@ -1,0 +1,56 @@
+{
+  "run": "pebs-r1-idle-0",
+  "node": 2,
+  "condition": "idle",
+  "histogram": false,
+  "pebs": false,
+  "start": {
+    "wall": "2026-11-10T15:14:20.593072+08:00",
+    "monotonic_ns": 1272809415113888
+  },
+  "cpu": 0,
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/pebs-r1-idle-0/pmu.csv",
+    "--",
+    "sleep",
+    "90"
+  ],
+  "command": [
+    "numactl",
+    "--all",
+    "--physcpubind=0",
+    "--membind=2",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/pebs_probe",
+    "5"
+  ],
+  "probe_start": {
+    "wall": "2026-11-10T15:14:20.596549+08:00",
+    "monotonic_ns": 1272809418607160
+  },
+  "probe_end": {
+    "wall": "2026-11-10T15:14:26.152865+08:00",
+    "monotonic_ns": 1272814974934207
+  },
+  "probe_returncode": 0,
+  "observer_returncode": 0,
+  "result": {
+    "loads": 16973824,
+    "seconds": 5.01,
+    "mean_ns": 295.1603598576255
+  },
+  "status": "ok",
+  "end": {
+    "wall": "2026-11-10T15:14:26.161161+08:00",
+    "monotonic_ns": 1272814983229533
+  }
+}

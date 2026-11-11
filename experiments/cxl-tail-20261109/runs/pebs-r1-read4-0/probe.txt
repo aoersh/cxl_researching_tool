@@ -1,0 +1,2 @@
+allocation: 7c1c30600000 bind:2 anon=32768 dirty=32768 active=6 N2=32768 kernelpagesize_kB=4
+loads=4849664 seconds=5.023 final_index=1171053

@@ -1,0 +1,900 @@
+{
+  "analyzed_at": {
+    "wall": "2026-11-11T15:59:12.501478+08:00",
+    "monotonic_ns": 1361901323554511
+  },
+  "source_original": "/tmp/cxl-tail-followup.vE2UIq",
+  "source_archived": "/home/hjy/tools/experiments/cxl-tail-20261109/followup/raw",
+  "cases": [
+    {
+      "condition": "idle",
+      "latency": {
+        "base_mhz": 2299,
+        "mean_ns": 351.0,
+        "samples": 12097152,
+        "overflow_count": 3,
+        "overflow_limit_ns": 100043.49717268378,
+        "p50_low_ns": 389.734667246629,
+        "p50_high_ns": 396.2592431491953,
+        "p95_low_ns": 508.0469769464985,
+        "p95_high_ns": 514.5715528490648,
+        "p99_low_ns": 556.7638103523271,
+        "p99_high_ns": 563.2883862548935,
+        "p999_low_ns": 668.1165724227925,
+        "p999_high_ns": 674.6411483253589,
+        "p9999_low_ns": 4920.400173988691,
+        "p9999_high_ns": 4926.924749891257,
+        "gt1000_pct_low": 0.03943076849823826,
+        "gt1000_pct_high": 0.03943076849823826,
+        "gt5000_pct_low": 0.009134381381667354,
+        "gt5000_pct_high": 0.009200512649588929,
+        "gt10000_pct_low": 0.001074633103725571,
+        "gt10000_pct_high": 0.0010828995122157679,
+        "max_bin_low_ns": 100043.49717268378,
+        "max_bin_high_ns": null
+      },
+      "trace": {
+        "whole_trace_event_counts": {
+          "sched:sched_wakeup": 26896,
+          "sched:sched_switch": 54846,
+          "irq:softirq_entry": 16120,
+          "irq:softirq_exit": 16120,
+          "exceptions:page_fault_user": 84856,
+          "irq:irq_handler_entry": 135,
+          "irq:irq_handler_exit": 135
+        },
+        "pid": 3775185,
+        "stable_window_start_monotonic_ns": 1280553539454340,
+        "stable_window_end_monotonic_ns": 1280557594341746,
+        "stable_window_seconds": 4.054887406,
+        "offcpu_us": {
+          "count": 414,
+          "sum": 2038.0039999999997,
+          "min": 1.305,
+          "median": 2.288,
+          "p99": 72.839,
+          "max": 99.932
+        },
+        "offcpu_pct": 0.05026043379119168,
+        "competitor_cpu0_us": {
+          "kworker/0:0:3762930": 1548.295,
+          "turbostat:3774944": 359.895,
+          "perf:3775178": 85.783,
+          "migration/0:18": 44.031
+        },
+        "target_faults_in_window": [],
+        "host_migrations_in_window": [],
+        "target_trace_cpu_counts_in_window": {
+          "0": 1332
+        },
+        "cpu0_irq_handler_entries_in_window": 0,
+        "cpu0_softirq_us": {
+          "count": 256,
+          "sum": 474.719,
+          "min": 0.215,
+          "median": 1.4005,
+          "p99": 27.57,
+          "max": 31.041
+        },
+        "target_context_softirq_us": {
+          "count": 256,
+          "sum": 474.719,
+          "min": 0.215,
+          "median": 1.4005,
+          "p99": 27.57,
+          "max": 31.041
+        },
+        "cpu0_softirq_by_action_us": {
+          "RCU": {
+            "count": 91,
+            "sum": 45.017,
+            "min": 0.215,
+            "median": 0.359,
+            "p99": 2.511,
+            "max": 2.511
+          },
+          "SCHED": {
+            "count": 70,
+            "sum": 130.555,
+            "min": 0.846,
+            "median": 1.8439999999999999,
+            "p99": 3.789,
+            "max": 3.789
+          },
+          "TIMER": {
+            "count": 95,
+            "sum": 299.147,
+            "min": 0.985,
+            "median": 2.319,
+            "p99": 31.041,
+            "max": 31.041
+          }
+        },
+        "decoded_samples_match_perf_stats": true,
+        "lost_records_in_perf_stats": 0,
+        "decode_warnings": ""
+      },
+      "pcm": {
+        "intervals": 7,
+        "columns_MB_s": {
+          "SKT0/Mem Read (MB/s)": {
+            "count": 7,
+            "sum": 471.63000000000005,
+            "min": 57.31,
+            "median": 62.56,
+            "p99": 99.8,
+            "max": 99.8
+          },
+          "SKT0/Mem Write (MB/s)": {
+            "count": 7,
+            "sum": 344.96000000000004,
+            "min": 46.39,
+            "median": 47.34,
+            "p99": 59.68,
+            "max": 59.68
+          },
+          "SKT0/CXL.mem_P1Read": {
+            "count": 7,
+            "sum": 2349.92,
+            "min": 335.09,
+            "median": 335.61,
+            "p99": 336.37,
+            "max": 336.37
+          },
+          "SKT0/CXL.mem_P1Write": {
+            "count": 7,
+            "sum": 0.02,
+            "min": 0.0,
+            "median": 0.0,
+            "p99": 0.02,
+            "max": 0.02
+          },
+          "SKT1/Mem Read (MB/s)": {
+            "count": 7,
+            "sum": 462.14,
+            "min": 56.3,
+            "median": 60.18,
+            "p99": 91.16,
+            "max": 91.16
+          },
+          "SKT1/Mem Write (MB/s)": {
+            "count": 7,
+            "sum": 359.65000000000003,
+            "min": 47.33,
+            "median": 49.28,
+            "p99": 63.8,
+            "max": 63.8
+          },
+          "SKT1/CXL.mem_P0Read": {
+            "count": 7,
+            "sum": 0.04,
+            "min": 0.0,
+            "median": 0.0,
+            "p99": 0.02,
+            "max": 0.02
+          }
+        }
+      },
+      "frequency": {
+        "total_blocks": 38,
+        "cpu0_busy_ge95_blocks": 5,
+        "Bzy_MHz": {
+          "count": 5,
+          "sum": 17047.0,
+          "min": 3300.0,
+          "median": 3300.0,
+          "p99": 3800.0,
+          "max": 3800.0
+        },
+        "CoreTmp_C": {
+          "count": 5,
+          "sum": 178.0,
+          "min": 35.0,
+          "median": 36.0,
+          "p99": 36.0,
+          "max": 36.0
+        },
+        "CoreThr_sum_active_blocks": 0,
+        "SMI_sum_active_blocks": 0,
+        "limitation": "No timestamps in turbostat output; active blocks cannot be precisely aligned to histogram spikes."
+      }
+    },
+    {
+      "condition": "read4",
+      "latency": {
+        "base_mhz": 2299,
+        "mean_ns": 891.9,
+        "samples": 12097152,
+        "overflow_count": 12,
+        "overflow_limit_ns": 100043.49717268378,
+        "p50_low_ns": 925.6198347107438,
+        "p50_high_ns": 932.1444106133101,
+        "p95_low_ns": 1635.4936929099608,
+        "p95_high_ns": 1642.0182688125271,
+        "p99_low_ns": 1906.9160504567203,
+        "p99_high_ns": 1913.4406263592866,
+        "p999_low_ns": 2505.437146585472,
+        "p999_high_ns": 2511.9617224880385,
+        "p9999_low_ns": 5317.094388864724,
+        "p9999_high_ns": 5323.61896476729,
+        "gt1000_pct_low": 44.99429287157837,
+        "gt1000_pct_high": 45.501552762170796,
+        "gt5000_pct_low": 0.013515577881471607,
+        "gt5000_pct_high": 0.013639574008824557,
+        "gt10000_pct_low": 0.0021988646583923225,
+        "gt10000_pct_high": 0.0022071310668825193,
+        "max_bin_low_ns": 100043.49717268378,
+        "max_bin_high_ns": null
+      },
+      "trace": {
+        "whole_trace_event_counts": {
+          "sched:sched_wakeup": 133798,
+          "sched:sched_switch": 267488,
+          "irq:softirq_entry": 68593,
+          "irq:softirq_exit": 68589,
+          "exceptions:page_fault_user": 365080,
+          "irq:irq_handler_entry": 1348,
+          "irq:irq_handler_exit": 1348,
+          "migrate:mm_migrate_pages": 1
+        },
+        "pid": 3775740,
+        "stable_window_start_monotonic_ns": 1280595974395073,
+        "stable_window_end_monotonic_ns": 1280606622058412,
+        "stable_window_seconds": 10.647663339,
+        "offcpu_us": {
+          "count": 1095,
+          "sum": 5947.710000000005,
+          "min": 1.188,
+          "median": 1.985,
+          "p99": 125.693,
+          "max": 133.908
+        },
+        "offcpu_pct": 0.055859298051008796,
+        "competitor_cpu0_us": {
+          "kworker/0:0:3762930": 3947.466,
+          "turbostat:3775474": 1349.159,
+          "perf:3775733": 333.681,
+          "migration/0:18": 171.819,
+          "mlc:3775732": 75.292,
+          "kworker/0:2:3773220": 70.293
+        },
+        "target_faults_in_window": [],
+        "host_migrations_in_window": [],
+        "target_trace_cpu_counts_in_window": {
+          "0": 3377
+        },
+        "cpu0_irq_handler_entries_in_window": 0,
+        "cpu0_softirq_us": {
+          "count": 604,
+          "sum": 1462.599,
+          "min": 0.264,
+          "median": 1.973,
+          "p99": 6.331,
+          "max": 35.695
+        },
+        "target_context_softirq_us": {
+          "count": 604,
+          "sum": 1462.599,
+          "min": 0.264,
+          "median": 1.973,
+          "p99": 6.331,
+          "max": 35.695
+        },
+        "cpu0_softirq_by_action_us": {
+          "RCU": {
+            "count": 182,
+            "sum": 98.99499999999998,
+            "min": 0.264,
+            "median": 0.4365,
+            "p99": 2.254,
+            "max": 2.377
+          },
+          "SCHED": {
+            "count": 178,
+            "sum": 339.6580000000001,
+            "min": 1.136,
+            "median": 1.8239999999999998,
+            "p99": 3.536,
+            "max": 3.593
+          },
+          "TIMER": {
+            "count": 244,
+            "sum": 1023.9459999999993,
+            "min": 1.633,
+            "median": 3.601,
+            "p99": 30.094,
+            "max": 35.695
+          }
+        },
+        "decoded_samples_match_perf_stats": true,
+        "lost_records_in_perf_stats": 0,
+        "decode_warnings": "Warning:\n5 out of order events recorded."
+      },
+      "pcm": {
+        "intervals": 20,
+        "columns_MB_s": {
+          "SKT0/Mem Read (MB/s)": {
+            "count": 20,
+            "sum": 2517.3799999999997,
+            "min": 117.09,
+            "median": 125.29499999999999,
+            "p99": 142.56,
+            "max": 142.56
+          },
+          "SKT0/Mem Write (MB/s)": {
+            "count": 20,
+            "sum": 971.0299999999999,
+            "min": 46.89,
+            "median": 48.515,
+            "p99": 50.53,
+            "max": 50.53
+          },
+          "SKT0/CXL.mem_P1Read": {
+            "count": 20,
+            "sum": 259200.52,
+            "min": 12947.69,
+            "median": 12957.435000000001,
+            "p99": 12981.5,
+            "max": 12981.5
+          },
+          "SKT0/CXL.mem_P1Write": {
+            "count": 20,
+            "sum": 0.060000000000000005,
+            "min": 0.0,
+            "median": 0.0,
+            "p99": 0.05,
+            "max": 0.05
+          },
+          "SKT1/Mem Read (MB/s)": {
+            "count": 20,
+            "sum": 1440.81,
+            "min": 61.23,
+            "median": 69.805,
+            "p99": 91.21,
+            "max": 91.21
+          },
+          "SKT1/Mem Write (MB/s)": {
+            "count": 20,
+            "sum": 1078.86,
+            "min": 49.32,
+            "median": 53.75,
+            "p99": 60.4,
+            "max": 60.4
+          },
+          "SKT1/CXL.mem_P0Read": {
+            "count": 20,
+            "sum": 0.11,
+            "min": 0.0,
+            "median": 0.0,
+            "p99": 0.03,
+            "max": 0.03
+          }
+        }
+      },
+      "frequency": {
+        "total_blocks": 38,
+        "cpu0_busy_ge95_blocks": 11,
+        "Bzy_MHz": {
+          "count": 11,
+          "sum": 36674.0,
+          "min": 3300.0,
+          "median": 3300.0,
+          "p99": 3674.0,
+          "max": 3674.0
+        },
+        "CoreTmp_C": {
+          "count": 11,
+          "sum": 415.0,
+          "min": 37.0,
+          "median": 38.0,
+          "p99": 38.0,
+          "max": 38.0
+        },
+        "CoreThr_sum_active_blocks": 0,
+        "SMI_sum_active_blocks": 0,
+        "limitation": "No timestamps in turbostat output; active blocks cannot be precisely aligned to histogram spikes."
+      }
+    },
+    {
+      "condition": "write4",
+      "latency": {
+        "base_mhz": 2299,
+        "mean_ns": 706.2,
+        "samples": 12097152,
+        "overflow_count": 48,
+        "overflow_limit_ns": 100043.49717268378,
+        "p50_low_ns": 556.7638103523271,
+        "p50_high_ns": 563.2883862548935,
+        "p95_low_ns": 2046.1070030448022,
+        "p95_high_ns": 2052.6315789473683,
+        "p99_low_ns": 2950.848194867334,
+        "p99_high_ns": 2957.3727707699,
+        "p999_low_ns": 3973.9016963897348,
+        "p999_high_ns": 3980.4262722923013,
+        "p9999_low_ns": 6855.154414963027,
+        "p9999_high_ns": 6861.678990865594,
+        "gt1000_pct_low": 20.163927840205695,
+        "gt1000_pct_high": 20.28772557375488,
+        "gt5000_pct_low": 0.02081481657831529,
+        "gt5000_pct_high": 0.020930546297178047,
+        "gt10000_pct_low": 0.0043067988233924815,
+        "gt10000_pct_high": 0.0043067988233924815,
+        "max_bin_low_ns": 100043.49717268378,
+        "max_bin_high_ns": null
+      },
+      "trace": {
+        "whole_trace_event_counts": {
+          "sched:sched_wakeup": 136097,
+          "sched:sched_switch": 273284,
+          "irq:softirq_entry": 69932,
+          "irq:softirq_exit": 69930,
+          "exceptions:page_fault_user": 379515,
+          "irq:irq_handler_entry": 2089,
+          "irq:irq_handler_exit": 2089,
+          "migrate:mm_migrate_pages": 8
+        },
+        "pid": 3776204,
+        "stable_window_start_monotonic_ns": 1280637065557804,
+        "stable_window_end_monotonic_ns": 1280646303221030,
+        "stable_window_seconds": 9.237663226,
+        "offcpu_us": {
+          "count": 944,
+          "sum": 14150.184,
+          "min": 1.173,
+          "median": 3.4135,
+          "p99": 264.0,
+          "max": 441.503
+        },
+        "offcpu_pct": 0.15317925815019315,
+        "competitor_cpu0_us": {
+          "kworker/0:0:3762930": 8802.112,
+          "turbostat:3775928": 3251.681,
+          "perf:3776197": 953.675,
+          "migration/0:18": 565.905,
+          "mlc:3776196": 356.4,
+          "kworker/0:2:3773220": 220.411
+        },
+        "target_faults_in_window": [],
+        "host_migrations_in_window": [],
+        "target_trace_cpu_counts_in_window": {
+          "0": 3037
+        },
+        "cpu0_irq_handler_entries_in_window": 0,
+        "cpu0_softirq_us": {
+          "count": 584,
+          "sum": 4072.5939999999982,
+          "min": 0.234,
+          "median": 3.3695000000000004,
+          "p99": 67.362,
+          "max": 122.723
+        },
+        "target_context_softirq_us": {
+          "count": 583,
+          "sum": 4072.133999999998,
+          "min": 0.234,
+          "median": 3.378,
+          "p99": 67.362,
+          "max": 122.723
+        },
+        "cpu0_softirq_by_action_us": {
+          "RCU": {
+            "count": 218,
+            "sum": 176.13900000000004,
+            "min": 0.234,
+            "median": 0.524,
+            "p99": 3.804,
+            "max": 4.409
+          },
+          "SCHED": {
+            "count": 150,
+            "sum": 1370.842,
+            "min": 1.084,
+            "median": 9.1375,
+            "p99": 21.564,
+            "max": 25.461
+          },
+          "TIMER": {
+            "count": 216,
+            "sum": 2525.6130000000007,
+            "min": 1.015,
+            "median": 9.317499999999999,
+            "p99": 83.427,
+            "max": 122.723
+          }
+        },
+        "decoded_samples_match_perf_stats": true,
+        "lost_records_in_perf_stats": 0,
+        "decode_warnings": "Warning:\n7 out of order events recorded."
+      },
+      "pcm": {
+        "intervals": 18,
+        "columns_MB_s": {
+          "SKT0/Mem Read (MB/s)": {
+            "count": 18,
+            "sum": 1001.0699999999999,
+            "min": 51.31,
+            "median": 53.835,
+            "p99": 64.33,
+            "max": 64.33
+          },
+          "SKT0/Mem Write (MB/s)": {
+            "count": 18,
+            "sum": 850.95,
+            "min": 46.01,
+            "median": 46.845,
+            "p99": 50.24,
+            "max": 50.24
+          },
+          "SKT0/CXL.mem_P1Read": {
+            "count": 18,
+            "sum": 2921.81,
+            "min": 0.0,
+            "median": 171.76,
+            "p99": 173.66,
+            "max": 173.66
+          },
+          "SKT0/CXL.mem_P1Write": {
+            "count": 18,
+            "sum": 211333.06999999998,
+            "min": 11735.25,
+            "median": 11738.59,
+            "p99": 11769.49,
+            "max": 11769.49
+          },
+          "SKT1/Mem Read (MB/s)": {
+            "count": 18,
+            "sum": 1260.55,
+            "min": 61.67,
+            "median": 66.50999999999999,
+            "p99": 91.78,
+            "max": 91.78
+          },
+          "SKT1/Mem Write (MB/s)": {
+            "count": 18,
+            "sum": 963.1199999999998,
+            "min": 49.49,
+            "median": 52.43000000000001,
+            "p99": 62.42,
+            "max": 62.42
+          },
+          "SKT1/CXL.mem_P0Read": {
+            "count": 18,
+            "sum": 0.1,
+            "min": 0.0,
+            "median": 0.0,
+            "p99": 0.03,
+            "max": 0.03
+          }
+        }
+      },
+      "frequency": {
+        "total_blocks": 38,
+        "cpu0_busy_ge95_blocks": 10,
+        "Bzy_MHz": {
+          "count": 10,
+          "sum": 33793.0,
+          "min": 3300.0,
+          "median": 3300.0,
+          "p99": 3800.0,
+          "max": 3800.0
+        },
+        "CoreTmp_C": {
+          "count": 10,
+          "sum": 396.0,
+          "min": 39.0,
+          "median": 40.0,
+          "p99": 40.0,
+          "max": 40.0
+        },
+        "CoreThr_sum_active_blocks": 0,
+        "SMI_sum_active_blocks": 0,
+        "limitation": "No timestamps in turbostat output; active blocks cannot be precisely aligned to histogram spikes."
+      }
+    }
+  ],
+  "current_pci_sysfs_snapshot": {
+    "0000:33:00.0": {
+      "current_link_speed": "16.0 GT/s PCIe",
+      "current_link_width": "8",
+      "max_link_speed": "32.0 GT/s PCIe",
+      "max_link_width": "8",
+      "aer_dev_correctable": "RxErr 0\nBadTLP 0\nBadDLLP 0\nRollover 0\nTimeout 0\nNonFatalErr 0\nCorrIntErr 0\nHeaderOF 0\nTOTAL_ERR_COR 0",
+      "aer_dev_nonfatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_NONFATAL 0",
+      "aer_dev_fatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_FATAL 0"
+    },
+    "0000:32:02.0": {
+      "current_link_speed": "16.0 GT/s PCIe",
+      "current_link_width": "8",
+      "max_link_speed": "32.0 GT/s PCIe",
+      "max_link_width": "16",
+      "aer_dev_correctable": "RxErr 0\nBadTLP 0\nBadDLLP 0\nRollover 0\nTimeout 0\nNonFatalErr 0\nCorrIntErr 0\nHeaderOF 0\nTOTAL_ERR_COR 0",
+      "aer_dev_nonfatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_NONFATAL 0",
+      "aer_dev_fatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_FATAL 0"
+    },
+    "0000:b4:00.0": {
+      "current_link_speed": "32.0 GT/s PCIe",
+      "current_link_width": "8",
+      "max_link_speed": "32.0 GT/s PCIe",
+      "max_link_width": "8",
+      "aer_dev_correctable": "RxErr 0\nBadTLP 0\nBadDLLP 0\nRollover 0\nTimeout 0\nNonFatalErr 0\nCorrIntErr 0\nHeaderOF 0\nTOTAL_ERR_COR 0",
+      "aer_dev_nonfatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_NONFATAL 0",
+      "aer_dev_fatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_FATAL 0"
+    },
+    "0000:b3:02.0": {
+      "current_link_speed": "32.0 GT/s PCIe",
+      "current_link_width": "8",
+      "max_link_speed": "32.0 GT/s PCIe",
+      "max_link_width": "16",
+      "aer_dev_correctable": "RxErr 0\nBadTLP 0\nBadDLLP 0\nRollover 0\nTimeout 0\nNonFatalErr 0\nCorrIntErr 0\nHeaderOF 0\nTOTAL_ERR_COR 0",
+      "aer_dev_nonfatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_NONFATAL 0",
+      "aer_dev_fatal": "Undefined 0\nDLP 0\nSDES 0\nTLP 0\nFCP 0\nCmpltTO 0\nCmpltAbrt 0\nUnxCmplt 0\nRxOF 0\nMalfTLP 0\nECRC 0\nUnsupReq 0\nACSViol 0\nUncorrIntErr 0\nBlockedTLP 0\nAtomicOpBlocked 0\nTLPBlockedErr 0\nPoisonTLPBlocked 0\nDMWrReqBlocked 0\nIDECheck 0\nMisIDETLP 0\nPCRC_CHECK 0\nTLPXlatBlocked 0\nTOTAL_ERR_FATAL 0"
+    }
+  },
+  "cxl_health_at_capture_start": [
+    {
+      "memdev": "mem0",
+      "pmem_size": 0,
+      "ram_size": 68719476736,
+      "health": {
+        "maintenance_needed": false,
+        "performance_degraded": false,
+        "hw_replacement_needed": false,
+        "media_normal": true,
+        "media_not_ready": false,
+        "media_persistence_lost": false,
+        "media_data_lost": false,
+        "media_powerloss_persistence_loss": false,
+        "media_shutdown_persistence_loss": false,
+        "media_persistence_loss_imminent": false,
+        "media_powerloss_data_loss": false,
+        "media_shutdown_data_loss": false,
+        "media_data_loss_imminent": false,
+        "ext_life_used": "normal",
+        "ext_temperature": "normal",
+        "ext_corrected_volatile": "normal",
+        "ext_corrected_persistent": "normal",
+        "life_used_percent": 0,
+        "temperature": 38,
+        "dirty_shutdowns": 0,
+        "volatile_errors": 0,
+        "pmem_errors": 0
+      }
+    },
+    {
+      "memdev": "mem1",
+      "pmem_size": 0,
+      "ram_size": 68719476736,
+      "health": {
+        "maintenance_needed": false,
+        "performance_degraded": false,
+        "hw_replacement_needed": false,
+        "media_normal": true,
+        "media_not_ready": false,
+        "media_persistence_lost": false,
+        "media_data_lost": false,
+        "media_powerloss_persistence_loss": false,
+        "media_shutdown_persistence_loss": false,
+        "media_persistence_loss_imminent": false,
+        "media_powerloss_data_loss": false,
+        "media_shutdown_data_loss": false,
+        "media_data_loss_imminent": false,
+        "ext_life_used": "normal",
+        "ext_temperature": "normal",
+        "ext_corrected_volatile": "normal",
+        "ext_corrected_persistent": "normal",
+        "life_used_percent": 0,
+        "temperature": 43,
+        "dirty_shutdowns": 0,
+        "volatile_errors": 0,
+        "pmem_errors": 0
+      }
+    }
+  ],
+  "current_memdev_firmware": {
+    "mem0": "10.40.1.060f.00",
+    "mem1": "10.40.1.060f.00"
+  },
+  "dmesg_before_after_identical": true,
+  "expansion": [
+    {
+      "node": 2,
+      "cpu": 0,
+      "condition": "idle",
+      "load_threads": 0,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 0,
+      "mean_ns_median": 342.8,
+      "mean_ns_min": 333.0,
+      "mean_ns_max": 348.1,
+      "p99_low_ns_median": 563.7233579817312,
+      "p99_low_ns_min": 556.7638103523271,
+      "p99_low_ns_max": 563.7233579817312,
+      "p99_high_ns_median": 570.2479338842975,
+      "p99_high_ns_min": 563.2883862548935,
+      "p99_high_ns_max": 570.2479338842975,
+      "p999_low_ns_median": 675.0761200521966,
+      "p999_low_ns_min": 668.1165724227925,
+      "p999_low_ns_max": 675.0761200521966,
+      "p999_high_ns_median": 681.600695954763,
+      "p999_high_ns_min": 674.6411483253589,
+      "p999_high_ns_max": 681.600695954763,
+      "load_mlc_MB_s_median": null
+    },
+    {
+      "node": 2,
+      "cpu": 0,
+      "condition": "read4",
+      "load_threads": 1,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 6,
+      "mean_ns_median": 388.2,
+      "mean_ns_min": 337.6,
+      "mean_ns_max": 393.7,
+      "p99_low_ns_median": 821.2266202696825,
+      "p99_low_ns_min": 800.3479773814702,
+      "p99_low_ns_max": 828.1861678990866,
+      "p99_high_ns_median": 827.7511961722488,
+      "p99_high_ns_min": 806.8725532840366,
+      "p99_high_ns_max": 834.7107438016529,
+      "p999_low_ns_median": 1600.6959547629403,
+      "p999_low_ns_min": 1565.89821661592,
+      "p999_low_ns_max": 1607.6555023923445,
+      "p999_high_ns_median": 1607.2205306655069,
+      "p999_high_ns_min": 1572.4227925184864,
+      "p999_high_ns_max": 1614.1800782949108,
+      "load_mlc_MB_s_median": 11898.3
+    },
+    {
+      "node": 2,
+      "cpu": 0,
+      "condition": "read4",
+      "load_threads": 2,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 5,
+      "mean_ns_median": 610.5,
+      "mean_ns_min": 609.9,
+      "mean_ns_max": 612.5,
+      "p99_low_ns_median": 1343.1926924749891,
+      "p99_low_ns_min": 1343.1926924749891,
+      "p99_low_ns_max": 1343.1926924749891,
+      "p99_high_ns_median": 1349.7172683775555,
+      "p99_high_ns_min": 1349.7172683775555,
+      "p99_high_ns_max": 1349.7172683775555,
+      "p999_low_ns_median": 1962.592431491953,
+      "p999_low_ns_min": 1955.632883862549,
+      "p999_low_ns_max": 1962.592431491953,
+      "p999_high_ns_median": 1969.1170073945193,
+      "p999_high_ns_min": 1962.1574597651154,
+      "p999_high_ns_max": 1969.1170073945193,
+      "load_mlc_MB_s_median": 13918.4
+    },
+    {
+      "node": 2,
+      "cpu": 0,
+      "condition": "read4",
+      "load_threads": 4,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 4,
+      "mean_ns_median": 896.4,
+      "mean_ns_min": 895.1,
+      "mean_ns_max": 906.1,
+      "p99_low_ns_median": 1906.9160504567203,
+      "p99_low_ns_min": 1906.9160504567203,
+      "p99_low_ns_max": 1906.9160504567203,
+      "p99_high_ns_median": 1913.4406263592866,
+      "p99_high_ns_min": 1913.4406263592866,
+      "p99_high_ns_max": 1913.4406263592866,
+      "p999_low_ns_median": 2519.3562418442802,
+      "p999_low_ns_min": 2519.3562418442802,
+      "p999_low_ns_max": 2533.2753371030885,
+      "p999_high_ns_median": 2525.8808177468463,
+      "p999_high_ns_min": 2525.8808177468463,
+      "p999_high_ns_max": 2539.7999130056546,
+      "load_mlc_MB_s_median": 13638.4
+    },
+    {
+      "node": 2,
+      "cpu": 0,
+      "condition": "write4",
+      "load_threads": 4,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 127,
+      "mean_ns_median": 691.3,
+      "mean_ns_min": 688.4,
+      "mean_ns_max": 705.6,
+      "p99_low_ns_median": 2923.0100043497173,
+      "p99_low_ns_min": 2916.0504567203134,
+      "p99_low_ns_max": 2936.9290996085256,
+      "p99_high_ns_median": 2929.534580252284,
+      "p99_high_ns_min": 2922.5750326228795,
+      "p99_high_ns_max": 2943.4536755110917,
+      "p999_low_ns_median": 3953.0230535015226,
+      "p999_low_ns_min": 3946.0635058721186,
+      "p999_low_ns_max": 3953.0230535015226,
+      "p999_high_ns_median": 3959.5476294040886,
+      "p999_high_ns_min": 3952.5880817746847,
+      "p999_high_ns_max": 3959.5476294040886,
+      "load_mlc_MB_s_median": 11752.5
+    },
+    {
+      "node": 2,
+      "cpu": 16,
+      "condition": "idle",
+      "load_threads": 0,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 3,
+      "mean_ns_median": 683.4,
+      "mean_ns_min": 677.9,
+      "mean_ns_max": 686.4,
+      "p99_low_ns_median": 1057.8512396694216,
+      "p99_low_ns_min": 1050.8916920400175,
+      "p99_low_ns_max": 1057.8512396694216,
+      "p99_high_ns_median": 1064.375815571988,
+      "p99_high_ns_min": 1057.4162679425838,
+      "p99_high_ns_max": 1064.375815571988,
+      "p999_low_ns_median": 1204.0017398869074,
+      "p999_low_ns_min": 1148.3253588516748,
+      "p999_low_ns_max": 1217.9208351457155,
+      "p999_high_ns_median": 1210.5263157894738,
+      "p999_high_ns_min": 1154.849934754241,
+      "p999_high_ns_max": 1224.4454110482818,
+      "load_mlc_MB_s_median": null
+    },
+    {
+      "node": 3,
+      "cpu": 0,
+      "condition": "idle",
+      "load_threads": 0,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 9,
+      "mean_ns_median": 649.2,
+      "mean_ns_min": 646.3,
+      "mean_ns_max": 656.0,
+      "p99_low_ns_median": 918.6602870813398,
+      "p99_low_ns_min": 911.7007394519356,
+      "p99_low_ns_max": 918.6602870813398,
+      "p99_high_ns_median": 925.1848629839061,
+      "p99_high_ns_min": 918.225315354502,
+      "p99_high_ns_max": 925.1848629839061,
+      "p999_low_ns_median": 1092.6489778164419,
+      "p999_low_ns_min": 1092.6489778164419,
+      "p999_low_ns_max": 1099.608525445846,
+      "p999_high_ns_median": 1099.1735537190084,
+      "p999_high_ns_min": 1099.1735537190084,
+      "p999_high_ns_max": 1106.1331013484123,
+      "load_mlc_MB_s_median": null
+    },
+    {
+      "node": 3,
+      "cpu": 16,
+      "condition": "idle",
+      "load_threads": 0,
+      "repeats": 3,
+      "samples": 36291456,
+      "overflow": 0,
+      "mean_ns_median": 283.7,
+      "mean_ns_min": 279.5,
+      "mean_ns_max": 283.8,
+      "p99_low_ns_median": 528.9256198347108,
+      "p99_low_ns_min": 528.9256198347108,
+      "p99_low_ns_max": 535.8851674641148,
+      "p99_high_ns_median": 535.4501957372771,
+      "p99_high_ns_min": 535.4501957372771,
+      "p99_high_ns_max": 542.4097433666811,
+      "p999_low_ns_median": 605.4806437581558,
+      "p999_low_ns_min": 605.4806437581558,
+      "p999_low_ns_max": 605.4806437581558,
+      "p999_high_ns_median": 612.0052196607221,
+      "p999_high_ns_min": 612.0052196607221,
+      "p999_high_ns_max": 612.0052196607221,
+      "load_mlc_MB_s_median": null
+    }
+  ]
+}

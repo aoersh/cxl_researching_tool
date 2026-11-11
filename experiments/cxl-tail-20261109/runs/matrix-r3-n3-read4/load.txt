@@ -1,0 +1,19 @@
+Intel(R) Memory Latency Checker - v3.13
+Detected Birch Stream platform, latency optimized mode may need to be turned on to get the best latencies. 
+Command line parameters: --loaded_latency -T -e -o/home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r3-n3-read4/load.cfg -d0 -t30 
+*** -e leaves the hardware prefetchers as they are, and this run uses a
+*** sequential access pattern. If the prefetchers are enabled, the reported
+*** latency will be a prefetched cache hit rather than a memory latency.
+*** Add -r to use a random access pattern if that is not what you want.
+Per-thread configuration from /home/hjy/tools/experiments/cxl-tail-20261109/runs/matrix-r3-n3-read4/load.cfg
+Thread id   1, traffic pattern   R,  seq access,   262144 KiB buffer, dram memory, access from numa node 3
+Thread id   2, traffic pattern   R,  seq access,   262144 KiB buffer, dram memory, access from numa node 3
+Thread id   3, traffic pattern   R,  seq access,   262144 KiB buffer, dram memory, access from numa node 3
+Thread id   4, traffic pattern   R,  seq access,   262144 KiB buffer, dram memory, access from numa node 3
+
+Measuring Loaded Latencies for the system
+Using all the threads from each core if Hyper-threading is enabled
+Inject	Latency	Bandwidth
+Delay	(ns)	MB/sec
+==========================
+ 00000	  0.00	 18754.2

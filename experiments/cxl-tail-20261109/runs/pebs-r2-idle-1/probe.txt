@@ -1,0 +1,4 @@
+allocation: 7d486fc00000 bind:2 anon=32768 dirty=32768 active=3 N2=32768 kernelpagesize_kB=4
+loads=16449536 seconds=5.017 final_index=849297
+[ perf record: Woken up 1 times to write data ]
+[ perf record: Captured and wrote 0.082 MB /home/hjy/tools/experiments/cxl-tail-20261109/runs/pebs-r2-idle-1/perf.data (1189 samples) ]

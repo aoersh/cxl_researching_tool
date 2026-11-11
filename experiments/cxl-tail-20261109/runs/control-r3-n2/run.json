@@ -1,0 +1,65 @@
+{
+  "run": "control-r3-n2",
+  "node": 2,
+  "condition": "idle",
+  "histogram": false,
+  "pebs": null,
+  "start": {
+    "wall": "2026-11-10T15:06:30.702013+08:00",
+    "monotonic_ns": 1272339524059821
+  },
+  "cpu": 0,
+  "observer_command": [
+    "perf",
+    "stat",
+    "-a",
+    "-I",
+    "1000",
+    "-x",
+    ";",
+    "-e",
+    "cxl_pmu_mem0.0/ddr_casrd/,cxl_pmu_mem0.0/ddr_caswr/,cxl_pmu_mem1.0/ddr_casrd/,cxl_pmu_mem1.0/ddr_caswr/",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/control-r3-n2/pmu.csv",
+    "--",
+    "sleep",
+    "90"
+  ],
+  "command": [
+    "perf",
+    "stat",
+    "-x",
+    ";",
+    "-e",
+    "task-clock,minor-faults,major-faults,context-switches,cpu-migrations",
+    "-o",
+    "/home/hjy/tools/experiments/cxl-tail-20261109/runs/control-r3-n2/software.csv",
+    "--",
+    "/home/hjy/projects/HotPageScheduling/third_party/intel-mlc/Linux/mlc",
+    "--idle_latency",
+    "-e",
+    "-r",
+    "-c0",
+    "-j2",
+    "-b256m",
+    "-t3"
+  ],
+  "probe_start": {
+    "wall": "2026-11-10T15:06:30.707255+08:00",
+    "monotonic_ns": 1272339529345580
+  },
+  "probe_end": {
+    "wall": "2026-11-10T15:06:36.270709+08:00",
+    "monotonic_ns": 1272345092784456
+  },
+  "probe_returncode": 0,
+  "observer_returncode": -2,
+  "result": {
+    "mean_ns": 346.1
+  },
+  "status": "ok",
+  "end": {
+    "wall": "2026-11-10T15:06:36.276233+08:00",
+    "monotonic_ns": 1272345098295259
+  }
+}

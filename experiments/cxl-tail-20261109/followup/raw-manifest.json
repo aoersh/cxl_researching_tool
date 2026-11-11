@@ -1,0 +1,358 @@
+{
+  "cxl-health.txt": {
+    "bytes": 1751,
+    "sha256": "3ea9415d0f86e45ea8c606ce82a060827fc9ca64b5955d977b22235ee31846f5"
+  },
+  "dax.txt": {
+    "bytes": 1015,
+    "sha256": "f7745cadddf84552a72477275e4e4ceb735da2ae3f836be230a78bf872534fa5"
+  },
+  "dmesg-after.txt": {
+    "bytes": 269956,
+    "sha256": "2c6535a4f802206189f234ff5fd3354ed0da82c754d7f3e01e6748cbf537f561"
+  },
+  "dmesg-before.txt": {
+    "bytes": 269956,
+    "sha256": "2c6535a4f802206189f234ff5fd3354ed0da82c754d7f3e01e6748cbf537f561"
+  },
+  "end.txt": {
+    "bytes": 26,
+    "sha256": "19c74f4c6b9cef5d3fb568ada0661585be5599d58f75a36e17016c0e72a11fcb"
+  },
+  "idle/capture.txt": {
+    "bytes": 5104,
+    "sha256": "e32dcff8383b918e262f0139f88c20485019d965b887644d46c7a8b42ae25520"
+  },
+  "idle/frequency.txt": {
+    "bytes": 209039,
+    "sha256": "d7c83195a94b401b3d2a3cd59c5d0a98fbc1b86d5e101d7f23fdaf8af629e19a"
+  },
+  "idle/interrupts-after.txt": {
+    "bytes": 365430,
+    "sha256": "60682dba6d279ea7bc4fd14a756049143f2ccfafc8a36d96e68a54f4daca3c44"
+  },
+  "idle/interrupts-before.txt": {
+    "bytes": 365430,
+    "sha256": "4337abfc4085b445c3f28d419e7e01247224352aa89d890ebd905913e45c78e4"
+  },
+  "idle/metadata.json": {
+    "bytes": 21427,
+    "sha256": "8a47610bb5e33e842d2e7d9c26f0fff82823628a7090843898028586bed5e400"
+  },
+  "idle/pcm.csv": {
+    "bytes": 9803,
+    "sha256": "83fb71f8d0c3bdb87db5d9cbacbc8050cbcbca2ef6dee6ed90d25b840a3323b0"
+  },
+  "idle/runs/node2-idle/pmu-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "idle/runs/node2-idle/pmu.csv": {
+    "bytes": 1778,
+    "sha256": "3a5f524ac5d59e9bc1dcc2ecd64ef67038469bb6226bef30cabbac7882f447b6"
+  },
+  "idle/runs/node2-idle/probe-snapshots.json": {
+    "bytes": 94189,
+    "sha256": "33e24b81176b9e0ad86727e2a9c843192d65a0cabe8980eacb5ffcf4eb2e0315"
+  },
+  "idle/runs/node2-idle/probe.txt": {
+    "bytes": 245715,
+    "sha256": "6c4cc3dd9cfe4efcf6613885e97f7949e38990fe686461399ccf67ba637c0e87"
+  },
+  "idle/runs/node2-idle/run.json": {
+    "bytes": 2256,
+    "sha256": "38999449431aeef8e2646077fd38268a012d58ff2d4e6f3eb24a4434e87ee130"
+  },
+  "idle/runs/node2-idle/software.csv": {
+    "bytes": 300,
+    "sha256": "5e208f26ac0659b89a97fc9a21c468bafb5d979d837a2ccbf5e91f10e4db3eb7"
+  },
+  "idle/runs/node2-idle/vmstat-after.txt": {
+    "bytes": 3654,
+    "sha256": "755e7643dad4abd73089a06da5310e4cdb4706cadacd4f2627eb0407a1d5a1e7"
+  },
+  "idle/runs/node2-idle/vmstat-before.txt": {
+    "bytes": 3652,
+    "sha256": "fc2c1951a23e5b07934782297a110319d64063c1efd49f2036b98f51319847bb"
+  },
+  "idle/scheduler-decode-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "idle/scheduler.data": {
+    "bytes": 21308308,
+    "sha256": "1c263a464bb929a52ed2c5d13cb782475cb637d852f8a8fa256c6ab52dcbcdd3"
+  },
+  "idle/scheduler.txt": {
+    "bytes": 28463308,
+    "sha256": "2fab10f43a5ba2c7bf55c1c2adea80270800fa234b26d7c6e8a2500c30ecf99b"
+  },
+  "idle/softirqs-after.txt": {
+    "bytes": 7905,
+    "sha256": "b36528333511e43f8dffc7a12b9c487f21d92104fca99eb16ebf07b6f9994ccf"
+  },
+  "idle/softirqs-before.txt": {
+    "bytes": 7905,
+    "sha256": "984cb6a3867e18f92a86320254904072e68bfb1d954c78a1799eb4dc36cb3575"
+  },
+  "idle/trace-header.txt": {
+    "bytes": 14179,
+    "sha256": "d9e030603219403813d1f7ece0b443de3066203e3bf1802665e1265fca86f6d8"
+  },
+  "idle/turbostat-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "idle/turbostat-stdout.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "idle/vmstat-after.txt": {
+    "bytes": 3654,
+    "sha256": "208aa7a866c504f33994ad9622e24476092e390f94521ffe6df9909dbb79fe63"
+  },
+  "idle/vmstat-before.txt": {
+    "bytes": 3650,
+    "sha256": "ac8cac2ba378c4cb308254cab2743e2f2cf9c9c02195944b0d8a196ca1ed8306"
+  },
+  "kernel.txt": {
+    "bytes": 147,
+    "sha256": "d17cce0c5bcd7d913b4b1efa58493ca7590d4059712d6bb79581167a8f05538d"
+  },
+  "numa.txt": {
+    "bytes": 561,
+    "sha256": "edfdd81873d0bd5d9c24149592dba7e1787ae82421440ea1287448710c461b53"
+  },
+  "pci-mem0.txt": {
+    "bytes": 4603,
+    "sha256": "bd6c92c05e52a3056c0841645faa7fe48ffbf6c0ad67ebd3a37f63a7392ed93f"
+  },
+  "pci-mem1.txt": {
+    "bytes": 4616,
+    "sha256": "139a3202a9127c9a31524c6d48027bd04618fbc0ae78683f2451acc38db46a9d"
+  },
+  "read4/capture.txt": {
+    "bytes": 5633,
+    "sha256": "0a389babc4defc14fe68eabbdc4bdf488ec8447892cda56a11d65b07e513b608"
+  },
+  "read4/frequency.txt": {
+    "bytes": 211779,
+    "sha256": "d3fdeb4bb9617682685fb99968a3f9c66303498babafd8a4d31a5ee21f9c0299"
+  },
+  "read4/interrupts-after.txt": {
+    "bytes": 365430,
+    "sha256": "11f16f75150391d4ebb676cb277e0e20a82f2f16837a41138183efca9a235908"
+  },
+  "read4/interrupts-before.txt": {
+    "bytes": 365430,
+    "sha256": "4150eea10519403c5a9544695c3e28d44e3bd16270058e357c6001898d09860b"
+  },
+  "read4/metadata.json": {
+    "bytes": 21427,
+    "sha256": "5629e927d89a08b348a5e2e666debda7ed43417caf95fb875e5064077942195f"
+  },
+  "read4/pcm.csv": {
+    "bytes": 46320,
+    "sha256": "3809fe1e940382df2e3c1aa6cfa14d4958781880c916d7d35a74fab3328da73e"
+  },
+  "read4/runs/node2-read4/load-placement.json": {
+    "bytes": 19471,
+    "sha256": "14e45c8f73824100081ef3d9f2cb2d77bd98b57c7526b67107d472d5ee4d8731"
+  },
+  "read4/runs/node2-read4/load.cfg": {
+    "bytes": 22,
+    "sha256": "c8d28f00cfb235cdf43f9731660d2c64b4b2336f1776858d30ce3b85548ec8db"
+  },
+  "read4/runs/node2-read4/load.txt": {
+    "bytes": 1286,
+    "sha256": "5c827a47b43e6bca1e54d3ecc0d7db73123af7875bd2c77a12a91b6255717a68"
+  },
+  "read4/runs/node2-read4/pmu-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "read4/runs/node2-read4/pmu.csv": {
+    "bytes": 3321,
+    "sha256": "027bf13301c5eddf0eb27672c379ccfef209ad90b49b1622d8a40bd4ead77375"
+  },
+  "read4/runs/node2-read4/probe-snapshots.json": {
+    "bytes": 206257,
+    "sha256": "56caaa96c4cbc91ae4671c928a02cdeef05f5088fd5d1467a77d8f3c52779bab"
+  },
+  "read4/runs/node2-read4/probe.txt": {
+    "bytes": 246885,
+    "sha256": "6f26e7cd01077696bba2631a47c99c4dcc0083e5412c6d485cdf5dc38ba13d36"
+  },
+  "read4/runs/node2-read4/run.json": {
+    "bytes": 2742,
+    "sha256": "851256eb57e7e53fe348e61296bc2c3a20cc1472394a071e4df60f59d35c3d2c"
+  },
+  "read4/runs/node2-read4/software.csv": {
+    "bytes": 306,
+    "sha256": "31063309b52e1c1ace0959196926700928528051e38ef37fc4592fa72603fd66"
+  },
+  "read4/runs/node2-read4/vmstat-after.txt": {
+    "bytes": 3652,
+    "sha256": "f59e34b5ac6efc9ebaede922f1f9209a730de3be00c20252e64b78f7aa2e1561"
+  },
+  "read4/runs/node2-read4/vmstat-before.txt": {
+    "bytes": 3654,
+    "sha256": "f3bf0735273f1573f0b795a948042e73f53b3acb98a9fe36ea0131fdbf7adc79"
+  },
+  "read4/scheduler-decode-stderr.txt": {
+    "bytes": 41,
+    "sha256": "5cc8f83fbedf33ef4eae7d4dba661c6aa3921f0989c9eda75424feeb912fb794"
+  },
+  "read4/scheduler.data": {
+    "bytes": 93775100,
+    "sha256": "c43229fd0e28201ed45f524e2da31659bb307ac8cf5762f9b58bd06b47976913"
+  },
+  "read4/scheduler.txt": {
+    "bytes": 130901038,
+    "sha256": "7b72aee340729236a5d7c90d910cbe9261195084931879dd8c2ff1b36c8d2f18"
+  },
+  "read4/softirqs-after.txt": {
+    "bytes": 7905,
+    "sha256": "3bfa2d299f307493b58d352583369f8fb33fc1fb1a323270420d6014fbdcb622"
+  },
+  "read4/softirqs-before.txt": {
+    "bytes": 7905,
+    "sha256": "c744cccae1c6bad20662f0a1faf7a15b2519f7807a465e56c2b929258f3c9206"
+  },
+  "read4/trace-header.txt": {
+    "bytes": 14183,
+    "sha256": "c396206c38903f8962405042c30e5d3f4cd3a715480f95eac6ee18bc8dbd7688"
+  },
+  "read4/turbostat-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "read4/turbostat-stdout.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "read4/vmstat-after.txt": {
+    "bytes": 3656,
+    "sha256": "c65c7d9da74c25c238fa44b4e9e3fe9efec1ad66fe158fadf55626bec1f71ca5"
+  },
+  "read4/vmstat-before.txt": {
+    "bytes": 3654,
+    "sha256": "69d57b32770dae12fc71a2d4b1a8778eeacf545aa47d4765788edcf6a28a792e"
+  },
+  "start.txt": {
+    "bytes": 26,
+    "sha256": "7161eba088c96c4ac975cd1b3cbcb040897cdc260826c71866845f5bd044d763"
+  },
+  "trace-events.txt": {
+    "bytes": 168,
+    "sha256": "7349e835d845cbf73becef77001beb47fb65e338dd87cd557e86ed99d879c25e"
+  },
+  "write4/capture.txt": {
+    "bytes": 5639,
+    "sha256": "544ed6aaedf6caa363fa1172382a432b9f14e60f2060843382c0989d28c7710f"
+  },
+  "write4/frequency.txt": {
+    "bytes": 211734,
+    "sha256": "cf9287d725c451bf1f418cb4a8bf66d52fcb1675b8b4ea38e5f5c5addd4ffbc9"
+  },
+  "write4/interrupts-after.txt": {
+    "bytes": 365430,
+    "sha256": "75fb02d20e8048467ad445e0b6ae62e3a43c9c1d855286004b7af18f97a64968"
+  },
+  "write4/interrupts-before.txt": {
+    "bytes": 365430,
+    "sha256": "8273df84f91782ba2f43c631629f445a6681b1052ecdd7c75d80178171a8c462"
+  },
+  "write4/metadata.json": {
+    "bytes": 21428,
+    "sha256": "3529d57e0bc7bc54c9cd45dfeca79a242632b00485fa38c7d30b04f06244b202"
+  },
+  "write4/pcm.csv": {
+    "bytes": 46320,
+    "sha256": "21adec82a10dcad93760e7aa5bc3bce5197891e2e6509c2a9d5d532059c75931"
+  },
+  "write4/runs/node2-write4/load-placement.json": {
+    "bytes": 19436,
+    "sha256": "71d6dcba98b174d266d11b830a4007dfc7bcf1e8ff03e3b10ac985ef14e984ee"
+  },
+  "write4/runs/node2-write4/load.cfg": {
+    "bytes": 23,
+    "sha256": "ea8581c7ae5e8a5b2e18710a3db45b463b3ca06b187245ccb4ba748248bda846"
+  },
+  "write4/runs/node2-write4/load.txt": {
+    "bytes": 1290,
+    "sha256": "1ac9f341b8dfa0de66dadb69095ddd8abd471b968313682284b9f35888f84522"
+  },
+  "write4/runs/node2-write4/pmu-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "write4/runs/node2-write4/pmu.csv": {
+    "bytes": 3088,
+    "sha256": "e679c1442d92fe1ae3decde0d87747f81d6e8c73bc9504e3256faf92633cfe29"
+  },
+  "write4/runs/node2-write4/probe-snapshots.json": {
+    "bytes": 180426,
+    "sha256": "f4b5a7b7943adba336ae64799d9a8979a163dfe71fb32fc08ce3e4a0ba36156e"
+  },
+  "write4/runs/node2-write4/probe.txt": {
+    "bytes": 247377,
+    "sha256": "803fb3c4a3ea9f13dd0eeb4dae1a9d46a3baf1c2b7c0c6c99ffcc02fb0f5edf9"
+  },
+  "write4/runs/node2-write4/run.json": {
+    "bytes": 2747,
+    "sha256": "745310533f39e2ae505128995fdfca21abca8fb649fb4a600c01bd7f85cf4577"
+  },
+  "write4/runs/node2-write4/software.csv": {
+    "bytes": 306,
+    "sha256": "8d4947c862e2ba0bea3705b334015150dbf324879f0e33b9a815859083af772c"
+  },
+  "write4/runs/node2-write4/vmstat-after.txt": {
+    "bytes": 3655,
+    "sha256": "2a294ab36c6a5abf44498a7f13add23659294711db44cd014a30228a38402a23"
+  },
+  "write4/runs/node2-write4/vmstat-before.txt": {
+    "bytes": 3656,
+    "sha256": "a97310f23a8865a0bd7e65a4ea3b5bb2f53abd165673709de7ddeda6ee5727b9"
+  },
+  "write4/scheduler-decode-stderr.txt": {
+    "bytes": 41,
+    "sha256": "9b45c7f2098a8bf0fff9b9564fef751ebde5b728aa032547e46f86eb5dfd59d6"
+  },
+  "write4/scheduler.data": {
+    "bytes": 96497532,
+    "sha256": "92298c35882ee7b54db25c786c0063895e56fe23af346f06957bfab9302bcbd7"
+  },
+  "write4/scheduler.txt": {
+    "bytes": 134673050,
+    "sha256": "5c35cb678df809141d52c3d35c9f1cd903a26ceb3008aaadb963cb2ae34cf1a2"
+  },
+  "write4/softirqs-after.txt": {
+    "bytes": 7905,
+    "sha256": "31d84205813b78c3ee83a1ce7caa9296ee2eab43a95e422af8cb1106438439d3"
+  },
+  "write4/softirqs-before.txt": {
+    "bytes": 7905,
+    "sha256": "28426f3e333a08c0969fb0ef6b4899c45f15b58221bddcb1bb8da91d5578d001"
+  },
+  "write4/trace-header.txt": {
+    "bytes": 14187,
+    "sha256": "362ff2489d901c40b022990411f02111332bd25ba6fe070d49e10b98463953a2"
+  },
+  "write4/turbostat-stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "write4/turbostat-stdout.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "write4/vmstat-after.txt": {
+    "bytes": 3657,
+    "sha256": "b31ce599c937a4a63113498af10db6c32b1f83b3786a4f03cb49f97e94bf5492"
+  },
+  "write4/vmstat-before.txt": {
+    "bytes": 3656,
+    "sha256": "4efa5eda4c149242a4bcaeb6bfcf5f82968232b4e42feeb3a8fb480620d2bcaf"
+  }
+}
